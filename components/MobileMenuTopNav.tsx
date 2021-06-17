@@ -12,7 +12,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
         : "h-6 w-6 text-primaryBlack"
 
     return <Menu>
-        <Menu.Button as="div" className={"p-2"}>
+        <Menu.Button as="div" className="p-2 cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" className={menuButtonClass} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>

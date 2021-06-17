@@ -1,22 +1,25 @@
-import { GetStaticProps } from 'next'
-import Head from 'next/head';
+import { GetStaticProps, GetStaticPaths } from 'next'
+import Head from 'next/head'
 import { readdirSync } from 'fs'
-import { BlogMetaData } from '../../types/Blog'
+import { BlogMetaData } from '../../../types/Blog'
 import matter from 'gray-matter'
 import Link from 'next/link'
-import TopNav from '../../components/TopNav';
-import useI18n from "../../hooks/i18n-hook"
-import Image from 'next/image'
+import TopNav from '../../../components/TopNav'
+import useI18n from "../../../hooks/i18n-hook"
+import { languages, defaultLanguage } from '../../../lib/i18n'
+import { I18nProps } from '../../../types/i18n'
 
-interface indexProps {
+import { dirname, join } from 'path'
+
+
+interface indexProps extends I18nProps {
     posts: BlogMetaData[]
 }
 
 export default function index(props: indexProps) {
-    const first = props.posts[0] as BlogMetaData;
-    const posts = props.posts.slice(1);
+    const first = props.posts[0] as BlogMetaData
+    const posts = props.posts.slice(1)
     const i18 = useI18n()
-
 
     return <>
         <Head>
@@ -28,7 +31,7 @@ export default function index(props: indexProps) {
                 <h1 className="text-7xl my-8 font-semibold">The Blog</h1>
                 <div className="flex flex-col lg:flex-row mb-8">
                     <div className="lg:w-1/2">
-                        <Link href={"/blog/" + first.slug}>
+                        <Link href={"/" + i18.activeLocale + "/blog/" + first.slug}>
                             <a>
                                 <img alt={i18.t("blog.index.hightlight.altThumb") + first.title} className="blog-highlight-thumb w-full object-cover rounded-sm shadow-md transition-transform transform hover:translate-x-2 hover:-translate-y-2" src={first.thumb || `https://picsum.photos/seed/${first.title}/1600`} />
                             </a>
@@ -44,7 +47,7 @@ export default function index(props: indexProps) {
                     {
                         posts.map((blogPost) => <div className="lg:w-1/3 md:w-1/2 w-full mb-4 lg:pr-8 md:pr-6 pr-0" key={blogPost.slug}>
                             <div className="mb-2">
-                                <Link href={"/blog/" + blogPost.slug}>
+                                <Link href={i18.activeLocale + "/blog/" + blogPost.slug}>
                                     <a>
                                         <img className="list-blog-thumb w-full object-cover rounded-sm shadow-md transition-transform transform hover:translate-x-2 hover:-translate-y-2"
                                             src={blogPost.thumb || `https://picsum.photos/seed/${blogPost.title}/1600`} />
@@ -64,25 +67,62 @@ export default function index(props: indexProps) {
                 </div>
             </div>
         </div>
-
     </>
 }
 
-export const getStaticProps: GetStaticProps<indexProps> = async (_) => {
-    const filesNames = readdirSync('public/md/');
-    const posts: BlogMetaData[] = [];
+export const getStaticProps: GetStaticProps<indexProps> = async (context) => {
+    try {
+        if (!context.params || !context.params.lang) {
+            throw new Error("Lang is not defined in params.")
+        }
+        const markdownDir = join(__dirname, "../../../../public/md/" + context.params.lang)
 
-    for (const filename of filesNames) {
-        const content = await import(`../../public/md/${filename}`);
-        const blogContent = matter(content.default)
-        blogContent.data.slug = filename.split('.md')[0];
+        const lngDict = await import('../../../locales/' + context.params.lang + ".json")
+        const filesNames = readdirSync(markdownDir)
+        const posts: BlogMetaData[] = []
 
-        posts.push(blogContent.data as BlogMetaData);
-    }
+        for (const filename of filesNames) {
+            const markdownFilePath = join(markdownDir, filename)
 
-    return {
-        props: {
-            posts
+            console.log('markdownFilePath ==>', markdownFilePath);
+
+            const content = await import(markdownFilePath)
+            const blogContent = matter(content.default)
+
+            console.log('blogContent ==>', blogContent);
+
+            blogContent.data.slug = filename.split('.md')[0]
+
+            posts.push(blogContent.data as BlogMetaData)
+        }
+
+        return {
+            props: {
+                posts,
+                lng: context.params.lang as string,
+                lngDict: lngDict.default
+            }
+        }
+    } catch (e) {
+        console.error({ e })
+        const lngDict = await import('../../../locales/' + defaultLanguage + ".json")
+
+        return {
+            props: {
+                posts: [],
+                lng: defaultLanguage,
+                lngDict: lngDict.default
+            }
         }
     }
 }
+
+export const getStaticPaths: GetStaticPaths = async () => {
+    const langPath = languages.map((lang) => ({ params: { lang } }))
+
+    return {
+        paths: langPath,
+        fallback: false
+    }
+}
+

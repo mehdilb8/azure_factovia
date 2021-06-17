@@ -2,13 +2,15 @@ import { GetStaticPaths } from 'next'
 import { readdirSync } from 'fs'
 import matter from 'gray-matter'
 import Head from 'next/head'
-import ShareButton from '../../components/ShareButton'
+import ShareButton from '../../../components/ShareButton'
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 import footnot from 'remark-footnotes'
-import { BlogMetaData, BlogContent } from '../../types/Blog'
-import TopNav from '../../components/TopNav'
-import MetaOpenGraph from '../../components/MetaFacebook'
+import { BlogMetaData, BlogContent } from '../../../types/Blog'
+import TopNav from '../../../components/TopNav'
+import MetaOpenGraph from '../../../components/MetaFacebook'
+
+import { languages } from '../../../lib/i18n'
 
 export default function BlobPage(props: BlogContent) {
     return <>
@@ -45,7 +47,7 @@ export async function getStaticProps(context: any) {
         }
         const { id } = context.params
 
-        const content = await import(`../../public/md/${id}.md`)
+        const content = await import(`../../../public/md/en/${id}.md`)
 
         const blogContent = matter(content.default)
         blogContent.data = blogContent.data as BlogMetaData;
@@ -61,13 +63,15 @@ export async function getStaticProps(context: any) {
 /**
  * Convert all `.md` files in `.html` files when trigger `next export`
  */
-export const getStaticPaths: GetStaticPaths = async () => {
-    const filesNames = readdirSync('public/md/');
-    const defaultPaths = filesNames.map((blogSlug) => ({ params: { id: blogSlug.split('.md')[0] } }))
-
+export const getStaticPaths: GetStaticPaths = async (_) => {
+    const paths = languages.flatMap((lang) => {
+        const filesNames = readdirSync('public/md/' + lang);
+        return filesNames.map((blogSlug) => ({ params: { lang, id: blogSlug.split('.md')[0] } }))
+    })
     return {
-        paths: [],
+        paths,
         fallback: false
     }
+
 }
 

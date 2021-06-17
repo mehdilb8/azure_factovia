@@ -27,7 +27,7 @@ export default function TopNav() {
         <div className={`py-3 md:px-16 px-4 fixed w-screen ${isTop ? 'bg-primaryDark' : 'bg-primaryWhite shadow-lg'} transition-all h-20 z-10`}>
             <div className="flex items-center space-x-6 ">
                 <div className="font-display">
-                    <Link href="/">
+                    <Link href="/[lng]">
                         <a>
                             <h1 className={titleClass}>Factovia</h1>
                         </a>
@@ -48,7 +48,7 @@ export default function TopNav() {
                             <p className={linkClass}>Hub</p>
                         </a>
                     </Link>
-                    <Link href="/blog">
+                    <Link href="/blog" locale="en">
                         <a>
                             <p className={linkClass}>Blog</p>
                         </a>
