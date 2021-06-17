@@ -1,0 +1,76 @@
+{
+    "buttons": {
+        "contact": "Contact us",
+        "informations": "More information"
+    },
+    "nav": {
+        "home": "Home",
+        "offering": "Offering",
+        "hub": "Hub",
+        "contact": "Contact",
+        "lang": "EN/FR"
+    },
+    "mainSection": {
+        "title": {
+            "1": "Ready for a",
+            "2": "launch ?"
+        },
+        "description": "Let’s use a revolutionary way to understand Industry 4.0 with no pain, using a hands-on training kit, created by Montessori researcher-teachers and psychologists"
+    },
+    "seconSection": {
+        "title": "Industry 4.0 made easy with Montessori principles",
+        "cards": {
+            "problem": {
+                "title": "Problem : Misunderstanding the disruption",
+                "description": "It is challenging to explain to many Execs the concepts of Industry 4.0. Presentations and demos are not tangible enough to transpose to the real-world. This leads to a lack of investments, delay in decisions and employee suffuring with manual tasks. In turn, impacting competitivity."
+            },
+            "opportunities": {
+                "title": "Opportunities : Re-invent new ways to learn",
+                "description": "New Industry 4.0 training are needed; based on approached developped in 1900, combined with recent scientific reseaches in Montessori and psychology, we created an immersive pedagogy, based on innovation (hardware and software)."
+            },
+            "seeInAction": {
+                "title": "See it in action"
+            },
+            "guidedTour": {
+                "title": "Guided tour in 3D"
+            }
+        }
+    },
+    "thirdSection": {
+        "title": {
+            "1": "Ready",
+            "2": "today",
+            "3": "!"
+        },
+        "description": {
+            "1": "his project has been co-created with the support of many industries since 2015, and deployed in 2019. The founder of FactoVia has deployed over 40 Industrial IoT projects, and has got 20 years of experience. ",
+            "2": "It is made of real robust industrial equipment. Making it a real-mini-factory that can interract with true co-bot, robot, remote assistance, Cloud, IoT Edge. Allowing true Use Cases to be tought. Besides, based on Digital Twins, we are teaching at global reach with MOOC."
+        }
+    },
+    "fourthSection": {
+        "title": "Testimonials of industrials",
+        "comments": {
+            "1": {
+                "content": "Smart-F: Excellent",
+                "author": {
+                    "name": "Fouad Benris",
+                    "description": "IoT & SmartData Lead Europe Management School GN-Board of Directors"
+                }
+            },
+            "2": {
+                "content": "Great demonstrator OPC UA",
+                "author": {
+                    "name": "Stéphane Potier",
+                    "description": "Marketing Manager France B&R (ABB group)"
+                }
+            },
+            "3": {
+                "content": "👍 I LOVE IT !!!!",
+                "author": {
+                    "name": "Marcia Paglia",
+                    "description": "Partner Manager"
+                }
+            }
+        }
+    }
+}

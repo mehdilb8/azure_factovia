@@ -1,0 +1,42 @@
+/* ./styles/globals.css */
+@tailwind base;
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    @apply text-gray-800;
+}
+
+.section-background {
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.btn {
+    @apply px-4 py-2 text-white capitalize transform transition-all bg-primary w-48;
+}
+
+.btn:hover {
+    @apply shadow-lg;
+}
+
+.btn:focus {
+    @apply outline-none;
+}
+
+.btn:active {
+    @apply outline-none ring-2 ring-primaryLight ring-opacity-50;
+}
+
+.list-blog-thumb {
+    max-height: 10rem;
+}
+
+
+@import './blog.css';
+
+@tailwind components;
+@tailwind utilities;

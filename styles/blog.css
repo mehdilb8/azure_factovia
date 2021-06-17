@@ -1,0 +1,98 @@
+.blog-highlight-thumb {
+    max-height: 20rem;
+}
+
+.blog-cover {
+    max-height: 35vh;
+    @apply object-cover w-full;
+}
+
+.blog-content {
+    @apply my-6;
+}
+
+.blog-content a {
+    @apply text-blue-500 border-b-2 border-blue-500 border-opacity-0;
+}
+
+.blog-content a:hover {
+    @apply border-opacity-100;
+}
+
+.blog-content  h1, .blog-content  h2, .blog-content  h3 {
+    @apply my-6;
+}
+
+.blog-content  h1 {
+    @apply text-5xl font-black;
+}
+
+.blog-content  h2 {
+    @apply text-4xl font-bold;
+}
+
+.blog-content  h3 {
+    @apply text-3xl font-semibold;
+}
+
+.blog-content p {
+    @apply font-serif text-xl my-2 text-justify;
+}
+
+.blog-content  ul, .blog-content  ol, .blog-content  ol  li  ul {
+    @apply ml-8;
+}
+
+.blog-content  ul {
+    list-style: initial;
+}
+
+.blog-content  ul  li  ol {
+    list-style: circle;
+}
+
+.blog-content  ol {
+    list-style: decimal;
+}
+
+.blog-content  ol  li  ul {
+    list-style: upper-roman;
+}
+
+.blog-content li {
+    @apply font-serif text-xl;
+}
+
+.blog-content  blockquote {
+    @apply border-l-2 border-red-500 bg-gray-200 pl-4 py-2;
+}
+
+.blog-content  blockquote  p {
+    @apply text-gray-700;
+}
+
+.blog-content  pre {
+    background-color: #1f2937;
+    @apply text-white py-4 pl-2 rounded-md shadow-md;
+}
+
+.blog-content  pre  code {
+    line-height: 1.75;
+    @apply whitespace-pre;
+}
+
+.blog-content img {
+    margin: auto;
+}
+
+.blog-content img[alt=small] {
+    @apply h-24;
+}
+
+.blog-content img[alt=medium] {
+    @apply h-48;
+}
+
+.blog-content img[alt=large] {
+    @apply h-96;
+}
