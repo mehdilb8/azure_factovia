@@ -12,43 +12,43 @@
     },
     "mainSection": {
         "title": {
-            "1": "Ready for a",
-            "2": "launch ?"
+            "1": "Prêt pour ",
+            "2": "l'aventure ?"
         },
-        "description": "Utilisons une méthode révolutionnaire pour comprendre l'industrie 4.0 sans douleur, à l'aide d'un kit de formation pratique, créé par des chercheurs-enseignants et des psychologues Montessori."
+        "description": "Nous utilisons une méthode révolutionnaire pour comprendre l'industrie 4.0 sans douleur, à l'aide d'un kit de formation pratique, créé par des chercheurs-enseignants et des psychologues Montessori."
     },
     "seconSection": {
-        "title": "Industry 4.0 made easy with Montessori principles",
+        "title": "L'industrie 4.0 facilitée par les principes Montessori",
         "cards": {
             "problem": {
-                "title": "Problem : Misunderstanding the disruption",
-                "description": "It is challenging to explain to many Execs the concepts of Industry 4.0. Presentations and demos are not tangible enough to transpose to the real-world. This leads to a lack of investments, delay in decisions and employee suffuring with manual tasks. In turn, impacting competitivity."
+                "title": "Problème : mauvaise compréhension de la perturbation",
+                "description": "Il est difficile d'expliquer à de nombreux cadres les concepts de l'industrie 4.0. Les présentations et les démonstrations ne sont pas assez tangibles pour être transposées dans le monde réel. Cela conduit à un manque d'investissements, à des retards dans les décisions et à la saturation des employés par des tâches manuelles. Ce qui a un impact sur la compétitivité."
             },
             "opportunities": {
-                "title": "Opportunities : Re-invent new ways to learn",
-                "description": "New Industry 4.0 training are needed; based on approached developped in 1900, combined with recent scientific reseaches in Montessori and psychology, we created an immersive pedagogy, based on innovation (hardware and software)."
+                "title": "Opportunités : Réinventer de nouvelles façons d'apprendre",
+                "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires ; sur la base d'une approche développée en 1900, combinée à des recherches scientifiques récentes en Montessori et en psychologie, nous avons créé une pédagogie immersive, basée sur l'innovation (matériel et logiciel)."
             },
             "seeInAction": {
-                "title": "See it in action"
+                "title": "Démonstration"
             },
             "guidedTour": {
-                "title": "Guided tour in 3D"
+                "title": "Présentation 3D"
             }
         }
     },
     "thirdSection": {
         "title": {
-            "1": "Ready",
-            "2": "today",
+            "1": "Prêt",
+            "2": "aujourd'hui",
             "3": "!"
         },
         "description": {
-            "1": "his project has been co-created with the support of many industries since 2015, and deployed in 2019. The founder of FactoVia has deployed over 40 Industrial IoT projects, and has got 20 years of experience. ",
-            "2": "It is made of real robust industrial equipment. Making it a real-mini-factory that can interract with true co-bot, robot, remote assistance, Cloud, IoT Edge. Allowing true Use Cases to be tought. Besides, based on Digital Twins, we are teaching at global reach with MOOC."
+            "1": "Ce projet a été cocréé avec le soutien de nombreuses industries depuis 2015, et déployé en 2019. Le fondateur de FactoVia a déployé plus de 40 projets IoT industriels, et a 20 ans d'expérience.",
+            "2": "Elle est constituée de véritables équipements industriels robustes. Ce qui en fait une vraie mini-usine qui peut interagir avec de vrais co-bots, robots, téléassistance, Cloud, IoT Edge. Ce qui permet d'enseigner de véritables cas d'utilisation. En outre, sur la base de Digital Twins, nous enseignons à l'échelle mondiale avec des MOOC."
         }
     },
     "fourthSection": {
-        "title": "Testimonials of industrials",
+        "title": "Témoignages d'industriels",
         "comments": {
             "1": {
                 "content": "Smart-F: Excellent",
@@ -58,14 +58,14 @@
                 }
             },
             "2": {
-                "content": "Great demonstrator OPC UA",
+                "content": "Beau démonstrateur OPC UA",
                 "author": {
                     "name": "Stéphane Potier",
                     "description": "Marketing Manager France B&R (ABB group)"
                 }
             },
             "3": {
-                "content": "👍 I LOVE IT !!!!",
+                "content": "👍 J'ADORE !!!!",
                 "author": {
                     "name": "Marcia Paglia",
                     "description": "Partner Manager"
@@ -76,7 +76,7 @@
     "blog": {
         "index": {
             "hightlight": {
-                "altThumb": "Highlight of "
+                "altThumb": "Mise en avant de "
             }
         }
     }

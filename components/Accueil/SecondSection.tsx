@@ -16,12 +16,14 @@ export default function SecondSection() {
                     <SecondSectionCard
                         title={i18.t('seconSection.cards.problem.title')}
                         content={i18.t('seconSection.cards.problem.description')}
+                        buttonText={i18.t('buttons.contact')}
                     />
                 </div>
                 <div className="mb-12">
                     <SecondSectionCard
                         title={i18.t('seconSection.cards.opportunities.title')}
                         content={i18.t('seconSection.cards.opportunities.description')}
+                        buttonText={i18.t('buttons.informations')}
                     />
                 </div>
                 <div className="flex flex-wrap space-y-6 md:space-y-0">

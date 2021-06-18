@@ -1,22 +1,27 @@
-import { GetStaticPaths } from 'next'
-import { readdirSync } from 'fs'
+import { GetStaticPaths, GetStaticProps } from 'next'
+import { readdirSync, readFileSync } from 'fs'
+import { join } from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
-import ShareButton from '../../components/ShareButton'
+import ShareButton from '../../../components/ShareButton'
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 import footnot from 'remark-footnotes'
-import { BlogMetaData, BlogContent } from '../../types/Blog'
-import TopNav from '../../components/TopNav'
-import MetaOpenGraph from '../../components/MetaFacebook'
+import { BlogMetaData, BlogContent } from '../../../types/Blog'
+import TopNav from '../../../components/TopNav'
+import MetaOpenGraph from '../../../components/MetaFacebook'
 
-export default function BlobPage(props: BlogContent) {
+import { languages } from '../../../lib/i18n'
+import { I18nProps } from '../../../types/i18n'
+
+
+export default function BlobPage(props: BlogContent & I18nProps) {
     return <>
         <Head>
             <MetaOpenGraph {...props} />
             <title>{props.data.title}</title>
         </Head>
-        <TopNav />
+        <TopNav disableLocale={true} />
         <div className="flex justify-center">
             <div className="lg:w-8/12 md:w-9/12 w-10/12">
                 <div className="mb-6 text-center">
@@ -38,21 +43,24 @@ export default function BlobPage(props: BlogContent) {
     </>
 }
 
-export async function getStaticProps(context: any) {
+export const getStaticProps: GetStaticProps<BlogContent & I18nProps> = async (context) => {
     try {
-        if (!context.params.id) {
-            throw new Error("Missing id");
+        if (!context.params || !context.params.id || !context.params.lang) {
+            throw new Error("Missing id or lang");
         }
-        const { id } = context.params
+        const { id, lang } = context.params
 
-        const content = await import(`../../public/md/${id}.md`)
+        const blogFilePath = join(__dirname, "../../../../../public/md/" + lang + "/" + id + ".md")
+        const content = readFileSync(blogFilePath).toString("utf-8")
+        const blogContent = matter(content)
 
-        const blogContent = matter(content.default)
         blogContent.data = blogContent.data as BlogMetaData;
+        //@ts-ignore
         delete blogContent.orig;
 
         return { props: blogContent };
     } catch (e) {
+        console.error({ e })
         const errorContent = matter("") as any;
         return { props: errorContent }
     }
@@ -61,13 +69,15 @@ export async function getStaticProps(context: any) {
 /**
  * Convert all `.md` files in `.html` files when trigger `next export`
  */
-export const getStaticPaths: GetStaticPaths = async () => {
-    const filesNames = readdirSync('public/md/');
-    const defaultPaths = filesNames.map((blogSlug) => ({ params: { id: blogSlug.split('.md')[0] } }))
-
+export const getStaticPaths: GetStaticPaths = async (_) => {
+    const paths = languages.flatMap((lang) => {
+        const filesNames = readdirSync('public/md/' + lang);
+        return filesNames.map((blogSlug) => ({ params: { lang, id: blogSlug.split('.md')[0] } }))
+    })
     return {
-        paths: [],
+        paths,
         fallback: false
     }
+
 }
 

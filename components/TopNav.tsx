@@ -1,9 +1,15 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import MobileMenuTopNav from './MobileMenuTopNav'
+import useI18n from '../hooks/i18n-hook'
+import SwitchLangButton from './SwitchLangButton'
 
-export default function TopNav() {
+interface TopNavProps {
+    disableLocale?: boolean
+}
 
+export default function TopNav(props: TopNavProps) {
+    const i18n = useI18n()
     const [isTop, setIsTop] = useState(true)
 
     const linkClass = isTop
@@ -26,38 +32,44 @@ export default function TopNav() {
     return <>
         <div className={`py-3 md:px-16 px-4 fixed w-screen ${isTop ? 'bg-primaryDark' : 'bg-primaryWhite shadow-lg'} transition-all h-20 z-10`}>
             <div className="flex items-center space-x-6 ">
+                <div>
+                    <img className="h-12 w-12" src="/logo.jpg" />
+                </div>
                 <div className="font-display">
-                    <Link href="/">
+                    <Link href={"/" + i18n.activeLocale}>
                         <a>
                             <h1 className={titleClass}>Factovia</h1>
                         </a>
                     </Link>
                 </div>
-                <div>
-                    <img className="h-12 w-12" src="/logo.jpg" />
-                </div>
+
                 <div className="flex-grow" />
                 <div className="hidden md:flex md:space-x-6">
-                    <Link href="/">
+                    <Link href={"/" + i18n.activeLocale}>
                         <a>
                             <p className={linkClass}>Home</p>
                         </a>
                     </Link>
-                    <Link href="/hub">
+                    {/* <Link href={"/" + i18n.activeLocale + "/hub"}>
                         <a>
-                            <p className={linkClass}>Hub</p>
+                            <p className="text-gray-300">Hub</p>
                         </a>
-                    </Link>
-                    <Link href="/blog">
+                    </Link> */}
+                    <Link href={"/" + i18n.activeLocale + "/blog"}>
                         <a>
                             <p className={linkClass}>Blog</p>
                         </a>
                     </Link>
-                    <Link href="/contact">
+                    {/* <Link href={"/" + i18n.activeLocale + "/contact"}>
                         <a>
-                            <p className={linkClass}>Contact</p>
+                            <p className="text-gray-300">Contact</p>
                         </a>
-                    </Link>
+                    </Link> */}
+                    {
+                        !props.disableLocale
+                            ? <SwitchLangButton className={linkClass} />
+                            : null
+                    }
                 </div>
                 <div className="md:hidden">
                     <MobileMenuTopNav isTop={isTop} />

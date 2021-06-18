@@ -1,6 +1,7 @@
 interface SecondSectionCardProps {
-    title: string,
+    title: string
     content: string
+    buttonText: string
 }
 
 export default function SecondSectionCard(props: SecondSectionCardProps) {
@@ -9,7 +10,7 @@ export default function SecondSectionCard(props: SecondSectionCardProps) {
             <h3 className="text-2xl md:text-3xl text-primary font-bold mb-4">{props.title}</h3>
             <p className="text-base md:text-lg">{props.content}</p>
             <div className="flex">
-                <button className="btn relative top-9 w-48">Contact us</button>
+                <button className="btn relative top-9 w-48">{props.buttonText}</button>
             </div>
         </div>
     </div>
