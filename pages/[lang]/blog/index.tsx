@@ -10,21 +10,22 @@ import fetchAllBlogPost from '../../../utils/fetchAllBlogPosts'
 export default function index(props: IndexProps) {
     const first = props.posts[0] as BlogMetaData
     const posts = props.posts.slice(1)
-    const i18 = useI18n()
+    const i18n = useI18n()
 
     return <>
         <Head>
-            <title>Factovia Blog</title>
+            <meta name="description" content={i18n.t("blog.index.description")}></meta>
+            <title>{i18n.t("blog.index.title")}</title>
         </Head>
         <TopNav />
         <div className="flex justify-center">
             <div className="lg:w-8/12 md:w-9/12 w-10/12">
-                <h1 className="text-7xl my-8 font-semibold">The Blog</h1>
+                <h1 className="text-7xl my-8 font-semibold">{i18n.t("blog.index.title")}</h1>
                 <div className="flex flex-col lg:flex-row mb-8">
                     <div className="lg:w-1/2">
-                        <Link href={"/" + i18.activeLocale + "/blog/" + first.slug}>
+                        <Link href={"/" + i18n.activeLocale + "/blog/" + first.slug}>
                             <a>
-                                <img alt={i18.t("blog.index.hightlight.altThumb") + first.title} className="blog-highlight-thumb w-full object-cover rounded-sm shadow-md transition-transform transform hover:translate-x-2 hover:-translate-y-2" src={first.thumb || `https://picsum.photos/seed/${first.title}/1600`} />
+                                <img alt={first.title} className="blog-highlight-thumb w-full object-cover rounded-sm shadow-md transition-transform transform hover:translate-x-2 hover:-translate-y-2" src={first.thumb || `https://picsum.photos/seed/${first.title}/1600`} />
                             </a>
                         </Link>
                     </div>
@@ -38,15 +39,16 @@ export default function index(props: IndexProps) {
                     {
                         posts.map((blogPost) => <div className="lg:w-1/3 md:w-1/2 w-full mb-4 lg:pr-8 md:pr-6 pr-0" key={blogPost.slug}>
                             <div className="mb-2">
-                                <Link href={i18.activeLocale + "/blog/" + blogPost.slug}>
+                                <Link href={i18n.activeLocale + "/blog/" + blogPost.slug}>
                                     <a>
                                         <img className="list-blog-thumb w-full object-cover rounded-sm shadow-md transition-transform transform hover:translate-x-2 hover:-translate-y-2"
-                                            src={blogPost.thumb || `https://picsum.photos/seed/${blogPost.title}/1600`} />
+                                            src={blogPost.thumb || `https://picsum.photos/seed/${blogPost.title}/1600`}
+                                            alt={blogPost.title} />
                                     </a>
                                 </Link>
                             </div>
                             <p className="text-gray-500 text-sm">{new Date(blogPost.date || Date.now()).toLocaleDateString()}</p>
-                            <Link href={i18.activeLocale + "/blog/" + blogPost.slug}>
+                            <Link href={i18n.activeLocale + "/blog/" + blogPost.slug}>
                                 <a>
                                     <h3 className="cursor-pointer text-3xl font-semibold">{blogPost.title}</h3>
                                 </a>

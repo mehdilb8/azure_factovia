@@ -6,34 +6,37 @@ export default function FourthSection() {
     const i18 = useI18n()
     return <div className="py-24">
         <AccueilContainer>
-            <div className="bg-primaryWhite  shadow-lg py-6 px-8 md:px-16">
+            <div className="bg-primaryWhite  shadow-lg py-6 px-8 lg:px-16">
                 <h2 className="text-primary text-4xl font-bold mb-12">{i18.t('fourthSection.title')}</h2>
-                <div className="flex flex-wrap space-y-6 md:space-y-0">
-                    <div className="w-full md:w-1/3">
+                <div className="flex flex-wrap space-y-6 lg:space-y-0">
+                    <div className="w-full lg:w-1/3">
                         <FourthSectionHero
                             content={i18.t("fourthSection.comments.1.content")}
                             authorName={i18.t("fourthSection.comments.1.author.name")}
                             authorDescription={i18.t("fourthSection.comments.1.author.description")}
                             img="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/fouadBenris.jpg"
                             authorLogo="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/hp_enterprise_logo.jpg"
+                            firmName="Hewlett Packard Logo"
                         />
                     </div>
-                    <div className="w-full md:w-1/3">
+                    <div className="w-full lg:w-1/3">
                         <FourthSectionHero
                             content={i18.t("fourthSection.comments.2.content")}
                             authorName={i18.t("fourthSection.comments.2.author.name")}
                             authorDescription={i18.t("fourthSection.comments.2.author.description")}
                             img="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/stephanePotier.jpg"
                             authorLogo="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/b&r.jpg"
+                            firmName="B&R Logo"
                         />
                     </div>
-                    <div className="w-full md:w-1/3">
+                    <div className="w-full lg:w-1/3">
                         <FourthSectionHero
                             content={i18.t("fourthSection.comments.3.content")}
                             authorName={i18.t("fourthSection.comments.3.author.name")}
                             authorDescription={i18.t("fourthSection.comments.3.author.description")}
                             img="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/MarciaPaglia.jpg"
                             authorLogo="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/SAP-Logo.png"
+                            firmName="SAP Logo"
                         />
                     </div>
                 </div>

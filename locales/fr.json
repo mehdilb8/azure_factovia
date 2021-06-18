@@ -10,12 +10,17 @@
         "contact": "Contact",
         "lang": "EN/FR"
     },
+    "home": {
+        "title": "Factovia",
+        "description": "L'apprentissage de l'industrie du futur n'a jamais été aussi simple."
+    },
     "mainSection": {
         "title": {
             "1": "Prêt pour ",
             "2": "l'aventure ?"
         },
-        "description": "Nous utilisons une méthode révolutionnaire pour comprendre l'industrie 4.0 sans douleur, à l'aide d'un kit de formation pratique, créé par des chercheurs-enseignants et des psychologues Montessori."
+        "description": "Nous utilisons une méthode révolutionnaire pour comprendre l'industrie 4.0 sans douleur, à l'aide d'un kit de formation pratique, créé par des chercheurs-enseignants et des psychologues Montessori.",
+        "alt": "Modélisation Factovia One"
     },
     "seconSection": {
         "title": "L'industrie 4.0 facilitée par les principes Montessori",
@@ -45,7 +50,8 @@
         "description": {
             "1": "Ce projet a été cocréé avec le soutien de nombreuses industries depuis 2015, et déployé en 2019. Le fondateur de FactoVia a déployé plus de 40 projets IoT industriels, et a 20 ans d'expérience.",
             "2": "Elle est constituée de véritables équipements industriels robustes. Ce qui en fait une vraie mini-usine qui peut interagir avec de vrais co-bots, robots, téléassistance, Cloud, IoT Edge. Ce qui permet d'enseigner de véritables cas d'utilisation. En outre, sur la base de Digital Twins, nous enseignons à l'échelle mondiale avec des MOOC."
-        }
+        },
+        "alt": "Photo de FactoviaOne"
     },
     "fourthSection": {
         "title": "Témoignages d'industriels",
@@ -75,9 +81,8 @@
     },
     "blog": {
         "index": {
-            "hightlight": {
-                "altThumb": "Mise en avant de "
-            }
+            "title": "Blog Factovia",
+            "description": "Blog de Factovia. Liste de différents articles sur l'industrie du future, Microsoft et IoT. Écrit par des experts reconnus."
         }
     }
 }

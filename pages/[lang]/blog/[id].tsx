@@ -23,7 +23,7 @@ export default function BlobPage(props: BlogContent & I18nProps) {
         </Head>
         <TopNav disableLocale={true} />
         <div className="flex justify-center">
-            <div className="lg:w-8/12 md:w-9/12 w-10/12">
+            <div className="lg:w-8/12 lg:w-9/12 w-10/12">
                 <div className="mb-6 text-center">
                     <h1 className="text-6xl font-bold mb-2">{props.data.title}</h1>
                     <p className="text-gray-500 text-sm mb-2">{new Date(props.data.date || Date.now()).toLocaleDateString()}</p>

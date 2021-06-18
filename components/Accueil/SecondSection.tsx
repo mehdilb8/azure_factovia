@@ -26,8 +26,8 @@ export default function SecondSection() {
                         buttonText={i18.t('buttons.informations')}
                     />
                 </div>
-                <div className="flex flex-wrap space-y-6 md:space-y-0">
-                    <div className="w-full md:w-2/5">
+                <div className="flex flex-wrap space-y-6 lg:space-y-0">
+                    <div className="w-full lg:w-2/5">
                         <SecondSectionCardVideo
                             title={i18.t('seconSection.cards.seeInAction.title')}
                             youtubeUrl="https://www.youtube.com/watch?v=Uc5gQKQkjYg"
@@ -35,7 +35,7 @@ export default function SecondSection() {
                         />
                     </div>
                     <div className="w-1/5" />
-                    <div className="w-full md:w-2/5">
+                    <div className="w-full lg:w-2/5">
                         <SecondSectionCardVideo
                             title={i18.t('seconSection.cards.guidedTour.title')}
                             youtubeUrl="https://www.youtube.com/watch?v=dd2ppeeYNXA"

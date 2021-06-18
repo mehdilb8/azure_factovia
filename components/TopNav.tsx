@@ -30,10 +30,14 @@ export default function TopNav(props: TopNavProps) {
     }, [])
 
     return <>
-        <div className={`py-3 md:px-16 px-4 fixed w-screen ${isTop ? 'bg-primaryDark' : 'bg-primaryWhite shadow-lg'} transition-all h-20 z-10`}>
+        <div className={`py-3 lg:px-16 px-4 fixed w-screen ${isTop ? 'bg-primaryDark' : 'bg-primaryWhite shadow-lg'} transition-all h-20 z-10`}>
             <div className="flex items-center space-x-6 ">
                 <div>
-                    <img className="h-12 w-12" src="/logo.jpg" />
+                    <Link href={"/" + i18n.activeLocale}>
+                        <a>
+                            <img className="h-12" src="/logo.jpg" alt="Factovia Logo" />
+                        </a>
+                    </Link>
                 </div>
                 <div className="font-display">
                     <Link href={"/" + i18n.activeLocale}>
@@ -44,7 +48,7 @@ export default function TopNav(props: TopNavProps) {
                 </div>
 
                 <div className="flex-grow" />
-                <div className="hidden md:flex md:space-x-6">
+                <div className="hidden lg:flex lg:space-x-6">
                     <Link href={"/" + i18n.activeLocale}>
                         <a>
                             <p className={linkClass}>Home</p>
@@ -71,7 +75,7 @@ export default function TopNav(props: TopNavProps) {
                             : null
                     }
                 </div>
-                <div className="md:hidden">
+                <div className="lg:hidden">
                     <MobileMenuTopNav isTop={isTop} />
                 </div>
             </div>

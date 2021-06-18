@@ -10,12 +10,17 @@
         "contact": "Contact",
         "lang": "EN/FR"
     },
+    "home": {
+        "title": "Factovia",
+        "description": "Learning industry 4.0 has never been easier."
+    },
     "mainSection": {
         "title": {
             "1": "Ready for a ",
             "2": "launch ?"
         },
-        "description": "Let’s use a revolutionary way to understand Industry 4.0 with no pain, using a hands-on training kit, created by Montessori researcher-teachers and psychologists"
+        "description": "Let’s use a revolutionary way to understand Industry 4.0 with no pain, using a hands-on training kit, created by Montessori researcher-teachers and psychologists",
+        "alt": "Factovia One Modeling"
     },
     "seconSection": {
         "title": "Industry 4.0 made easy with Montessori principles",
@@ -45,7 +50,8 @@
         "description": {
             "1": "his project has been co-created with the support of many industries since 2015, and deployed in 2019. The founder of FactoVia has deployed over 40 Industrial IoT projects, and has got 20 years of experience. ",
             "2": "It is made of real robust industrial equipment. Making it a real-mini-factory that can interract with true co-bot, robot, remote assistance, Cloud, IoT Edge. Allowing true Use Cases to be tought. Besides, based on Digital Twins, we are teaching at global reach with MOOC."
-        }
+        },
+        "alt": "Picture of FactoviaOne"
     },
     "fourthSection": {
         "title": "Testimonials of industrials",
@@ -71,6 +77,12 @@
                     "description": "Partner Manager"
                 }
             }
+        }
+    },
+    "blog": {
+        "index": {
+            "title": "Blog Factovia",
+            "description": "Factovia's blog. List of various articles on the industry 4.0, Microsoft and IoT. Written by recognized experts."
         }
     }
 }
