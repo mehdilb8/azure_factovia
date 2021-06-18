@@ -1,5 +1,6 @@
-import { GetStaticPaths } from 'next'
-import { readdirSync } from 'fs'
+import { GetStaticPaths, GetStaticProps } from 'next'
+import { readdirSync, readFileSync } from 'fs'
+import { join } from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
 import ShareButton from '../../../components/ShareButton'
@@ -11,14 +12,16 @@ import TopNav from '../../../components/TopNav'
 import MetaOpenGraph from '../../../components/MetaFacebook'
 
 import { languages } from '../../../lib/i18n'
+import { I18nProps } from '../../../types/i18n'
 
-export default function BlobPage(props: BlogContent) {
+
+export default function BlobPage(props: BlogContent & I18nProps) {
     return <>
         <Head>
             <MetaOpenGraph {...props} />
             <title>{props.data.title}</title>
         </Head>
-        <TopNav />
+        <TopNav disableLocale={true} />
         <div className="flex justify-center">
             <div className="lg:w-8/12 md:w-9/12 w-10/12">
                 <div className="mb-6 text-center">
@@ -40,21 +43,24 @@ export default function BlobPage(props: BlogContent) {
     </>
 }
 
-export async function getStaticProps(context: any) {
+export const getStaticProps: GetStaticProps<BlogContent & I18nProps> = async (context) => {
     try {
-        if (!context.params.id) {
-            throw new Error("Missing id");
+        if (!context.params || !context.params.id || !context.params.lang) {
+            throw new Error("Missing id or lang");
         }
-        const { id } = context.params
+        const { id, lang } = context.params
 
-        const content = await import(`../../../public/md/en/${id}.md`)
+        const blogFilePath = join(__dirname, "../../../../../public/md/" + lang + "/" + id + ".md")
+        const content = readFileSync(blogFilePath).toString("utf-8")
+        const blogContent = matter(content)
 
-        const blogContent = matter(content.default)
         blogContent.data = blogContent.data as BlogMetaData;
+        //@ts-ignore
         delete blogContent.orig;
 
         return { props: blogContent };
     } catch (e) {
+        console.error({ e })
         const errorContent = matter("") as any;
         return { props: errorContent }
     }

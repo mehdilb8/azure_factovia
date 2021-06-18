@@ -7,9 +7,6 @@ import FourthSection from "../../components/Accueil/FourthSection"
 import { languages, defaultLanguage } from '../../lib/i18n'
 import { I18nProps } from '../../types/i18n';
 
-import FR from '../../locales/fr.json'
-import EN from '../../locales/en.json'
-
 export default function index() {
     return <>
         <TopNav />
@@ -39,7 +36,6 @@ export const getStaticProps: GetStaticProps<I18nProps> = async (context) => {
             lngDict: lngDict.default
         }
     }
-
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {

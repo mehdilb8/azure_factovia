@@ -1,22 +1,13 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import Head from 'next/head'
-import { readdirSync } from 'fs'
-import { BlogMetaData } from '../../../types/Blog'
-import matter from 'gray-matter'
+import { BlogMetaData, IndexProps } from '../../../types/Blog'
 import Link from 'next/link'
 import TopNav from '../../../components/TopNav'
 import useI18n from "../../../hooks/i18n-hook"
 import { languages, defaultLanguage } from '../../../lib/i18n'
-import { I18nProps } from '../../../types/i18n'
+import fetchAllBlogPost from '../../../utils/fetchAllBlogPosts'
 
-import { dirname, join } from 'path'
-
-
-interface indexProps extends I18nProps {
-    posts: BlogMetaData[]
-}
-
-export default function index(props: indexProps) {
+export default function index(props: IndexProps) {
     const first = props.posts[0] as BlogMetaData
     const posts = props.posts.slice(1)
     const i18 = useI18n()
@@ -55,7 +46,7 @@ export default function index(props: indexProps) {
                                 </Link>
                             </div>
                             <p className="text-gray-500 text-sm">{new Date(blogPost.date || Date.now()).toLocaleDateString()}</p>
-                            <Link href={blogPost.slug}>
+                            <Link href={i18.activeLocale + "/blog/" + blogPost.slug}>
                                 <a>
                                     <h3 className="cursor-pointer text-3xl font-semibold">{blogPost.title}</h3>
                                 </a>
@@ -70,39 +61,14 @@ export default function index(props: indexProps) {
     </>
 }
 
-export const getStaticProps: GetStaticProps<indexProps> = async (context) => {
+export const getStaticProps: GetStaticProps<IndexProps> = async (context) => {
     try {
         if (!context.params || !context.params.lang) {
             throw new Error("Lang is not defined in params.")
         }
-        const markdownDir = join(__dirname, "../../../../public/md/" + context.params.lang)
 
-        const lngDict = await import('../../../locales/' + context.params.lang + ".json")
-        const filesNames = readdirSync(markdownDir)
-        const posts: BlogMetaData[] = []
+        return await fetchAllBlogPost({ lang: context.params.lang as string })
 
-        for (const filename of filesNames) {
-            const markdownFilePath = join(markdownDir, filename)
-
-            console.log('markdownFilePath ==>', markdownFilePath);
-
-            const content = await import(markdownFilePath)
-            const blogContent = matter(content.default)
-
-            console.log('blogContent ==>', blogContent);
-
-            blogContent.data.slug = filename.split('.md')[0]
-
-            posts.push(blogContent.data as BlogMetaData)
-        }
-
-        return {
-            props: {
-                posts,
-                lng: context.params.lang as string,
-                lngDict: lngDict.default
-            }
-        }
     } catch (e) {
         console.error({ e })
         const lngDict = await import('../../../locales/' + defaultLanguage + ".json")
