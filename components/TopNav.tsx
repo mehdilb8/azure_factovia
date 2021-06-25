@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import MobileMenuTopNav from './MobileMenuTopNav'
 import useI18n from '../hooks/i18n-hook'
 import SwitchLangButton from './SwitchLangButton'
+import isBrowser from '../utils/isBrowser'
 
 interface TopNavProps {
     disableLocale?: boolean
@@ -14,14 +15,14 @@ export default function TopNav(props: TopNavProps) {
 
     const linkClass = isTop
         ? "text-primaryWhite border-b-2 border-primaryWhite border-opacity-0 hover:border-opacity-100"
-        : "text-primaryDark border-b-2 border-primaryDark border-opacity-0 hover:border-opacity-100"
+        : "text-primaryWhite border-b-2 border-primaryDark border-opacity-0 hover:border-opacity-100"
 
     const titleClass = isTop
         ? "text-primaryWhite text-2xl"
-        : "text-primaryBlack text-2xl"
+        : "text-primaryWhite text-xl"
 
     useEffect(() => {
-        if (typeof window !== 'undefined') {
+        if (isBrowser()) {
             window.addEventListener('scroll', () => {
                 const { scrollTop } = document.documentElement;
                 setIsTop(scrollTop < 10)
@@ -30,12 +31,12 @@ export default function TopNav(props: TopNavProps) {
     }, [])
 
     return <>
-        <div className={`py-3 lg:px-16 px-4 fixed w-screen ${isTop ? 'bg-primaryDark' : 'bg-primaryWhite shadow-lg'} transition-all h-20 z-10`}>
+        <div className={`py-3 lg:px-16 px-4 fixed w-screen ${isTop ? 'bg-transparent' : 'bg-secondary shadow-lg'} transition-all h-20 z-10`}>
             <div className="flex items-center space-x-6 ">
                 <div>
                     <Link href={"/" + i18n.activeLocale}>
                         <a>
-                            <img className="h-12" src="/logo.jpg" alt="Factovia Logo" />
+                            <img className={`${isTop ? 'h-12' : 'h-10'} transition-all`} src="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/logo.png" alt="Factovia Logo" />
                         </a>
                     </Link>
                 </div>
@@ -54,21 +55,21 @@ export default function TopNav(props: TopNavProps) {
                             <p className={linkClass}>Home</p>
                         </a>
                     </Link>
-                    {/* <Link href={"/" + i18n.activeLocale + "/hub"}>
+                    <Link href={"/" + i18n.activeLocale + "/hub"}>
                         <a>
-                            <p className="text-gray-300">Hub</p>
+                            <p className={linkClass}>Hub</p>
                         </a>
-                    </Link> */}
+                    </Link>
                     <Link href={"/" + i18n.activeLocale + "/blog"}>
                         <a>
                             <p className={linkClass}>Blog</p>
                         </a>
                     </Link>
-                    {/* <Link href={"/" + i18n.activeLocale + "/contact"}>
-                        <a>
-                            <p className="text-gray-300">Contact</p>
+                    <Link href={"/" + i18n.activeLocale + "/contact"}>
+                        <a href="https://gotosmartfactory.com/menu-formulairecontact/">
+                            <p className={linkClass}>Contact</p>
                         </a>
-                    </Link> */}
+                    </Link>
                     {
                         !props.disableLocale
                             ? <SwitchLangButton className={linkClass} />
