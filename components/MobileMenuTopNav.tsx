@@ -10,7 +10,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
     const i18n = usei18()
     const menuButtonClass = props.isTop
         ? "h-6 w-6 text-primaryWhite"
-        : "h-6 w-6 text-primaryBlack"
+        : "h-6 w-6 text-primaryWhite"
 
     return <Menu>
         <Menu.Button as="div" className="p-2 cursor-pointer">
@@ -25,13 +25,13 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                         </a>
                     </Link>
                 </Menu.Item>
-                {/* <Menu.Item as="div" className="px-2 h-10 flex items-center">
+                <Menu.Item as="div" className="px-2 h-10 flex items-center">
                     <Link href={"/" + i18n.activeLocale + "/hub"}>
-                    <a>
-                        <p className="text-gray-300">Hub</p>
-                    </a>
+                        <a>
+                            <p className="text-gray-300">Hub</p>
+                        </a>
                     </Link>
-                </Menu.Item> */}
+                </Menu.Item>
                 <Menu.Item as="div" className="px-2 h-10 flex items-center">
                     <Link href={"/" + i18n.activeLocale + "/blog"}>
                         <a>
@@ -39,13 +39,13 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                         </a>
                     </Link>
                 </Menu.Item>
-                {/* <Menu.Item as="div" className="px-2 h-10 flex items-center">
+                <Menu.Item as="div" className="px-2 h-10 flex items-center">
                     <Link href={"/" + i18n.activeLocale + "/contact"}>
-                    <a>
-                        <p className="text-gray-300">Contact</p>
-                    </a>
+                        <a href="https://gotosmartfactory.com/menu-formulairecontact/">
+                            <p className="text-primaryWhite">Contact</p>
+                        </a>
                     </Link>
-                </Menu.Item> */}
+                </Menu.Item>
 
             </Menu.Items>
         </Menu.Button>

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import useI18n from '../hooks/i18n-hook'
-import getLangDict from '../utils/getLangDict'
+import isBrowser from '../utils/isBrowser'
 
 interface SwitchLangButtonProps {
     className: string
@@ -12,9 +12,7 @@ export default function SwitchLangButton(props: SwitchLangButtonProps) {
     const [target, setTarget] = useState("/" + i18n.activeLocale)
 
     useEffect(() => {
-        console.log("COUCOU")
-
-        if (typeof window !== 'undefined') {
+        if (isBrowser()) {
             const currentHref = window.location.href;
             const modifiedHref = currentHref.split("/")
 
@@ -28,7 +26,7 @@ export default function SwitchLangButton(props: SwitchLangButtonProps) {
 
     return <Link href={target}>
         <a>
-            <p className={props.className}>{i18n.activeLocale.toLocaleUpperCase()}</p>
+            <p className={props.className}>EN/FR</p>
         </a>
     </Link>
 }

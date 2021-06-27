@@ -17,7 +17,6 @@ export default function index() {
             <meta name="description" content={i18n.t("home.description")}></meta>
             <title>{i18n.t("home.title")}</title>
         </Head>
-        <TopNav />
         <MainSection />
         <SecondSection />
         <ThirdSection />

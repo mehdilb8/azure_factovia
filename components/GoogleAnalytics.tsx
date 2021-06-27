@@ -1,9 +1,10 @@
 import Head from 'next/head'
+import isBrowser from '../utils/isBrowser'
 
 export default function GoogleAnalytics() {
 
     const analytics = () => {
-        if (typeof window !== 'undefined') {
+        if (isBrowser()) {
             //@ts-ignore
             window.dataLayer = window.dataLayer || []
             //@ts-ignore
