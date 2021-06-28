@@ -73,7 +73,9 @@ export default function TopNav(props: TopNavProps) {
                     </Link>
                     {
                         !props.disableLocale
-                            ? <SwitchLangButton className={linkClass} />
+                            ? <div className="border-b-2 border-primaryWhite">
+                                <SwitchLangButton />
+                            </div>
                             : null
                     }
                 </div>

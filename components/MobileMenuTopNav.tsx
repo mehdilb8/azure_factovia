@@ -22,7 +22,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                     {({ active }) => (
                         <div className={`px-2 h-8 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                             <Link href={"/" + i18n.activeLocale}>
-                                <a>
+                                <a className="w-full h-full flex items-center">
                                     <p className="text-primaryWhite">Home</p>
                                 </a>
                             </Link>
@@ -31,9 +31,9 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                 </Menu.Item>
                 <Menu.Item>
                     {({ active }) => (
-                        <div className={`px-2 h-10 flex items-center ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
+                        <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                             <Link href={"/" + i18n.activeLocale + "/hub"}>
-                                <a>
+                                <a className="w-full h-full flex items-center">
                                     <p className="text-primaryWhite">Hub</p>
                                 </a>
                             </Link>
@@ -43,9 +43,9 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                 </Menu.Item>
                 <Menu.Item>
                     {({ active }) => (
-                        <div className={`px-2 h-10 flex items-center ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
+                        <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                             <Link href={"/" + i18n.activeLocale + "/blog"}>
-                                <a>
+                                <a className="w-full h-full flex items-center">
                                     <p className="text-primaryWhite">Blog</p>
                                 </a>
                             </Link>
@@ -54,9 +54,9 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                 </Menu.Item>
                 <Menu.Item>
                     {({ active }) => (
-                        <div className={`px-2 h-10 flex items-center ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
+                        <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                             <Link href={"/" + i18n.activeLocale + "/contact"}>
-                                <a href="https://gotosmartfactory.com/menu-formulairecontact/">
+                                <a href="https://gotosmartfactory.com/menu-formulairecontact/" className="w-full h-full flex items-center">
                                     <p className="text-primaryWhite">Contact</p>
                                 </a>
                             </Link>
@@ -67,8 +67,8 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                     !props.disableLocale
                         ? <Menu.Item>
                             {({ active }) => (
-                                <div className={`px-2 h-10 flex items-center ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
-                                    <SwitchLangButton className="text-primaryWhite" />
+                                <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
+                                    <SwitchLangButton />
                                 </div>
                             )}
                         </Menu.Item>
