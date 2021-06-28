@@ -22,8 +22,8 @@ export default function BlobPage(props: BlogContent & I18nProps) {
             <title>{props.data.title}</title>
         </Head>
         <TopNav disableLocale={true} />
-        <div className="flex justify-center">
-            <div className="lg:w-8/12 lg:w-9/12 w-10/12">
+        <div className="flex justify-center mt-8">
+            <div className="lg:w-8/12 md:w-9/12 w-10/12">
                 <div className="mb-6 text-center">
                     <h1 className="text-6xl font-bold mb-2">{props.data.title}</h1>
                     <p className="text-gray-500 text-sm mb-2">{new Date(props.data.date || Date.now()).toLocaleDateString()}</p>
@@ -50,7 +50,7 @@ export const getStaticProps: GetStaticProps<BlogContent & I18nProps> = async (co
         }
         const { id, lang } = context.params
 
-        const blogFilePath = join(__dirname, "../../../../../public/md/" + lang + "/" + id + ".md")
+        const blogFilePath = "md/" + lang + "/" + id + ".md"
         const content = readFileSync(blogFilePath).toString("utf-8")
         const blogContent = matter(content)
 
@@ -71,7 +71,7 @@ export const getStaticProps: GetStaticProps<BlogContent & I18nProps> = async (co
  */
 export const getStaticPaths: GetStaticPaths = async (_) => {
     const paths = languages.flatMap((lang) => {
-        const filesNames = readdirSync('public/md/' + lang);
+        const filesNames = readdirSync('md/' + lang);
         return filesNames.map((blogSlug) => ({ params: { lang, id: blogSlug.split('.md')[0] } }))
     })
     return {

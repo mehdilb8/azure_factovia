@@ -1,6 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
-import TopNav from "../../components/TopNav"
 import MainSection from "../../components/Accueil/MainSection"
 import SecondSection from "../../components/Accueil/SecondSection"
 import ThirdSection from "../../components/Accueil/ThirdSection"

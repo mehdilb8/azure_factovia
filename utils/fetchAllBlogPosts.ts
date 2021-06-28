@@ -9,7 +9,7 @@ interface FetchBlogPost {
 }
 
 export default async function fetchBlogPost(options: FetchBlogPost) {
-    const markdownDir = join(__dirname, "../../../public/md/" + options.lang)
+    const markdownDir = "md/" + options.lang
 
     const lngDict = getLangDict({ lang: options.lang })
     const filesNames = readdirSync(markdownDir)
