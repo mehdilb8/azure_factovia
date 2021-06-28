@@ -1,13 +1,12 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import Head from 'next/head'
-import { BlogMetaData, IndexProps } from '../../../types/Blog'
+import { BlogMetaData, BlogIndexProps } from '../../../types/Blog'
 import Link from 'next/link'
 import TopNav from '../../../components/TopNav'
 import useI18n from "../../../hooks/i18n-hook"
-import { languages, defaultLanguage } from '../../../lib/i18n'
-import fetchAllBlogPost from '../../../utils/fetchAllBlogPosts'
+import { getStaticPathsBlogHome, getStaticPropsBlogHome } from '../../../utils/pageUtils/bloghome'
 
-export default function index(props: IndexProps) {
+export default function index(props: BlogIndexProps) {
     const first = props.posts[0] as BlogMetaData
     const posts = props.posts.slice(1)
     const i18n = useI18n()
@@ -63,34 +62,5 @@ export default function index(props: IndexProps) {
     </>
 }
 
-export const getStaticProps: GetStaticProps<IndexProps> = async (context) => {
-    try {
-        if (!context.params || !context.params.lang) {
-            throw new Error("Lang is not defined in params.")
-        }
-
-        return await fetchAllBlogPost({ lang: context.params.lang as string })
-
-    } catch (e) {
-        console.error({ e })
-        const lngDict = await import('../../../locales/' + defaultLanguage + ".json")
-
-        return {
-            props: {
-                posts: [],
-                lng: defaultLanguage,
-                lngDict: lngDict.default
-            }
-        }
-    }
-}
-
-export const getStaticPaths: GetStaticPaths = async () => {
-    const langPath = languages.map((lang) => ({ params: { lang } }))
-
-    return {
-        paths: langPath,
-        fallback: false
-    }
-}
-
+export const getStaticProps: GetStaticProps<BlogIndexProps> = getStaticPropsBlogHome
+export const getStaticPaths: GetStaticPaths = getStaticPathsBlogHome

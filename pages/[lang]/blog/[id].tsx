@@ -1,6 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { readdirSync, readFileSync } from 'fs'
-import { join } from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
 import ShareButton from '../../../components/ShareButton'
@@ -13,7 +12,6 @@ import MetaOpenGraph from '../../../components/MetaFacebook'
 
 import { languages } from '../../../lib/i18n'
 import { I18nProps } from '../../../types/i18n'
-
 
 export default function BlobPage(props: BlogContent & I18nProps) {
     return <>
@@ -78,6 +76,4 @@ export const getStaticPaths: GetStaticPaths = async (_) => {
         paths,
         fallback: false
     }
-
 }
-

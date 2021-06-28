@@ -16,11 +16,15 @@
     },
     "mainSection": {
         "description": {
-            "1": "Face aux changements dans l'industrie, FactoVia",
+            "1": "Face aux changements dans l'industrie, nous",
             "2": "réinvente la formation",
             "3": "et vous accompagne avec une",
             "4": "communauté d'experts."
         }
+    },
+    "trending": {
+        "title": "En tendance !",
+        "more": "En savoir plus"
     },
     "seconSection": {
         "title": "L'industrie 4.0 facilitée par les principes Montessori",

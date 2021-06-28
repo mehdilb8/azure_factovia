@@ -31,7 +31,10 @@ export default function MainSection() {
                     </div>
                 </AccueilContainer>
             </div>
-
         </div>
+        <AccueilContainer>
+            <button className="btn bg-secondary relative bottom-5">{i18.t("buttons.contact")}</button>
+        </AccueilContainer>
+
     </>
 }

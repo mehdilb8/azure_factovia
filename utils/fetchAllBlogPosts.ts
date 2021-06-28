@@ -2,17 +2,11 @@ import { join } from 'path'
 import { readFileSync, readdirSync } from 'fs'
 import matter from 'gray-matter'
 import { BlogMetaData } from '../types/Blog'
-import getLangDict from './getLangDict'
 
-interface FetchBlogPost {
-    lang: string
-}
-
-export default async function fetchBlogPost(options: FetchBlogPost) {
-    const markdownDir = "md/" + options.lang
-
-    const lngDict = getLangDict({ lang: options.lang })
+export default async function fetchBlogPosts(lang: string) {
+    const markdownDir = "md/" + lang
     const filesNames = readdirSync(markdownDir)
+
     const posts: BlogMetaData[] = []
 
     for (const filename of filesNames) {
@@ -26,11 +20,10 @@ export default async function fetchBlogPost(options: FetchBlogPost) {
         posts.push(blogContent.data as BlogMetaData)
     }
 
-    return {
-        props: {
-            posts,
-            lng: options.lang as string,
-            lngDict
-        }
+    if (posts.length > 1) {
+        posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     }
+
+    return posts
+
 }

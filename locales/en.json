@@ -16,11 +16,15 @@
     },
     "mainSection": {
         "description": {
-            "1": "Faced with changes in the industry, FactoVia",
+            "1": "Faced with changes in the industry, we",
             "2": "reinvents training",
             "3": "and supports you with a",
             "4": "community of experts."
         }
+    },
+    "trending": {
+        "title": "Trending !",
+        "more": "Read more"
     },
     "seconSection": {
         "title": "Industry 4.0 made easy with Montessori principles",
