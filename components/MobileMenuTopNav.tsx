@@ -55,9 +55,9 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                 <Menu.Item>
                     {({ active }) => (
                         <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
-                            <Link href={"/" + i18n.activeLocale + "/contact"}>
+                            <Link href={"/" + i18n.activeLocale + "/about"}>
                                 <a href="https://gotosmartfactory.com/menu-formulairecontact/" className="w-full h-full flex items-center">
-                                    <p className="text-primaryWhite">Contact</p>
+                                    <p className="text-primaryWhite">{i18n.t("nav.about")}</p>
                                 </a>
                             </Link>
                         </div>

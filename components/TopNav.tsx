@@ -66,9 +66,9 @@ export default function TopNav(props: TopNavProps) {
                             <p className={linkClass}>Blog</p>
                         </a>
                     </Link>
-                    <Link href={"/" + i18n.activeLocale + "/contact"}>
+                    <Link href={"/" + i18n.activeLocale + "/about"}>
                         <a href="https://gotosmartfactory.com/menu-formulairecontact/">
-                            <p className={linkClass}>Contact</p>
+                            <p className={linkClass}>{i18n.t("nav.about")}</p>
                         </a>
                     </Link>
                     {
