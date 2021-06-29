@@ -2,9 +2,9 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 import { languages } from '../../lib/i18n'
 import getLangAndDict from '../getLangAndDict'
 import fetchBlogPosts from '../fetchAllBlogPosts'
-import { HomeProps } from '../../types/Pages'
+import { I18nProps } from '../../types/i18n'
 
-export const getStaticPropsStaticPage: GetStaticProps<HomeProps> = async (context) => {
+export const getStaticPropsStaticPage: GetStaticProps<I18nProps> = async (context) => {
     if (!context.params || !context.params.lang) {
         throw new Error("Lang is not defined in params.")
     }
@@ -16,12 +16,11 @@ export const getStaticPropsStaticPage: GetStaticProps<HomeProps> = async (contex
         props: {
             lng,
             lngDict,
-            blog: posts[0]
         }
     }
 }
 
-export const getStaticPathsHome: GetStaticPaths = async () => {
+export const getStaticPathsStaticPage: GetStaticPaths = async () => {
     const langPath = languages.map((lang) => ({ params: { lang } }))
 
     return {

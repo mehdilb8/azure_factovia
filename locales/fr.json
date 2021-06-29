@@ -88,5 +88,28 @@
             "title": "Blog Factovia",
             "description": "Blog de Factovia. Liste de différents articles sur l'industrie du future, Microsoft et IoT. Écrit par des experts reconnus."
         }
+    },
+    "hub": {
+        "buttons": {
+            "freeAccount": "Créer un compte gratuit"
+        },
+        "intro": {
+            "title": "Le Hub"
+        },
+        "hero": {
+            "community": {
+                "title": "Communautée",
+                "content": "Ayez accès aux meilleurs experts reconnus et aux technologies de points pour couvrir toutes les facettes de votre projet IoT industriel : depuis la création de l’usine sur un terrain vague, jusqu’à la création d’une plateforme mondiale, en passant par la commande de puces directement depuis la Chine à Shenzen "
+            },
+            "premium": {
+                "title": "Offre Premium",
+                "content": "TODO : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper mi vitae commodo. Nam vel semper nibh. Nam fermentum sem id lacus volutpat suscipit at in quam. Quisque vel augue euismod, eleifend lectus eu, feugiat tellus. Ut faucibus libero quis lectus vulputate tempus. Donec eget purus quam. Proin accumsan enim et dapibus volutpat. Etiam sapien arcu, efficitur at volutpat nec, sollicitudin hendrerit ipsum.",
+                "button": "Avoir le status Premium"
+            }
+        },
+        "hubMain": {
+            "title": "Entourez vous des meilleurs expert",
+            "description": "Notre communauté comporte plus de 40 partenaires (tels que HPE, ADVANTECH, STÄUBLI, ...), répartis sur 11 catégories (fabriquant de capteurs, fournisseurs de Cloud privié ou publique, ...)"
+        }
     }
 }

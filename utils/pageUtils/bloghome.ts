@@ -4,6 +4,7 @@ import { BlogIndexProps } from "../../types/Blog"
 import fetchBlogPosts from '../fetchAllBlogPosts'
 import getLangAndDict from '../getLangAndDict'
 import getLangDict from '../getLangDict'
+import { getStaticPathsStaticPage } from './staticPage'
 
 export const getStaticPropsBlogHome: GetStaticProps<BlogIndexProps> = async (context) => {
     try {
@@ -36,12 +37,5 @@ export const getStaticPropsBlogHome: GetStaticProps<BlogIndexProps> = async (con
     }
 }
 
-export const getStaticPathsBlogHome: GetStaticPaths = async () => {
-    const langPath = languages.map((lang) => ({ params: { lang } }))
-
-    return {
-        paths: langPath,
-        fallback: false
-    }
-}
+export const getStaticPathsBlogHome: GetStaticPaths = getStaticPathsStaticPage
 

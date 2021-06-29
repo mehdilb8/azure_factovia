@@ -1,3 +1,3 @@
 export default function isBrowser() {
-    return typeof window !== 'undefined'
+    return process.browser && typeof window !== 'undefined'
 }

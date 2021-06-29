@@ -88,5 +88,28 @@
             "title": "Blog Factovia",
             "description": "Factovia's blog. List of various articles on the industry 4.0, Microsoft and IoT. Written by recognized experts."
         }
+    },
+    "hub": {
+        "buttons": {
+            "freeAccount": "Create a free account"
+        },
+        "intro": {
+            "title": "The Hub"
+        },
+        "hero": {
+            "community": {
+                "title": "Community",
+                "content": "Get access to the best recognized experts and point technologies to cover all facets of your industrial IoT project: from setting up the factory on a vacant lot, to creating a global platform, to ordering chips directly from China in Shenzen"
+            },
+            "premium": {
+                "title": "Premium offer",
+                "content": "TODO : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper mi vitae commodo. Nam vel semper nibh. Nam fermentum sem id lacus volutpat suscipit at in quam. Quisque vel augue euismod, eleifend lectus eu, feugiat tellus. Ut faucibus libero quis lectus vulputate tempus. Donec eget purus quam. Proin accumsan enim et dapibus volutpat. Etiam sapien arcu, efficitur at volutpat nec, sollicitudin hendrerit ipsum.",
+                "button": "Get Premium"
+            }
+        },
+        "hubMain": {
+            "title": "Surround yourself with the best experts:",
+            "description": "Our community includes more than 40 partners (such as HPE, ADVANTECH, STÄUBLI, ...), divided into 11 categories (sensor manufacturers, private or public cloud providers, ...)"
+        }
     }
 }
