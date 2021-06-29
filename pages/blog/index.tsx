@@ -1,13 +1,10 @@
-import { GetStaticProps } from 'next'
 import BlogPage from '../[lang]/blog/index'
-import fetchAllBlogPost from '../../utils/fetchAllBlogPosts'
 import { defaultLanguage } from '../../lib/i18n'
-import { IndexProps } from '../../types/Blog'
+import { BlogIndexProps } from '../../types/Blog'
+import { getStaticPropsBlogHome } from '../../utils/pageUtils/bloghome'
 
-export default function BlogDefaultPage(props: IndexProps) {
+export default function BlogDefaultPage(props: BlogIndexProps) {
     return <BlogPage {...props} />
 }
 
-export const getStaticProps: GetStaticProps<IndexProps> = async (context) => {
-    return await fetchAllBlogPost({ lang: defaultLanguage })
-}
+export const getStaticProps = () => getStaticPropsBlogHome({ params: { lang: defaultLanguage } })

@@ -7,7 +7,7 @@
         "home": "Acceuil",
         "offering": "Offres",
         "hub": "Hub",
-        "contact": "Contact",
+        "about": "À propos",
         "lang": "EN/FR"
     },
     "home": {
@@ -16,11 +16,15 @@
     },
     "mainSection": {
         "description": {
-            "1": "Face aux changements dans l'industrie, FactoVia",
+            "1": "Face aux changements dans l'industrie, nous",
             "2": "réinvente la formation",
             "3": "et vous accompagne avec une",
             "4": "communauté d'experts."
         }
+    },
+    "trending": {
+        "title": "En tendance !",
+        "more": "En savoir plus"
     },
     "seconSection": {
         "title": "L'industrie 4.0 facilitée par les principes Montessori",
@@ -83,6 +87,29 @@
         "index": {
             "title": "Blog Factovia",
             "description": "Blog de Factovia. Liste de différents articles sur l'industrie du future, Microsoft et IoT. Écrit par des experts reconnus."
+        }
+    },
+    "hub": {
+        "buttons": {
+            "freeAccount": "Créer un compte gratuit"
+        },
+        "intro": {
+            "title": "Le Hub"
+        },
+        "hero": {
+            "community": {
+                "title": "Communautée",
+                "content": "Ayez accès aux meilleurs experts reconnus et aux technologies de points pour couvrir toutes les facettes de votre projet IoT industriel : depuis la création de l’usine sur un terrain vague, jusqu’à la création d’une plateforme mondiale, en passant par la commande de puces directement depuis la Chine à Shenzen "
+            },
+            "premium": {
+                "title": "Offre Premium",
+                "content": "TODO : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper mi vitae commodo. Nam vel semper nibh. Nam fermentum sem id lacus volutpat suscipit at in quam. Quisque vel augue euismod, eleifend lectus eu, feugiat tellus. Ut faucibus libero quis lectus vulputate tempus. Donec eget purus quam. Proin accumsan enim et dapibus volutpat. Etiam sapien arcu, efficitur at volutpat nec, sollicitudin hendrerit ipsum.",
+                "button": "Avoir le status Premium"
+            }
+        },
+        "hubMain": {
+            "title": "Entourez vous des meilleurs expert",
+            "description": "Notre communauté comporte plus de 40 partenaires (tels que HPE, ADVANTECH, STÄUBLI, ...), répartis sur 11 catégories (fabriquant de capteurs, fournisseurs de Cloud privié ou publique, ...)"
         }
     }
 }

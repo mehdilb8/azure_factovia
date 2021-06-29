@@ -4,6 +4,8 @@ import MobileMenuTopNav from './MobileMenuTopNav'
 import useI18n from '../hooks/i18n-hook'
 import SwitchLangButton from './SwitchLangButton'
 import isBrowser from '../utils/isBrowser'
+import { useRouter } from 'next/router'
+import { HOME_ROUTES } from '../constantes'
 
 interface TopNavProps {
     disableLocale?: boolean
@@ -12,10 +14,9 @@ interface TopNavProps {
 export default function TopNav(props: TopNavProps) {
     const i18n = useI18n()
     const [isTop, setIsTop] = useState(true)
+    const router = useRouter();
 
-    const linkClass = isTop
-        ? "text-primaryWhite border-b-2 border-primaryWhite border-opacity-0 hover:border-opacity-100"
-        : "text-primaryWhite border-b-2 border-primaryDark border-opacity-0 hover:border-opacity-100"
+    const linkClass = "text-primaryWhite border-b-2 border-primaryWhite border-opacity-0 hover:border-opacity-100"
 
     const titleClass = isTop
         ? "text-primaryWhite text-2xl"
@@ -31,7 +32,7 @@ export default function TopNav(props: TopNavProps) {
     }, [])
 
     return <>
-        <div className={`py-3 lg:px-16 px-4 fixed w-screen ${isTop ? 'bg-transparent' : 'bg-secondary shadow-lg'} transition-all h-20 z-10`}>
+        <div className={`py-3 lg:px-16 px-4 fixed w-screen ${isTop && HOME_ROUTES.includes(router.route) ? 'bg-transparent' : 'bg-secondary shadow-lg'} ${isTop ? 'h-20' : 'h-16'} transition-all z-10`}>
             <div className="flex items-center space-x-6 ">
                 <div>
                     <Link href={"/" + i18n.activeLocale}>
@@ -65,14 +66,16 @@ export default function TopNav(props: TopNavProps) {
                             <p className={linkClass}>Blog</p>
                         </a>
                     </Link>
-                    <Link href={"/" + i18n.activeLocale + "/contact"}>
+                    <Link href={"/" + i18n.activeLocale + "/about"}>
                         <a href="https://gotosmartfactory.com/menu-formulairecontact/">
-                            <p className={linkClass}>Contact</p>
+                            <p className={linkClass}>{i18n.t("nav.about")}</p>
                         </a>
                     </Link>
                     {
                         !props.disableLocale
-                            ? <SwitchLangButton className={linkClass} />
+                            ? <div className="border-b-2 border-primaryWhite">
+                                <SwitchLangButton />
+                            </div>
                             : null
                     }
                 </div>
@@ -81,6 +84,6 @@ export default function TopNav(props: TopNavProps) {
                 </div>
             </div>
         </div>
-        <div className="h-20" />
+        <div className={isTop && HOME_ROUTES.includes(router.route) ? 'h-20' : 'h-16'} />
     </>
 }

@@ -2,9 +2,10 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import useI18n from '../hooks/i18n-hook'
 import isBrowser from '../utils/isBrowser'
+import FlagIcon from '../elements/FlagIcon'
 
 interface SwitchLangButtonProps {
-    className: string
+    className?: string
 }
 
 export default function SwitchLangButton(props: SwitchLangButtonProps) {
@@ -25,8 +26,8 @@ export default function SwitchLangButton(props: SwitchLangButtonProps) {
     }, [i18n.activeLocale])
 
     return <Link href={target}>
-        <a>
-            <p className={props.className}>EN/FR</p>
+        <a className="w-full h-full flex items-center">
+            <FlagIcon country={i18n.activeLocale.toLowerCase() as any} className="h-6 w-6" />
         </a>
     </Link>
 }

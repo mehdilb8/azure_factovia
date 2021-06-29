@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6, p {
     @apply text-gray-800;
 }
 
+.title {
+    @apply text-primaryDark text-4xl font-bold mb-8;
+}
+
 .section-background {
     z-index: -1;
     left: 50%;

@@ -1,7 +1,7 @@
 import { GrayMatterFile } from 'gray-matter'
 import { I18nProps } from './i18n'
 
-export interface IndexProps extends I18nProps {
+export interface BlogIndexProps extends I18nProps {
     posts: BlogMetaData[]
 }
 
