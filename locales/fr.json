@@ -113,12 +113,36 @@
         },
         "hubMain": {
             "title": "Entourez vous des meilleurs expert",
-            "description": "Notre communauté comporte plus de 40 partenaires (tels que HPE, ADVANTECH, STÄUBLI, ...), répartis sur 11 catégories (fabriquant de capteurs, fournisseurs de Cloud privié ou publique, ...)"
+            "description": {
+                "1": "Notre communauté comporte plus de 40 partenaires (tels que HPE, ADVANTECH, STÄUBLI, ...), répartis sur",
+                "2": "catégories (fabriquant de capteurs, fournisseurs de Cloud privié ou publique, ...)"
+            }
         }
     },
     "about": {
         "marraines": {
-            "title": "#Diversité #Inclusion : notre projet d’aide au changemment de l’industrie comporte deux marraines ingénieures d’exception "
+            "title": "#Diversité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception "
+        },
+        "projects": {
+            "title": "Qualité de nos travaux et engagements de nos projets",
+            "figureDescription": {
+                "1": "Au grand Palais des Congrès à Paris sur la Keynote de la Vice-Présidente Microsoft Azure monde (Julia White en 2018) :",
+                "2": "Sur le plus grand événement Microsoft d’Europe, retour sur nos projets innovants en IoT, face à 4000 personnes et 150 000 connectés"
+            }
+        },
+        "techExpertise": {
+            "title": "Une expertise technologique",
+            "videoTitle": "MS Experiences Altametris VISEO",
+            "description": "Ici on expliquer qu’on a mis en place des technologies de pointes dans des usines et qu’on est les seuls a avoir ce savoir faire en France."
+        },
+        "success": {
+            "title": "Des projets réussis !",
+            "firms": {
+                "1": {
+                    "name": "ENTREPRISE",
+                    "description": "Ici on va décrire un projet qui a bien marché. Faut pas hésité à romancer les choses à notre avantage ;p"
+                }
+            }
         }
     }
 }

@@ -4,11 +4,11 @@ import MarrainesHero from "./MarrainesHero"
 
 export default function Marraines() {
     const i18n = useI18n()
-    return <div className="bg-secondary">
-        <AccueilContainer className="py-8">
-            <>
-                <h1 className="title text-primaryWhite">{i18n.t("about.marraines.title")}</h1>
-                <div className="relative">
+    return <>
+        <div className="bg-secondary">
+            <AccueilContainer className="py-8">
+                <>
+                    <h1 className="title text-primaryWhite">{i18n.t("about.marraines.title")}</h1>
                     <div className="flex flex-wrap space-y-6 lg:space-y-0 z-10 relative">
                         <div className="w-full lg:w-2/5">
                             <MarrainesHero
@@ -32,9 +32,12 @@ export default function Marraines() {
                             />
                         </div>
                     </div>
-                    <img src="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/maquette2.jpg" className="w-full absolute " style={{ zIndex: 0 }} />
-                </div>
-            </>
-        </AccueilContainer>
-    </div>
+                </>
+            </AccueilContainer>
+        </div>
+        <div className="">
+            <img src="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/maquette2.jpg" className="w-screen h-screen-70 object-cover object-bottom" style={{ zIndex: 0 }} />
+        </div>
+
+    </>
 }

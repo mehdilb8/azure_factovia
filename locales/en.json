@@ -113,12 +113,36 @@
         },
         "hubMain": {
             "title": "Surround yourself with the best experts:",
-            "description": "Our community includes more than 40 partners (such as HPE, ADVANTECH, STÄUBLI, ...), divided into 11 categories (sensor manufacturers, private or public cloud providers, ...)"
+            "description": {
+                "1": "Our community includes more than 40 partners (such as HPE, ADVANTECH, STÄUBLI, ...), divided into",
+                "2": "categories (sensor manufacturers, private or public cloud providers, ...)"
+            }
         }
     },
     "about": {
         "marraines": {
-            "title": "#Diversité #Inclusion : notre projet d’aide au changemment de l’industrie comporte deux marraines ingénieures d’exception "
+            "title": "#Diversity #Inclusion: our project to help change the industry features two exceptional female engineering sponsors"
+        },
+        "projects": {
+            "title": "Quality of our work and commitment to our projects",
+            "figureDescription": {
+                "1": "At the Grand Palais des Congrès in Paris on the Microsoft Azure World Vice President Keynote (Julia White in 2018):",
+                "2": "On the biggest Microsoft event in Europe, we look back at our innovative IoT projects, in front of 4000 people and 150 000 connected people"
+            }
+        },
+        "techExpertise": {
+            "title": "A technological expertise",
+            "videoTitle": "MS Experiences Altametris VISEO",
+            "description": "Ici on expliquer qu’on a mis en place des technologies de pointes dans des usines et qu’on est les seuls a avoir ce savoir faire en France."
+        },
+        "success": {
+            "title": "Des projets réussis !",
+            "firms": {
+                "1": {
+                    "name": "ENTREPRISE",
+                    "description": "Ici on va décrire un projet qui a bien marché. Faut pas hésité à romancer les choses à notre avantage ;p"
+                }
+            }
         }
     }
 }
