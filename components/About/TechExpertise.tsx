@@ -1,5 +1,7 @@
+import { DISCORD_INVIT } from "../../constantes";
 import useI18n from "../../hooks/i18n-hook"
 import AccueilContainer from "../Accueil/AccueilContainer"
+import NewTabIcon from "../../elements/NewTabIcon";
 
 export default function TechExpertise() {
     const i18n = useI18n()
@@ -10,9 +12,19 @@ export default function TechExpertise() {
             <div className="flex flex-wrap space-y-6 lg:space-y-0">
                 <div className="lg:w-1/2 w-full">
                     <h2 className="title text-primaryWhite mb-6">{i18n.t("about.techExpertise.title")}</h2>
-                    <p className="text-primaryWhite">
+                    <p className="text-primaryWhite mb-3">
                         {i18n.t("about.techExpertise.description")}
                     </p>
+                    <a href={DISCORD_INVIT} target="_blank">
+                        <button className="btn lg:w-3/4 w-full normal-case flex justify-center items-center">
+                            <span className="mr-2">
+                                {i18n.t("hub.buttons.freeAccount")}
+                            </span>
+                            <span>
+                                <NewTabIcon className="w-4 h-4" />
+                            </span>
+                        </button>
+                    </a>
                 </div>
                 <div className="lg:w-1/2 w-full">
                     <div className="relative overflow-hidden w-full h-80">

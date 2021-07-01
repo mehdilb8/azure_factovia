@@ -91,7 +91,7 @@
     },
     "hub": {
         "buttons": {
-            "freeAccount": "Créer un compte gratuit"
+            "freeAccount": "Rejoindre la communautée"
         },
         "intro": {
             "title": "Le Hub",
@@ -121,7 +121,9 @@
     },
     "about": {
         "marraines": {
-            "title": "#Diversité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception "
+            "title": "#Diversité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception",
+            "description": "Notre combat à FactoVia est de donner une autre image de l'industrie. Elle a des inconvénients, mais de nouvelles alternatives comme l'économie circulaire qui consiste à préserver la planète doivent être développée plus largement, et dé-carbonées les industries. L'image de l'industrie doit également changer en termes de mentalité en promouvant la #Diversité, où le secteur est largement trop masculin. Et parce que les enfants sont les travailleurs de demain dans l'industrie, faisons en sorte que le sujet soit amusant et intéressant pour eux !",
+            "support": "Elles nous soutiennent !"
         },
         "projects": {
             "title": "Qualité de nos travaux et engagements de nos projets",
@@ -133,7 +135,7 @@
         "techExpertise": {
             "title": "Une expertise technologique",
             "videoTitle": "MS Experiences Altametris VISEO",
-            "description": "Ici on expliquer qu’on a mis en place des technologies de pointes dans des usines et qu’on est les seuls a avoir ce savoir faire en France."
+            "description": "Fier de nos connaissances en matière de déploiement de projets industrie du futur nous vous offrons la possibilité de mettre en place à votre tour des technologies de pointe dans votre industrie grâce à notre réseau d'experts."
         },
         "success": {
             "title": "Des projets réussis !",

@@ -1,4 +1,6 @@
 import useI18n from "../../hooks/i18n-hook"
+import { DISCORD_INVIT } from "../../constantes"
+import NewTabIcon from "../../elements/NewTabIcon"
 
 export default function HubIntro() {
     const i18n = useI18n()
@@ -10,6 +12,15 @@ export default function HubIntro() {
                 <p>{i18n.t("hub.intro.description.2")}</p>
             </div>
         </div>
-        <button className="btn lg:w-1/3 w-3/4 normal-case">{i18n.t("hub.buttons.freeAccount")}</button>
+        <a href={DISCORD_INVIT} target="_blank">
+            <button className="btn lg:w-1/3 w-3/4 normal-case flex justify-center items-center">
+                <span className="mr-2">
+                    {i18n.t("hub.buttons.freeAccount")}
+                </span>
+                <span>
+                    <NewTabIcon className="w-4 h-4" />
+                </span>
+            </button>
+        </a>
     </div>
 }

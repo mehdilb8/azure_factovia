@@ -91,7 +91,7 @@
     },
     "hub": {
         "buttons": {
-            "freeAccount": "Create a free account"
+            "freeAccount": "Join Community"
         },
         "intro": {
             "title": "The Hub",
@@ -121,7 +121,9 @@
     },
     "about": {
         "marraines": {
-            "title": "#Diversity #Inclusion: our project to help change the industry features two exceptional female engineering sponsors"
+            "title": "#Diversity #Inclusion: our project to help change the industry features two exceptional female engineering sponsors",
+            "description": "Our combat at FactoVia is to provide a reverse image of the industry. Yes it has got some drawbacks, and let’s face it, new alternatives such as the circular economy that consists in preserving the planet has to be developed broader, and de-carbonite the industries. The image of the industry also must change in terms of mentality by promoting #Diversity, where the sector is vastly too masculine. And because the kids are tomorrow’s workers in the industry, let’s make the topic fun and interresting for them !",
+            "support": "They support us !"
         },
         "projects": {
             "title": "Quality of our work and commitment to our projects",
@@ -133,7 +135,7 @@
         "techExpertise": {
             "title": "A technological expertise",
             "videoTitle": "MS Experiences Altametris VISEO",
-            "description": "Ici on expliquer qu’on a mis en place des technologies de pointes dans des usines et qu’on est les seuls a avoir ce savoir faire en France."
+            "description": "Proud of our knowledge in the deployment of industry of the future projects, we offer you the possibility to implement advanced technologies in your industry thanks to our network of experts. "
         },
         "success": {
             "title": "Des projets réussis !",

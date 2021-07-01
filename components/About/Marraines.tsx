@@ -9,6 +9,10 @@ export default function Marraines() {
             <AccueilContainer className="py-8">
                 <>
                     <h1 className="title text-primaryWhite">{i18n.t("about.marraines.title")}</h1>
+                    <p className="text-primaryWhite mb-6">
+                        {i18n.t("about.marraines.description")}
+                    </p>
+                    <h2 className="title text-primaryWhite text-3xl text-center">{i18n.t("about.marraines.support")}</h2>
                     <div className="flex flex-wrap space-y-6 lg:space-y-0 z-10 relative">
                         <div className="w-full lg:w-2/5">
                             <MarrainesHero

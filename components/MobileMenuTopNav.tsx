@@ -2,6 +2,8 @@ import { Menu } from '@headlessui/react'
 import Link from 'next/link'
 import usei18 from '../hooks/i18n-hook'
 import SwitchLangButton from './SwitchLangButton'
+import NewTabIcon from '../elements/NewTabIcon'
+import { QUALTRIC_CONTACT } from '../constantes'
 
 interface MobileMenuTopNavProps {
     isTop: boolean,
@@ -49,6 +51,19 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                                     <p className="text-primaryWhite">Blog</p>
                                 </a>
                             </Link>
+                        </div>
+                    )}
+                </Menu.Item>
+                <Menu.Item>
+                    {({ active }) => (
+                        <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
+                            <a href={QUALTRIC_CONTACT} target="_blank"
+                                className="w-full h-full flex items-center ">
+                                <p className="flex items-center">
+                                    <span className="mr-1 text-primaryWhite">Contact</span>
+                                    <NewTabIcon className="w-3 h-3 text-primaryWhite" />
+                                </p>
+                            </a>
                         </div>
                     )}
                 </Menu.Item>

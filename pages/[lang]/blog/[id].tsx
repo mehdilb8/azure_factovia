@@ -23,7 +23,7 @@ export default function BlobPage(props: BlogContent & I18nProps) {
         <div className="flex justify-center mt-8">
             <div className="lg:w-8/12 md:w-9/12 w-10/12">
                 <div className="mb-6 text-center">
-                    <h1 className="text-6xl font-bold mb-2">{props.data.title}</h1>
+                    <h1 className="lg:text-6xl text-5xl font-bold mb-2">{props.data.title}</h1>
                     <p className="text-gray-500 text-sm mb-2">{new Date(props.data.date || Date.now()).toLocaleDateString()}</p>
                     <img className="blog-cover mb-2"
                         src={props.data.thumb || `https://picsum.photos/seed/${props.data.title}/1600`} />

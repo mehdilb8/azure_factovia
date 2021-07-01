@@ -6,6 +6,8 @@ import SwitchLangButton from './SwitchLangButton'
 import isBrowser from '../utils/isBrowser'
 import { useRouter } from 'next/router'
 import { HOME_ROUTES } from '../constantes'
+import NewTabIcon from '../elements/NewTabIcon'
+import { QUALTRIC_CONTACT } from '../constantes'
 
 interface TopNavProps {
     disableLocale?: boolean
@@ -66,8 +68,14 @@ export default function TopNav(props: TopNavProps) {
                             <p className={linkClass}>Blog</p>
                         </a>
                     </Link>
+                    <a href={QUALTRIC_CONTACT} target="_blank">
+                        <p className={linkClass + " flex items-center"}>
+                            <span className="mr-1">Contact</span>
+                            <NewTabIcon className="w-3 h-3" />
+                        </p>
+                    </a>
                     <Link href={"/" + i18n.activeLocale + "/about"}>
-                        <a href="https://gotosmartfactory.com/menu-formulairecontact/">
+                        <a>
                             <p className={linkClass}>{i18n.t("nav.about")}</p>
                         </a>
                     </Link>
