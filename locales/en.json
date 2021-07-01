@@ -94,7 +94,11 @@
             "freeAccount": "Create a free account"
         },
         "intro": {
-            "title": "The Hub"
+            "title": "The Hub",
+            "description": {
+                "1": "Rejoignez notre communauté d’experts !",
+                "2": "Que vous soyez un client ou un expert ayat une forte valeur ajoutée dans un domaine spécifique de l’industry 4.0, rejoignez-nous gratuitement !"
+            }
         },
         "hero": {
             "community": {
@@ -103,7 +107,7 @@
             },
             "premium": {
                 "title": "Premium offer",
-                "content": "TODO : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper mi vitae commodo. Nam vel semper nibh. Nam fermentum sem id lacus volutpat suscipit at in quam. Quisque vel augue euismod, eleifend lectus eu, feugiat tellus. Ut faucibus libero quis lectus vulputate tempus. Donec eget purus quam. Proin accumsan enim et dapibus volutpat. Etiam sapien arcu, efficitur at volutpat nec, sollicitudin hendrerit ipsum.",
+                "content": "To go even further, we offer a \"VIP\" area with a Premium offer, where qualified members will benefit from information to increase their competitiveness, and will have access to personalized advice from the FactoVia team.",
                 "button": "Get Premium"
             }
         },

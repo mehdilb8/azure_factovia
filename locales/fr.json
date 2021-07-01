@@ -17,8 +17,8 @@
     "mainSection": {
         "description": {
             "1": "Face aux changements dans l'industrie, nous",
-            "2": "réinvente la formation",
-            "3": "et vous accompagne avec une",
+            "2": "réinventons la formation",
+            "3": "et vous accompagnons avec une",
             "4": "communauté d'experts."
         }
     },
@@ -103,7 +103,7 @@
             },
             "premium": {
                 "title": "Offre Premium",
-                "content": "TODO : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper mi vitae commodo. Nam vel semper nibh. Nam fermentum sem id lacus volutpat suscipit at in quam. Quisque vel augue euismod, eleifend lectus eu, feugiat tellus. Ut faucibus libero quis lectus vulputate tempus. Donec eget purus quam. Proin accumsan enim et dapibus volutpat. Etiam sapien arcu, efficitur at volutpat nec, sollicitudin hendrerit ipsum.",
+                "content": "Pour aller encore plus loin, nous vous proposons un espace “VIP” avec une offre Premium, où les membres qualifiés bénéficieront d’informations permettant d’augmenter leurs compétitivités, et auront accès aux conseils personnalisés de l’équipe FactoVia.",
                 "button": "Avoir le status Premium"
             }
         },

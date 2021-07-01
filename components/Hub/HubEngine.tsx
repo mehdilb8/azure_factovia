@@ -41,20 +41,29 @@ export default function HubEngine() {
         <ForceGraph2D
             dagMode="radialout"
             dagLevelDistance={600}
-            backgroundColor="#3C3C41"
             width={graphWidth}
+            enableZoomInteraction={false}
             nodeLabel="id"
             nodeId="id"
             nodeAutoColorBy="module"
             linkDirectionalParticles={1}
             linkDirectionalParticleWidth={2}
             d3VelocityDecay={0.99}
+            enablePanInteraction={false}
             nodeCanvasObject={(node, ctx) => {
                 const { x, y } = node;
                 const text = node.id?.toString() || "error"
+
+                if (node.id === HubData.main) {
+                    const boxWidth = text?.length * 5.6 < 40
+                        ? 40
+                        : text?.length * 5.6
+
+                    ctx.fillStyle = "green"
+                    ctx.fillRect(x as number - (boxWidth / 2), y as number - 11, boxWidth, 22)
+                }
+
                 ctx.fillStyle = "black"; //Primary White
-                ctx.fillRect(x as number - (text?.length * 2.6), y as number - 7, text?.length * 5.5, 14)
-                ctx.fillStyle = "#EBEBEB"; //Primary White
                 ctx.font = '10px Sans-Serif';
                 ctx.textAlign = 'center';
                 ctx.textBaseline = 'middle';
