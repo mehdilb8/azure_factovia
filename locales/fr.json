@@ -94,7 +94,11 @@
             "freeAccount": "Créer un compte gratuit"
         },
         "intro": {
-            "title": "Le Hub"
+            "title": "Le Hub",
+            "description": {
+                "1": "Rejoignez notre communauté d’experts !",
+                "2": "Que vous soyez un client ou un expert ayat une forte valeur ajoutée dans un domaine spécifique de l’industry 4.0, rejoignez-nous gratuitement !"
+            }
         },
         "hero": {
             "community": {
@@ -110,6 +114,11 @@
         "hubMain": {
             "title": "Entourez vous des meilleurs expert",
             "description": "Notre communauté comporte plus de 40 partenaires (tels que HPE, ADVANTECH, STÄUBLI, ...), répartis sur 11 catégories (fabriquant de capteurs, fournisseurs de Cloud privié ou publique, ...)"
+        }
+    },
+    "about": {
+        "marraines": {
+            "title": "#Diversité #Inclusion : notre projet d’aide au changemment de l’industrie comporte deux marraines ingénieures d’exception "
         }
     }
 }

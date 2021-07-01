@@ -96,8 +96,8 @@
         "intro": {
             "title": "The Hub",
             "description": {
-                "1": "Rejoignez notre communauté d’experts !",
-                "2": "Que vous soyez un client ou un expert ayat une forte valeur ajoutée dans un domaine spécifique de l’industry 4.0, rejoignez-nous gratuitement !"
+                "1": "Join our community of experts!",
+                "2": "Whether you are a customer or an expert with a strong added value in a specific field of industry 4.0, join us for free!"
             }
         },
         "hero": {
@@ -114,6 +114,11 @@
         "hubMain": {
             "title": "Surround yourself with the best experts:",
             "description": "Our community includes more than 40 partners (such as HPE, ADVANTECH, STÄUBLI, ...), divided into 11 categories (sensor manufacturers, private or public cloud providers, ...)"
+        }
+    },
+    "about": {
+        "marraines": {
+            "title": "#Diversité #Inclusion : notre projet d’aide au changemment de l’industrie comporte deux marraines ingénieures d’exception "
         }
     }
 }

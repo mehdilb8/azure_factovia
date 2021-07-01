@@ -33,7 +33,7 @@ export default function MainSection() {
             </div>
         </div>
         <AccueilContainer>
-            <button className="btn bg-secondary relative bottom-5">{i18.t("buttons.contact")}</button>
+            <button className="btn bg-secondary relative bottom-5 active:ring-secondary">{i18.t("buttons.contact")}</button>
         </AccueilContainer>
 
     </>
