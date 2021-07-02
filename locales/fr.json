@@ -15,6 +15,14 @@
         "description": "L'apprentissage de l'industrie du futur n'a jamais été aussi simple."
     },
     "mainSection": {
+        "title": {
+            "main": "Factovia",
+            "concept": {
+                "1": "Formation",
+                "2": "Technologie",
+                "3": "Industrie"
+            }
+        },
         "description": {
             "1": "Face aux changements dans l'industrie, nous",
             "2": "réinventons la formation",

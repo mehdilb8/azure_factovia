@@ -1,6 +1,7 @@
 import useI18n from "../../hooks/i18n-hook"
 import AccueilContainer from "./AccueilContainer"
 import TopNav from '../TopNav'
+import ConceptAnimation from "./ConceptAnimation"
 
 export default function MainSection() {
     const i18 = useI18n()
@@ -18,6 +19,10 @@ export default function MainSection() {
                             <div className="h-full lg:px-20 ">
                                 <div className="bg-secondary bg-opacity-60 rounded-lg shadow-lg">
                                     <div className="px-6 py-4">
+                                        <h1 className="title ">
+                                            <span className="text-primaryWhite">{i18.t("mainSection.title.main")} </span>
+                                            <ConceptAnimation />
+                                        </h1>
                                         <p className="text-primaryWhite text-2xl">
                                             <span>{i18.t("mainSection.description.1")} </span>
                                             <strong>{i18.t("mainSection.description.2")} </strong>
