@@ -8,7 +8,7 @@ import gfm from 'remark-gfm'
 import footnot from 'remark-footnotes'
 import { BlogMetaData, BlogContent } from '../../../types/Blog'
 import TopNav from '../../../components/TopNav'
-import MetaOpenGraph from '../../../components/MetaFacebook'
+import MetaOpenGraph from '../../../components/MetaOpenGraph'
 
 import { languages } from '../../../lib/i18n'
 import { I18nProps } from '../../../types/i18n'
@@ -16,7 +16,12 @@ import { I18nProps } from '../../../types/i18n'
 export default function BlobPage(props: BlogContent & I18nProps) {
     return <>
         <Head>
-            <MetaOpenGraph {...props} />
+            <MetaOpenGraph
+                description={props.data.description}
+                path={props.language + "/blog/" + props.data.slug}
+                thumb={props.data.thumb}
+                title={props.data.title}
+            />
             <title>{props.data.title}</title>
         </Head>
         <TopNav disableLocale={true} />

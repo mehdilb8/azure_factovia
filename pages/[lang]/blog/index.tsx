@@ -5,6 +5,7 @@ import Link from 'next/link'
 import TopNav from '../../../components/TopNav'
 import useI18n from "../../../hooks/i18n-hook"
 import { getStaticPathsBlogHome, getStaticPropsBlogHome } from '../../../utils/pageUtils/bloghome'
+import MetaOpenGraph from '../../../components/MetaOpenGraph'
 
 export default function index(props: BlogIndexProps) {
     const first = props.posts[0] as BlogMetaData
@@ -13,6 +14,12 @@ export default function index(props: BlogIndexProps) {
 
     return <>
         <Head>
+            <MetaOpenGraph
+                description={i18n.t("blog.index.description")}
+                path={i18n.activeLocale + "/blog"}
+                thumb={first.thumb || `https://picsum.photos/seed/${first.title}/1600`}
+                title={i18n.t("blog.index.title")}
+            />
             <meta name="description" content={i18n.t("blog.index.description")}></meta>
             <title>{i18n.t("blog.index.title")}</title>
         </Head>
