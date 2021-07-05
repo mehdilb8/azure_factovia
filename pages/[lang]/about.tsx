@@ -19,13 +19,10 @@ export default function About() {
                 title={i18n.t("about.title")}
             />
         </Head>
-        <TopNav />
-        <div className="py-10">
-            <Marraines />
-            <AboutProjects />
-            <TechExpertise />
-            <Success />
-        </div>
+        <Marraines />
+        <Success />
+        <TechExpertise />
+        <AboutProjects />
     </>
 }
 

@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import { getStaticPathsStaticPage, getStaticPropsStaticPage } from '../../utils/pageUtils/staticPage'
-import AccueilContainer from '../../components/Accueil/AccueilContainer'
 import useI18n from '../../hooks/i18n-hook'
 import MetaOpenGraph from '../../components/MetaOpenGraph'
 
-import TopNav from "../../components/TopNav"
 import HubIntro from '../../components/Hub/HubIntro'
-import HubHero from '../../components/Hub/HubHero'
+import HubCommunity from '../../components/Hub/HubCommunity'
+import HubPremium from '../../components/Hub/HubPremium'
 import HubMain from '../../components/Hub/HubMain'
 import HubEnd from '../../components/Hub/HubEnd'
 
@@ -22,11 +21,11 @@ export default function Hub() {
             />
         </Head>
         <HubIntro />
-        <HubHero />
+        <HubCommunity />
+        <HubPremium />
         <HubMain />
         <HubEnd />
     </>
-
 }
 
 export const getStaticProps = getStaticPropsStaticPage

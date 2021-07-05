@@ -40,8 +40,9 @@ export default function HubEngine() {
     return <div ref={containerRef}>
         <ForceGraph2D
             dagMode="radialout"
-            dagLevelDistance={600}
+            dagLevelDistance={400}
             width={graphWidth}
+            height={window.innerHeight * 0.7}
             enableZoomInteraction={false}
             nodeLabel="id"
             nodeId="id"

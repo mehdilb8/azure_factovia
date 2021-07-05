@@ -9,8 +9,12 @@ h1, h2, h3, h4, h5, h6, p {
     @apply text-gray-800;
 }
 
+p {
+    @apply text-base lg:text-lg
+}
+
 .title {
-    @apply text-primaryDark text-4xl font-bold mb-8;
+    @apply text-primaryDark text-2xl lg:text-3xl font-bold mb-8;
 }
 
 .section-background {
@@ -20,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .btn {
-    @apply px-4 py-2 text-white capitalize transform-gpu transition-all bg-primary w-48;
+    @apply px-4 py-2 text-white capitalize transform-gpu transition-all bg-primary;
 }
 
 .btn:hover {

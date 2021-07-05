@@ -25,7 +25,8 @@ module.exports = {
         primaryWhite: '#EBEBEB',
         primaryYellow: '#F2C810',
         primaryBlue: '#0077FF',
-        secondary: "#44AA47"
+        secondary: "#44AA47",
+        secondaryLight: "#64A866"
       },
       height: {
         'screen-10': '10vh',

@@ -9,14 +9,27 @@ export default function Success() {
             <h2 className="title text-primary">{i18n.t("about.success.title")}</h2>
             <SuccessStory
                 name={i18n.t("about.success.firms.1.name")}
-                description={i18n.t("about.success.firms.1.description")}
-                picture="https://cdn.pixabay.com/photo/2021/06/06/09/04/bridge-6314795_960_720.jpg"
+                description={i18n.t("about.success.firms.1.content")}
+                picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/lpgThumb.jpg"
+                picturePosition="right"
+                pictureInParagraph="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/remiPeletier.jpg"
+            />
+            <SuccessStory
+                name={i18n.t("about.success.firms.2.name")}
+                description={i18n.t("about.success.firms.2.content")}
+                picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/azdThumb.jpg"
+                picturePosition="left"
+            />
+            <SuccessStory
+                name={i18n.t("about.success.firms.3.name")}
+                description={i18n.t("about.success.firms.3.content")}
+                picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/vaccinThumb.jpg"
                 picturePosition="right"
             />
             <SuccessStory
-                name={i18n.t("about.success.firms.1.name")}
-                description={i18n.t("about.success.firms.1.description")}
-                picture="https://cdn.pixabay.com/photo/2012/08/06/00/53/bridge-53769_960_720.jpg"
+                name={i18n.t("about.success.firms.4.name")}
+                description={i18n.t("about.success.firms.4.content")}
+                picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/cetimThumb.jpg"
                 picturePosition="left"
             />
         </>

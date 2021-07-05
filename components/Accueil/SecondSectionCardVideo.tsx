@@ -17,9 +17,7 @@ export default function SecondSectionCardVideo(props: SecondSectionCardProps) {
                     src={"https://www.youtube.com/embed/" + youtubeId + "?ecver=1&amp;iv_load_policy=1&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560"}
                     width="560"
                     height="315"
-                    allowFullScreen
-                    allowTransparency
-                    frameBorder="0" />
+                    allowFullScreen />
             </div>
             <div className="flex justify-center">
                 <button className="btn relative top-9">{props.buttonText}</button>

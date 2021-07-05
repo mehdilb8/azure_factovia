@@ -93,14 +93,12 @@
         "title": "Factovia Hub",
         "description": "Come and join one of the largest networks of Industry 4.0 experts in France",
         "buttons": {
-            "freeAccount": "Join Community"
+            "freeAccount": "Join Community",
+            "offers": "See offers"
         },
         "intro": {
             "title": "The Hub",
-            "description": {
-                "1": "Join our community of experts!",
-                "2": "Whether you are a customer or an expert with a strong added value in a specific field of industry 4.0, join us for free!"
-            }
+            "description": "Join our community of experts! Whether you are a customer or an expert with a strong added value in a specific field of industry 4.0, join us for free!"
         },
         "hero": {
             "community": {
@@ -108,7 +106,10 @@
                 "content": "Get access to the best recognized experts and point technologies to cover all facets of your industrial IoT project: from setting up the factory on a vacant lot, to creating a global platform, to ordering chips directly from China in Shenzen"
             },
             "premium": {
-                "title": "Premium offer",
+                "title": {
+                    "1": "Premium",
+                    "2": "Offer"
+                },
                 "content": "To go even further, we offer a \"VIP\" area with a Premium offer, where qualified members will benefit from information to increase their competitiveness, and will have access to personalized advice from the FactoVia team.",
                 "button": "Get Premium"
             }
@@ -145,8 +146,24 @@
             "title": "Des projets réussis !",
             "firms": {
                 "1": {
-                    "name": "ENTREPRISE",
-                    "description": "Ici on va décrire un projet qui a bien marché. Faut pas hésité à romancer les choses à notre avantage ;p"
+                    "name": "LPG Medical Systems",
+                    "intro": "2021, Rémi Peletier, connectivity manager :",
+                    "content": "“In 2012, Vincent and his teams provided training and support for the implementation of a large-scale IoT project. To date, we have a better understanding of the uses to invest where it makes sense, and several hundred thousand euros saved on a fleet of over 100,000 machines. Congratulations!”"
+                },
+                "2": {
+                    "name": "AzurDrones, #1 of autonomous drones in Europe",
+                    "intro": "2021, Emmanuel, CTO :",
+                    "content": "“We had strong constraints to deliver a novel industrial IoT project, on time and on budget. The combination of pedagogical and pragmatical approach, together with skills has helped us deliver the projet on time.”"
+                },
+                "3": {
+                    "name": "Vaccine manufacturer, worldwide leader",
+                    "intro": "2021, IT program manager",
+                    "content": "“Through a lot of energy and methodology, on a worldwide complex Smart Factory deployment, you were able to federate disparate vision and make it converge into a single technical answer, with a lot of necessary documentation due to our medical requirements. We learnt a lot. Thank you.”"
+                },
+                "4": {
+                    "name": "CETIM, inventor of 1rst artificial heart, leader in mechanical engineering",
+                    "intro": "2021, Abdellah LAMALLEM, Factory project manager ",
+                    "content": "“We master Industry 4.0, and you and you team helped us on the IoT Cloud and realtime dashboard aspects of the projet. Your agile way of thinking was key to deliver on time, and the hight competency in OPC UA industrial standards and Industrial IoT made this project a success.”"
                 }
             }
         }

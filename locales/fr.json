@@ -101,14 +101,12 @@
         "title": "Factovia Hub",
         "description": "Venez rejoindre un des plus grand réseaux d'experts en industrie 4.0 de France",
         "buttons": {
-            "freeAccount": "Rejoindre la communautée"
+            "freeAccount": "Rejoindre la communautée",
+            "offers": "Voir les offres"
         },
         "intro": {
             "title": "Le Hub",
-            "description": {
-                "1": "Rejoignez notre communauté d’experts !",
-                "2": "Que vous soyez un client ou un expert ayat une forte valeur ajoutée dans un domaine spécifique de l’industry 4.0, rejoignez-nous gratuitement !"
-            }
+            "description": "Rejoignez notre communauté d’experts ! Que vous soyez un client ou un expert ayat une forte valeur ajoutée dans un domaine spécifique de l’industry 4.0, rejoignez-nous gratuitement !"
         },
         "hero": {
             "community": {
@@ -116,7 +114,10 @@
                 "content": "Ayez accès aux meilleurs experts reconnus et aux technologies de points pour couvrir toutes les facettes de votre projet IoT industriel : depuis la création de l’usine sur un terrain vague, jusqu’à la création d’une plateforme mondiale, en passant par la commande de puces directement depuis la Chine à Shenzen "
             },
             "premium": {
-                "title": "Offre Premium",
+                "title": {
+                    "1": "Offre",
+                    "2": "Premium"
+                },
                 "content": "Pour aller encore plus loin, nous vous proposons un espace “VIP” avec une offre Premium, où les membres qualifiés bénéficieront d’informations permettant d’augmenter leurs compétitivités, et auront accès aux conseils personnalisés de l’équipe FactoVia.",
                 "button": "Avoir le status Premium"
             }
@@ -135,7 +136,7 @@
         "marraines": {
             "title": "#Diversité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception",
             "description": "Notre combat à FactoVia est de donner une autre image de l'industrie. Elle a des inconvénients, mais de nouvelles alternatives comme l'économie circulaire qui consiste à préserver la planète doivent être développée plus largement, et dé-carbonées les industries. L'image de l'industrie doit également changer en termes de mentalité en promouvant la #Diversité, où le secteur est largement trop masculin. Et parce que les enfants sont les travailleurs de demain dans l'industrie, faisons en sorte que le sujet soit amusant et intéressant pour eux !",
-            "support": "Elles nous soutiennent !"
+            "support": "Ces femmes d’exception nous soutiennent !"
         },
         "projects": {
             "title": "Qualité de nos travaux et engagements de nos projets",
@@ -153,8 +154,24 @@
             "title": "Des projets réussis !",
             "firms": {
                 "1": {
-                    "name": "ENTREPRISE",
-                    "description": "Ici on va décrire un projet qui a bien marché. Faut pas hésité à romancer les choses à notre avantage ;p"
+                    "name": "LPG Medical Systems",
+                    "intro": "2021, Rémi Peletier, responsable connectivité :",
+                    "content": "“En 2012, Vincent et ses équipes sont intervenus sur de la formation et de l’accompagnement à la mise en œuvre d’un projet IoT d’ampleur. A date, nous comprenons mieux les usages pour investir là où il y a du sens, et plusieurs centaines de milliers d’euros d’économisé sur un parc de plus de 100 000 machines. Grand bravo !”"
+                },
+                "2": {
+                    "name": "AzurDrones, #1 Drones autonomes in Europe",
+                    "intro": "2021, Emmanuel, CTO :",
+                    "content": "“Nous avions de fortes contraintes pour livrer un projet IoT industriel novateur, dans les délais et le budget impartis. La combinaison de l'approche pédagogique et pragmatique, ainsi que les compétences, nous ont permis de livrer le projet dans les temps.”"
+                },
+                "3": {
+                    "name": "Fabricant de vaccins, leader mondial",
+                    "intro": "2021, IT program manager",
+                    "content": "“Avec beaucoup d'énergie et de méthodologie, sur un déploiement mondial complexe de Smart Factory, vous avez été capable de fédérer des visions disparates et de les faire converger vers une réponse technique unique, avec beaucoup de documentation nécessaire en raison de nos exigences médicales. Nous avons beaucoup appris. Merci.”"
+                },
+                "4": {
+                    "name": "CETIM, inventeur du premier cœur artificiel, leader en ingénierie mécanique",
+                    "intro": "2021, Abdellah LAMALLEM, Chef de projet en usine ",
+                    "content": "“Nous maîtrisons l'industrie 4.0, et vous et votre équipe nous avez aidés sur les aspects Cloud IoT et tableau de bord en temps réel du projet. Votre façon agile de penser a été la clé pour livrer à temps, et la haute compétence dans les standards industriels OPC UA et l'IoT industriel a fait de ce projet un succès.”"
                 }
             }
         }

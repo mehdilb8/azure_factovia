@@ -34,9 +34,7 @@ export default function TechExpertise() {
                             src={"https://www.youtube.com/embed/" + youtubeId + "?ecver=1&amp;iv_load_policy=1&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560"}
                             width="560"
                             height="315"
-                            allowFullScreen
-                            allowTransparency
-                            frameBorder="0" />
+                            allowFullScreen />
                     </div>
                     <p className="text-center">
                         <a className="border-b-2 border-opacity-0 border-primaryWhite text-primaryWhite hover:border-opacity-100" href="https://www.youtube.com/watch?v=uC6skEWqgdg" target="_blank"><i>https://www.youtube.com/watch?v=uC6skEWqgdg [FR]</i></a>
