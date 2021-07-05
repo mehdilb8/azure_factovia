@@ -7,7 +7,7 @@ export default function MainSection() {
     const i18 = useI18n()
 
     return <>
-        <div className="min-h-screen-80  bg-cover bg-center"
+        <div className="min-h-screen-80 bg-cover bg-center"
             style={{ backgroundImage: "url('https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/mainSectionBackground.jpg')" }}>
             <TopNav />
             <div className="py-6 lg:py-16">

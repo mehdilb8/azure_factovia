@@ -21,15 +21,10 @@ export default function Hub() {
                 title={i18n.t("hub.title")}
             />
         </Head>
-        <TopNav />
-        <AccueilContainer className="py-10">
-            <>
-                <HubIntro />
-                <HubHero />
-                <HubMain />
-                <HubEnd />
-            </>
-        </AccueilContainer>
+        <HubIntro />
+        <HubHero />
+        <HubMain />
+        <HubEnd />
     </>
 
 }

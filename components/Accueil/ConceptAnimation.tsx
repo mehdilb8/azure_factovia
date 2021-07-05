@@ -13,14 +13,14 @@ export default function ConceptAnimation() {
     useEffect(() => {
         // Je récupère la référence de l'animation au premier rendu.
         if (conceptEl && conceptEl.current) {
-            animation = conceptEl.current.getAnimations()[0]
+            // animation = conceptEl.current.getAnimations()[0]
         }
 
         const conceptInterval = setInterval(() => {
             if (conceptEl && conceptEl.current && animation) {
                 setConcept((currentConcept) => ((currentConcept + 1) % CONCEPTS_NUMBER) + 1)
                 // Je rejoue l'animation en plus de changer le state.
-                animation.play()
+                // animation.play()
             }
         }, INTERVAL)
 

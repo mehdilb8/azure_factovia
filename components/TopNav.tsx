@@ -5,7 +5,7 @@ import useI18n from '../hooks/i18n-hook'
 import SwitchLangButton from './SwitchLangButton'
 import isBrowser from '../utils/isBrowser'
 import { useRouter } from 'next/router'
-import { HOME_ROUTES } from '../constantes'
+import { PAGES_WITH_IMG_BACKGROUND } from '../constantes'
 import NewTabIcon from '../elements/NewTabIcon'
 import { QUALTRIC_CONTACT } from '../constantes'
 
@@ -34,7 +34,7 @@ export default function TopNav(props: TopNavProps) {
     }, [])
 
     return <>
-        <div className={`py-3 lg:px-16 px-4 fixed w-screen ${isTop && HOME_ROUTES.includes(router.route) ? 'bg-transparent' : 'bg-secondary shadow-lg'} ${isTop ? 'h-20' : 'h-16'} transition-all z-20`}>
+        <div className={`py-3 lg:px-16 px-4 fixed w-screen ${isTop && PAGES_WITH_IMG_BACKGROUND.includes(router.route) ? 'bg-transparent' : 'bg-secondary shadow-lg'} ${isTop ? 'h-20' : 'h-16'} transition-all z-20`}>
             <div className="flex items-center space-x-6 ">
                 <div>
                     <Link href={"/" + i18n.activeLocale}>
@@ -92,6 +92,6 @@ export default function TopNav(props: TopNavProps) {
                 </div>
             </div>
         </div>
-        <div className={isTop && HOME_ROUTES.includes(router.route) ? 'h-20' : 'h-16'} />
+        <div className={isTop && PAGES_WITH_IMG_BACKGROUND.includes(router.route) ? 'h-20' : 'h-16'} />
     </>
 }
