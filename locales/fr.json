@@ -1,14 +1,17 @@
 {
     "buttons": {
         "contact": "Nous contacter",
+        "join": "Nous rejoindre",
         "informations": "Plus d'informations"
     },
     "nav": {
         "home": "Acceuil",
         "offering": "Offres",
         "hub": "Hub",
-        "about": "À propos",
-        "lang": "EN/FR"
+        "blog": "Blog",
+        "offers": "Offres",
+        "contact": "Contact",
+        "about": "À propos"
     },
     "home": {
         "title": "Factovia",
@@ -159,7 +162,7 @@
                     "content": "“En 2012, Vincent et ses équipes sont intervenus sur de la formation et de l’accompagnement à la mise en œuvre d’un projet IoT d’ampleur. A date, nous comprenons mieux les usages pour investir là où il y a du sens, et plusieurs centaines de milliers d’euros d’économisé sur un parc de plus de 100 000 machines. Grand bravo !”"
                 },
                 "2": {
-                    "name": "AzurDrones, #1 Drones autonomes in Europe",
+                    "name": "AzurDrones, #1 Drones autonomes en Europe",
                     "intro": "2021, Emmanuel, CTO :",
                     "content": "“Nous avions de fortes contraintes pour livrer un projet IoT industriel novateur, dans les délais et le budget impartis. La combinaison de l'approche pédagogique et pragmatique, ainsi que les compétences, nous ont permis de livrer le projet dans les temps.”"
                 },
@@ -173,6 +176,27 @@
                     "intro": "2021, Abdellah LAMALLEM, Chef de projet en usine ",
                     "content": "“Nous maîtrisons l'industrie 4.0, et vous et votre équipe nous avez aidés sur les aspects Cloud IoT et tableau de bord en temps réel du projet. Votre façon agile de penser a été la clé pour livrer à temps, et la haute compétence dans les standards industriels OPC UA et l'IoT industriel a fait de ce projet un succès.”"
                 }
+            }
+        }
+    },
+    "offers": {
+        "title": "Offres",
+        "description": "Factovia - Kit d'entrainement, Accès premium au hub, Acheter Factovia One et bien plus encore.",
+        "intro": {
+            "title": "Nos offres"
+        },
+        "hero": {
+            "1": {
+                "title": "Training Kit",
+                "content": "We offer you a large choice of trainings, weither you are a student, a teacher, a training center or a factory shopfloor manager. Besides we could provide keynotes during your events."
+            },
+            "2": {
+                "title": "Accéder au hub",
+                "content": "You could access for free to our hub and discuss with proven experts. To go even beyond, we could access a Premium offering"
+            },
+            "3": {
+                "title": "Acheter Factovia One",
+                "content": "To promote largely the education, we made Open Source our training kit material so you  could make it yourself ! If you are not DYI, buy the ready-to-use version for a 20000€ fee. Alternatively, rent it or visit it from many places in France"
             }
         }
     }

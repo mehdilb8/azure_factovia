@@ -25,7 +25,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                         <div className={`px-2 h-8 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                             <Link href={"/" + i18n.activeLocale}>
                                 <a className="w-full h-full flex items-center">
-                                    <p className="text-primaryWhite">Home</p>
+                                    <p className="text-primaryWhite">{i18n.t("nav.home")}</p>
                                 </a>
                             </Link>
                         </div>
@@ -36,7 +36,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                         <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                             <Link href={"/" + i18n.activeLocale + "/hub"}>
                                 <a className="w-full h-full flex items-center">
-                                    <p className="text-primaryWhite">Hub</p>
+                                    <p className="text-primaryWhite">{i18n.t("nav.hub")}</p>
                                 </a>
                             </Link>
                         </div>
@@ -48,7 +48,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                         <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                             <Link href={"/" + i18n.activeLocale + "/blog"}>
                                 <a className="w-full h-full flex items-center">
-                                    <p className="text-primaryWhite">Blog</p>
+                                    <p className="text-primaryWhite">{i18n.t("nav.blog")}</p>
                                 </a>
                             </Link>
                         </div>
@@ -60,7 +60,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                             <a href={QUALTRIC_CONTACT} target="_blank"
                                 className="w-full h-full flex items-center ">
                                 <p className="flex items-center">
-                                    <span className="mr-1 text-primaryWhite">Contact</span>
+                                    <span className="mr-1 text-primaryWhite">{i18n.t("nav.contact")}</span>
                                     <NewTabIcon className="w-3 h-3 text-primaryWhite" />
                                 </p>
                             </a>

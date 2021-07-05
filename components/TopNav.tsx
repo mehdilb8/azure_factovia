@@ -55,22 +55,27 @@ export default function TopNav(props: TopNavProps) {
                 <div className="hidden lg:flex lg:space-x-6">
                     <Link href={"/" + i18n.activeLocale}>
                         <a>
-                            <p className={linkClass}>Home</p>
+                            <p className={linkClass}>{i18n.t("nav.home")}</p>
                         </a>
                     </Link>
                     <Link href={"/" + i18n.activeLocale + "/hub"}>
                         <a>
-                            <p className={linkClass}>Hub</p>
+                            <p className={linkClass}>{i18n.t("nav.hub")}</p>
                         </a>
                     </Link>
                     <Link href={"/" + i18n.activeLocale + "/blog"}>
                         <a>
-                            <p className={linkClass}>Blog</p>
+                            <p className={linkClass}>{i18n.t("nav.blog")}</p>
+                        </a>
+                    </Link>
+                    <Link href={"/" + i18n.activeLocale + "/offers"}>
+                        <a>
+                            <p className={linkClass}>{i18n.t("nav.offers")}</p>
                         </a>
                     </Link>
                     <a href={QUALTRIC_CONTACT} target="_blank">
                         <p className={linkClass + " flex items-center"}>
-                            <span className="mr-1">Contact</span>
+                            <span className="mr-1">{i18n.t("nav.contact")}</span>
                             <NewTabIcon className="w-3 h-3" />
                         </p>
                     </a>

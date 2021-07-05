@@ -1,14 +1,16 @@
 {
     "buttons": {
         "contact": "Contact us",
+        "join": "Nous rejoindre",
         "informations": "More information"
     },
     "nav": {
         "home": "Home",
-        "offering": "Offering",
         "hub": "Hub",
-        "about": "About us",
-        "lang": "EN/FR"
+        "blog": "Blog",
+        "offers": "Offres",
+        "contact": "Contact",
+        "about": "About"
     },
     "home": {
         "title": "Factovia",
@@ -165,6 +167,27 @@
                     "intro": "2021, Abdellah LAMALLEM, Factory project manager ",
                     "content": "“We master Industry 4.0, and you and you team helped us on the IoT Cloud and realtime dashboard aspects of the projet. Your agile way of thinking was key to deliver on time, and the hight competency in OPC UA industrial standards and Industrial IoT made this project a success.”"
                 }
+            }
+        }
+    },
+    "offers": {
+        "title": "Offres",
+        "description": "Factovia - Kit d'entrainement, Accès premium au hub, Acheter Factovia One et bien plus encore.",
+        "intro": {
+            "title": "Nos offres"
+        },
+        "hero": {
+            "1": {
+                "title": "Training Kit",
+                "content": "We offer you a large choice of trainings, weither you are a student, a teacher, a training center or a factory shopfloor manager. Besides we could provide keynotes during your events."
+            },
+            "2": {
+                "title": "Accéder au hub",
+                "content": "You could access for free to our hub and discuss with proven experts. To go even beyond, we could access a Premium offering"
+            },
+            "3": {
+                "title": "Acheter Factovia One",
+                "content": "To promote largely the education, we made Open Source our training kit material so you  could make it yourself ! If you are not DYI, buy the ready-to-use version for a 20000€ fee. Alternatively, rent it or visit it from many places in France"
             }
         }
     }
