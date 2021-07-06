@@ -64,7 +64,7 @@ export default function HubEngine() {
                     ctx.fillRect(x as number - (boxWidth / 2), y as number - 11, boxWidth, 22)
                 }
 
-                ctx.fillStyle = "black"; //Primary White
+                ctx.fillStyle = "black";
                 ctx.font = '10px Sans-Serif';
                 ctx.textAlign = 'center';
                 ctx.textBaseline = 'middle';

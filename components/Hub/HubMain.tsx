@@ -2,6 +2,7 @@ import useI18n from "../../hooks/i18n-hook"
 import HubData from "../../lib/HubData"
 import dynamic from 'next/dynamic'
 import AccueilContainer from "../Accueil/AccueilContainer"
+import LazyElement from "../../elements/LazyElement"
 
 const HubEngineNoSSR = dynamic(
     () => import('./HubEngine'),
@@ -22,7 +23,11 @@ export default function HubMain() {
                     </p>
                 </>
             </AccueilContainer>
-            <HubEngineNoSSR />
+            <LazyElement
+                placeholderElement={<div className="h-screen-70 w-full">Loading...</div>}
+            >
+                <HubEngineNoSSR />
+            </LazyElement>
         </div>
     </div>
 

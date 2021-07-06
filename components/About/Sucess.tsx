@@ -1,5 +1,5 @@
 import useI18n from "../../hooks/i18n-hook"
-import SuccessStory from "./SucessStory"
+import SuccessStory from "../SucessStory"
 import AccueilContainer from "../Accueil/AccueilContainer"
 
 export default function Success() {

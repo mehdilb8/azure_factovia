@@ -2,6 +2,7 @@ import AccueilContainer from './AccueilContainer'
 import SecondSectionCard from './SecondSectionCard'
 import SecondSectionCardVideo from './SecondSectionCardVideo'
 import useI18n from "../../hooks/i18n-hook"
+import OnSeeElement from '../../elements/LazyElement'
 
 export default function SecondSection() {
     const i18 = useI18n()

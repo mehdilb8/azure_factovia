@@ -2,6 +2,7 @@ import AccueilContainer from "./AccueilContainer"
 import useI18n from "../../hooks/i18n-hook"
 import Link from 'next/link'
 import { TrendingProps } from "../../types/Pages"
+import LazyElement from "../../elements/LazyElement"
 
 export default function Trending(props: TrendingProps) {
     const i18n = useI18n()
@@ -19,7 +20,9 @@ export default function Trending(props: TrendingProps) {
                         <div className="w-full lg:w-2/5">
                             <Link href={"/" + i18n.activeLocale + "/blog/" + props.blog.slug}>
                                 <a>
-                                    <img alt={props.blog.title} className="blog-highlight-thumb w-full object-cover rounded-sm shadow-md transition-transform transform hover:translate-x-2 hover:-translate-y-2" src={props.blog.thumb || `https://picsum.photos/seed/${props.blog.title}/1600`} />
+                                    <LazyElement>
+                                        <img alt={props.blog.title} className="blog-highlight-thumb w-full object-cover rounded-sm shadow-md transition-transform transform hover:translate-x-2 hover:-translate-y-2" src={props.blog.thumb || `https://picsum.photos/seed/${props.blog.title}/1600`} />
+                                    </LazyElement>
                                 </a>
                             </Link>
                         </div>

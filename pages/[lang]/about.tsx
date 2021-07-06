@@ -18,6 +18,8 @@ export default function About() {
                 thumb="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/about_bg.jpg"
                 title={i18n.t("about.title")}
             />
+            <meta name="description" content={i18n.t("about.description")}></meta>
+            <title>{i18n.t("about.title")}</title>
         </Head>
         <Marraines />
         <Success />

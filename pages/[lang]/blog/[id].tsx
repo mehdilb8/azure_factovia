@@ -22,6 +22,7 @@ export default function BlobPage(props: BlogContent & I18nProps) {
                 thumb={props.data.thumb}
                 title={props.data.title}
             />
+            <meta name="description" content={props.data.description}></meta>
             <title>{props.data.title}</title>
         </Head>
         <TopNav disableLocale={true} />
@@ -37,9 +38,11 @@ export default function BlobPage(props: BlogContent & I18nProps) {
                     </div>
                     <hr />
                 </div>
-                <div className="blog-content">
-                    <ReactMarkdown remarkPlugins={[gfm, footnot]} children={props.content} />
-                </div>
+                <section className="blog-content">
+                    <article>
+                        <ReactMarkdown remarkPlugins={[gfm, footnot]} children={props.content} />
+                    </article>
+                </section>
             </div>
         </div>
 

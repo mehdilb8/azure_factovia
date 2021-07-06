@@ -181,13 +181,13 @@
     },
     "offers": {
         "title": "Offres",
-        "description": "Factovia - Kit d'entrainement, Accès premium au hub, Acheter Factovia One et bien plus encore.",
+        "description": "Factovia - Kit d'entraînement, Accès premium au hub, Acheter Factovia One et bien plus encore.",
         "intro": {
             "title": "Nos offres"
         },
         "hero": {
             "1": {
-                "title": "Training Kit",
+                "title": "Kit d'entraînement",
                 "content": "We offer you a large choice of trainings, weither you are a student, a teacher, a training center or a factory shopfloor manager. Besides we could provide keynotes during your events."
             },
             "2": {
@@ -197,6 +197,33 @@
             "3": {
                 "title": "Acheter Factovia One",
                 "content": "To promote largely the education, we made Open Source our training kit material so you  could make it yourself ! If you are not DYI, buy the ready-to-use version for a 20000€ fee. Alternatively, rent it or visit it from many places in France"
+            }
+        },
+        "training": {
+            "title": {
+                "1": "Trainings",
+                "2": "with the latest",
+                "3": "Tech"
+            },
+            "content": "We are offering training on the latest innovative technology, that you could learn with ease, thanks to our training material. Lear about Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Below a sample of our catalog."
+        },
+        "samples": {
+            "title": "Exemples",
+            "offers": {
+                "1": {
+                    "name": "Overall Equipment Effectiveness (OEE)",
+                    "description": "Stop simply monitoring your equipments ! Have data flowing realtimeto you and send actions to the factory from your finger-tip ?",
+                    "list": "1 day training with consideration of you use case : 1100€;2 hours training : free "
+                },
+                "2": {
+                    "name": "Digital Twins",
+                    "description": "This topic is often under estimated because a similar notion exists for the last few decades. However, this topic is true new revolution, that is defined by the Digital Twin consorsium. We will see the theory (20%), and analyse use case (10%) and implement a real example (60%). Finally see advanced applications (10%)."
+                },
+                "3": {
+                    "name": "Azure IoT Central",
+                    "description": "You have an easy project that needs to be deployed fast and at a cost of few cents per devices, with nearly no code and “plug-and-play” solutions ? This training and solution is for you",
+                    "list": "1 day training with consideration of you use case : 1100€;2 hours training : free "
+                }
             }
         }
     }

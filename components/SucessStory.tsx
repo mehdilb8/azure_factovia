@@ -4,6 +4,7 @@ interface SuccessStoryProps {
     picture: string
     picturePosition: 'left' | 'right'
     pictureInParagraph?: string
+    list?: string[]
 }
 
 /**
@@ -27,10 +28,17 @@ export default function SuccessStory(props: SuccessStoryProps) {
                     <p className={props.pictureInParagraph ? "w-full lg:w-4/5" : ""}>
                         {props.description}
                     </p>
+                    {
+                        props.list
+                            ? <ul className={`list-disc ${props.picturePosition === "left" ? "mr-8" : "ml-8"}`}>
+                                {props.list.map(elem => <li key={elem}>{elem}</li>)}
+                            </ul>
+                            : null
+                    }
                 </article>
             </div>
-            <div className={`lg:w-1/4 w-full ${props.picturePosition === "right" ? 'order-last' : 'order-last lg:order-first'}`}>
-                <img src={props.picture} />
+            <div className={`lg:w-1/4 w-full ${props.picturePosition === "right" ? 'order-last pl-6' : 'pr-6 order-last lg:order-first'}`}>
+                <img className="h-72 lg:h-auto mx-auto object-contain" src={props.picture} />
             </div>
         </div>
     </section>

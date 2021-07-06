@@ -19,6 +19,8 @@ export default function Hub() {
                 thumb="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/hub_bg.jpg"
                 title={i18n.t("hub.title")}
             />
+            <meta name="description" content={i18n.t("hub.description")}></meta>
+            <title>{i18n.t("hub.title")}</title>
         </Head>
         <HubIntro />
         <HubCommunity />

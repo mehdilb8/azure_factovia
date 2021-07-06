@@ -17,7 +17,7 @@ export default function MarrainesHero(props: MarrainesHeroProps) {
             <p className="mb-2">{props.job}</p>
             <div className="flex flex-wrap space-x-2 justify-center mb-2">
                 {
-                    props.tags.map((tag) => <div className="py-1">
+                    props.tags.map((tag) => <div key={props.name + tag} className="py-1">
                         <div className="border-2 border-primary rounded-lg py-1 px-2 text-primary">{tag}</div>
                     </div>
                     )

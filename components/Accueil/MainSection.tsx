@@ -23,12 +23,13 @@ export default function MainSection() {
                                             <span className="text-primaryWhite">{i18.t("mainSection.title.main")} </span>
                                             <ConceptAnimation />
                                         </h1>
-                                        <p className="text-primaryWhite text-2xl">
+                                        <p className="text-primaryWhite text-2xl mb-2">
                                             <span>{i18.t("mainSection.description.1")} </span>
                                             <strong>{i18.t("mainSection.description.2")} </strong>
                                             <span>{i18.t("mainSection.description.3")} </span>
                                             <strong>{i18.t("mainSection.description.4")} </strong>
                                         </p>
+                                        <button className="btn px-12 bg-secondary active:ring-secondaryLight">{i18.t("buttons.contact")}</button>
                                     </div>
                                 </div>
                             </div>
@@ -37,9 +38,5 @@ export default function MainSection() {
                 </AccueilContainer>
             </div>
         </div>
-        <AccueilContainer>
-            <button className="btn bg-secondary relative bottom-5 active:ring-secondary">{i18.t("buttons.contact")}</button>
-        </AccueilContainer>
-
     </>
 }

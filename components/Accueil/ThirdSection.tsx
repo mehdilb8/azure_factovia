@@ -1,5 +1,6 @@
 import AccueilContainer from "./AccueilContainer"
 import useI18n from "../../hooks/i18n-hook"
+import LazyElement from "../../elements/LazyElement"
 
 export default function ThirdSection() {
     const i18 = useI18n()
@@ -15,10 +16,13 @@ export default function ThirdSection() {
                     </div>
                 </div>
             </AccueilContainer>
-            <img className="w-full h-full object-cover absolute top-0 opacity-30"
-                alt={i18.t("thirdSection.alt")}
-                style={{ zIndex: -1 }}
-                src="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/maquette1.jpg" />
+            <LazyElement>
+                <img className="w-full h-full object-cover absolute top-0 opacity-30"
+                    alt={i18.t("thirdSection.alt")}
+                    style={{ zIndex: -1 }}
+                    src="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/maquette1.jpg" />
+            </LazyElement>
+
         </div>
     </>
 }

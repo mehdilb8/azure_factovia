@@ -6,7 +6,7 @@ import I18n from '../lib/i18n'
 export default function MyApp({ Component, pageProps }: AppProps) {
 
   if (!pageProps.lngDict || !pageProps.lng) {
-    throw new Error("You should send dictionnary of lang and lang herself.")
+    console.warn("You should send dictionnary of lang and lang herself")
   }
 
   return <>
