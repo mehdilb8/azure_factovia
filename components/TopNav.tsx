@@ -7,7 +7,7 @@ import isBrowser from '../utils/isBrowser'
 import { useRouter } from 'next/router'
 import { PAGES_WITH_IMG_BACKGROUND } from '../constantes'
 import NewTabIcon from '../elements/NewTabIcon'
-import { QUALTRIC_CONTACT } from '../constantes'
+import { QUALTRIC_CONTACT, LOGO_URL } from '../constantes'
 
 interface TopNavProps {
     disableLocale?: boolean
@@ -39,7 +39,7 @@ export default function TopNav(props: TopNavProps) {
                 <div>
                     <Link href={"/" + i18n.activeLocale}>
                         <a>
-                            <img className={`${isTop ? 'h-12' : 'h-10'} transition-all`} src="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/logo.png" alt="Factovia Logo" />
+                            <img className={`${isTop ? 'h-12' : 'h-10'} transition-all`} src={LOGO_URL} alt="Factovia Logo" />
                         </a>
                     </Link>
                 </div>

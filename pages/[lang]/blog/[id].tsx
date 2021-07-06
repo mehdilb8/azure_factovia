@@ -9,6 +9,8 @@ import footnot from 'remark-footnotes'
 import { BlogMetaData, BlogContent } from '../../../types/Blog'
 import TopNav from '../../../components/TopNav'
 import MetaOpenGraph from '../../../components/MetaOpenGraph'
+import { ArticleJsonLd } from 'next-seo';
+import { LOGO_URL } from '../../../constantes'
 
 import { languages } from '../../../lib/i18n'
 import { I18nProps } from '../../../types/i18n'
@@ -21,6 +23,17 @@ export default function BlobPage(props: BlogContent & I18nProps) {
                 path={props.language + "/blog/" + props.data.slug}
                 thumb={props.data.thumb}
                 title={props.data.title}
+            />
+            <ArticleJsonLd
+                url={"https://factovia.fr/" + props.language + "/blog/" + props.data.slug}
+                title={props.data.title}
+                images={[props.data.thumb || `https://picsum.photos/seed/${props.data.title}/1600`]}
+                datePublished={props.data.date}
+                dateModified={props.data.modified}
+                authorName={props.data.author}
+                description={props.data.description}
+                publisherName={props.data.author}
+                publisherLogo={LOGO_URL}
             />
             <meta name="description" content={props.data.description}></meta>
             <title>{props.data.title}</title>

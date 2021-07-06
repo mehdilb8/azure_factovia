@@ -9,8 +9,10 @@ export type BlogContent = GrayMatterFile<string> & { data: BlogMetaData };
 
 export interface BlogMetaData {
     title: string
+    author: string
     description: string
     date: string
+    modified: string
     slug: string
     thumb: string
 }
