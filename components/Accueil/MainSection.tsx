@@ -21,11 +21,11 @@ export default function MainSection() {
                             <div className="h-full lg:px-20 ">
                                 <div className="bg-secondary bg-opacity-60 rounded-lg shadow-lg">
                                     <div className="px-6 py-4">
-                                        <h1 className="title ">
+                                        <h1 className="title text-4xl">
                                             <span className="text-primaryWhite">{i18.t("mainSection.title.main")} </span>
                                             <ConceptAnimation />
                                         </h1>
-                                        <p className="text-primaryWhite text-2xl mb-2">
+                                        <p className="text-primaryWhite text-xl mb-2">
                                             <span>{i18.t("mainSection.description.1")} </span>
                                             <strong>{i18.t("mainSection.description.2")} </strong>
                                             <span>{i18.t("mainSection.description.3")} </span>
