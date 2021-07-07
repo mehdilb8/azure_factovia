@@ -30,7 +30,7 @@ export default function SecondSectionCardVideo(props: SecondSectionCardProps) {
                                 <button className="btn px-10 relative top-9">{props.buttonText}</button>
                             </a>
                         </Link>
-                        : <a href={props.buttonLink}>
+                        : <a href={props.buttonLink} target="_blank" >
                             <button className="btn px-8 flex justify-center items-center relative top-9" >
                                 <span className="mr-2">
                                     {props.buttonText}
@@ -39,7 +39,6 @@ export default function SecondSectionCardVideo(props: SecondSectionCardProps) {
                                     <NewTabIcon className="w-4 h-4" />
                                 </span>
                             </button>
-
                         </a>
                 }
             </div>

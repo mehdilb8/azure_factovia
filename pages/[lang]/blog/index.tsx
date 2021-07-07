@@ -49,7 +49,7 @@ export default function index(props: BlogIndexProps) {
                     {
                         posts.map((blogPost) => <div className="lg:w-1/3 md:w-1/2 w-full mb-4 lg:pr-8 md:pr-6 pr-0" key={blogPost.slug}>
                             <div className="mb-2">
-                                <Link href={i18n.activeLocale + "/blog/" + blogPost.slug}>
+                                <Link href={"/" + i18n.activeLocale + "/blog/" + blogPost.slug}>
                                     <a>
                                         <img className="list-blog-thumb w-full object-cover rounded-sm shadow-md transition-transform transform hover:translate-x-2 hover:-translate-y-2"
                                             src={blogPost.thumb || `https://picsum.photos/seed/${blogPost.title}/1600`}
@@ -58,7 +58,7 @@ export default function index(props: BlogIndexProps) {
                                 </Link>
                             </div>
                             <p className="text-gray-500 text-sm">{new Date(blogPost.date || Date.now()).toLocaleDateString()}</p>
-                            <Link href={i18n.activeLocale + "/blog/" + blogPost.slug}>
+                            <Link href={"/" + i18n.activeLocale + "/blog/" + blogPost.slug}>
                                 <a>
                                     <h3 className="cursor-pointer text-3xl font-semibold">{blogPost.title}</h3>
                                 </a>

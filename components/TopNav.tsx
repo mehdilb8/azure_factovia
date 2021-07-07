@@ -73,7 +73,7 @@ export default function TopNav(props: TopNavProps) {
                             <p className={linkClass}>{i18n.t("nav.offers")}</p>
                         </a>
                     </Link>
-                    <a href={QUALTRIC_CONTACT} target="_blank">
+                    <a href={QUALTRIC_CONTACT[i18n.activeLocale]} target="_blank">
                         <p className={linkClass + " flex items-center"}>
                             <span className="mr-1">{i18n.t("nav.contact")}</span>
                             <NewTabIcon className="w-3 h-3" />

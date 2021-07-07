@@ -34,7 +34,7 @@ export default function OfferCard(props: OfferCardProps) {
                                 <button className="btn px-10">{props.buttonText}</button>
                             </a>
                         </Link>
-                        : <a href={props.buttonLink}>
+                        : <a href={props.buttonLink} target="_blank">
                             <button className="btn px-8 flex justify-center items-center">
                                 <span className="mr-2">
                                     {props.buttonText}

@@ -1,4 +1,5 @@
 import useI18n from "../../hooks/i18n-hook"
+import Link from 'next/link'
 
 export default function HubPremium() {
     const i18n = useI18n()
@@ -17,9 +18,13 @@ export default function HubPremium() {
                         <p className="text-primaryWhite mb-2">
                             {i18n.t("hub.hero.premium.content")}
                         </p>
-                        <button className="btn w-full">
-                            {i18n.t("hub.buttons.offers")}
-                        </button>
+                        <Link href={"/" + i18n.activeLocale + "/offers"}>
+                            <a>
+                                <button className="btn w-full">
+                                    {i18n.t("hub.buttons.offers")}
+                                </button>
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </div>

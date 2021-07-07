@@ -9,7 +9,7 @@ interface FourthSectionHeroProps {
 }
 
 export default function FourthSectionHero(props: FourthSectionHeroProps) {
-    return <div className="px-0 lg:px-2">
+    return <div className="px-0 lg:px-6">
         <LazyElement>
             <img className="w-32 rounded-full m-auto mb-2" src={props.img} alt={props.authorName} />
         </LazyElement>
@@ -21,7 +21,7 @@ export default function FourthSectionHero(props: FourthSectionHeroProps) {
                 <img alt={props.firmName} className="h-3/4" src={props.authorLogo} />
             </LazyElement>
         </div>
-        <p className="text-center lg:text-left font-semibold text-xl">{props.authorName}</p>
-        <p className="text-center lg:text-left">{props.authorDescription}</p>
+        <p className="text-center font-semibold text-xl">{props.authorName}</p>
+        <p className="text-center">{props.authorDescription}</p>
     </div>
 }

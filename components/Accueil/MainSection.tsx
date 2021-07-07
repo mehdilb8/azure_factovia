@@ -2,6 +2,8 @@ import useI18n from "../../hooks/i18n-hook"
 import AccueilContainer from "./AccueilContainer"
 import TopNav from '../TopNav'
 import ConceptAnimation from "./ConceptAnimation"
+import NewTabIcon from "../../elements/NewTabIcon"
+import { QUALTRIC_CONTACT } from "../../constantes"
 
 export default function MainSection() {
     const i18 = useI18n()
@@ -29,7 +31,16 @@ export default function MainSection() {
                                             <span>{i18.t("mainSection.description.3")} </span>
                                             <strong>{i18.t("mainSection.description.4")} </strong>
                                         </p>
-                                        <button className="btn px-12 bg-secondary active:ring-secondaryLight">{i18.t("buttons.contact")}</button>
+                                        <a href={QUALTRIC_CONTACT[i18.activeLocale]} target="_blank">
+                                            <button className="btn px-12 bg-secondary active:ring-secondaryLight flex items-center">
+                                                <span className="mr-2">
+                                                    {i18.t("buttons.contact")}
+                                                </span>
+                                                <span>
+                                                    <NewTabIcon className="w-4 h-4" />
+                                                </span>
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

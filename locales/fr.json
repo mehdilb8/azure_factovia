@@ -5,7 +5,7 @@
         "informations": "Plus d'informations"
     },
     "nav": {
-        "home": "Acceuil",
+        "home": "Accueil",
         "offering": "Offres",
         "hub": "Hub",
         "blog": "Blog",
@@ -34,7 +34,7 @@
         }
     },
     "trending": {
-        "title": "En tendance !",
+        "title": "Tendances !",
         "more": "En savoir plus"
     },
     "seconSection": {
@@ -52,7 +52,7 @@
                 "title": "Démonstration"
             },
             "guidedTour": {
-                "title": "Présentation 3D"
+                "title": "Présentation"
             }
         }
     },
@@ -201,28 +201,28 @@
         },
         "training": {
             "title": {
-                "1": "Trainings",
-                "2": "with the latest",
-                "3": "Tech"
+                "1": "Formez-vous",
+                "2": "avec des technologies",
+                "3": "de pointes !"
             },
-            "content": "We are offering training on the latest innovative technology, that you could learn with ease, thanks to our training material. Lear about Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Below a sample of our catalog."
+            "content": "Nous proposons des formations sur les dernières technologies innovantes, que vous pourriez apprendre facilement, grâce à notre matériel de formation. Apprenez à connaître Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Ci-dessous un échantillon de notre catalogue"
         },
         "samples": {
             "title": "Exemples",
             "offers": {
                 "1": {
-                    "name": "Overall Equipment Effectiveness (OEE)",
-                    "description": "Stop simply monitoring your equipments ! Have data flowing realtimeto you and send actions to the factory from your finger-tip ?",
-                    "list": "1 day training with consideration of you use case : 1100€;2 hours training : free "
+                    "name": "Efficacité globale de l'équipement (OEE)",
+                    "description": "Ne vous contentez plus de surveiller vos équipements ! Faites circuler les données en temps réel et envoyez des actions à l'usine du bout des doigts ?",
+                    "list": "1 journée de formation avec prise en compte de votre cas d'utilisation : 1100€.;2 heures de formations : gratuit."
                 },
                 "2": {
                     "name": "Digital Twins",
-                    "description": "This topic is often under estimated because a similar notion exists for the last few decades. However, this topic is true new revolution, that is defined by the Digital Twin consorsium. We will see the theory (20%), and analyse use case (10%) and implement a real example (60%). Finally see advanced applications (10%)."
+                    "description": "Ce sujet est souvent sous-estimé car une notion similaire existe depuis quelques décennies. Cependant, ce sujet est une véritable nouvelle révolution, qui est définie par le Consortium Digital Twin. Nous verrons la théorie (20%), analyserons les cas d'utilisation (10%) et mettrons en œuvre un exemple réel (60%). Enfin, nous verrons les applications avancées (10%)."
                 },
                 "3": {
                     "name": "Azure IoT Central",
-                    "description": "You have an easy project that needs to be deployed fast and at a cost of few cents per devices, with nearly no code and “plug-and-play” solutions ? This training and solution is for you",
-                    "list": "1 day training with consideration of you use case : 1100€;2 hours training : free "
+                    "description": "Vous avez un projet facile qui doit être déployé rapidement et à un coût de quelques centimes par appareil, avec presque pas de code et des solutions \"plug-and-play\" ? Cette formation et cette solution sont pour vous",
+                    "list": "1 journée de formation avec prise en compte de votre cas d'utilisation : 1100€.;2 heures de formations : gratuit."
                 }
             }
         }

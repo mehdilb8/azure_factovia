@@ -14,7 +14,11 @@ export default function Trending(props: TrendingProps) {
                     <div className="flex flex-wrap">
                         <div className="w-full lg:w-3/5 mb-6 lg:mb-0">
                             <p className="text-gray-500 text-sm mb-2">{new Date(props.blog.date || Date.now()).toLocaleDateString()}</p>
-                            <h2 className="text-3xl my-2 cursor-pointer">{props.blog.title}</h2>
+                            <Link href={"/" + i18n.activeLocale + "/blog/" + props.blog.slug}>
+                                <a>
+                                    <h2 className="text-3xl my-2">{props.blog.title}</h2>
+                                </a>
+                            </Link>
                             <p>{props.blog.description}</p>
                         </div>
                         <div className="w-full lg:w-2/5">

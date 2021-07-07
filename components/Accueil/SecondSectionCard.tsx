@@ -22,7 +22,7 @@ export default function SecondSectionCard(props: SecondSectionCardProps) {
 
                         </a>
                     </Link>
-                    : <a href={props.buttonLink}>
+                    : <a href={props.buttonLink} target="_blank">
                         <button className="btn px-10 flex justify-center items-center relative top-9">
                             <span className="mr-2">
                                 {props.buttonText}

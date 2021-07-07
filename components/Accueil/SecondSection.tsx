@@ -18,7 +18,7 @@ export default function SecondSection() {
                         title={i18n.t('seconSection.cards.problem.title')}
                         content={i18n.t('seconSection.cards.problem.description')}
                         buttonText={i18n.t('buttons.contact')}
-                        buttonLink={QUALTRIC_CONTACT}
+                        buttonLink={QUALTRIC_CONTACT[i18n.activeLocale]}
 
                     />
                 </div>
@@ -37,14 +37,14 @@ export default function SecondSection() {
                             title={i18n.t('seconSection.cards.seeInAction.title')}
                             youtubeUrl="https://www.youtube.com/watch?v=Uc5gQKQkjYg"
                             buttonText={i18n.t('buttons.contact')}
-                            buttonLink={QUALTRIC_CONTACT}
+                            buttonLink={QUALTRIC_CONTACT[i18n.activeLocale]}
                         />
                     </div>
                     <div className="w-1/5" />
                     <div className="w-full lg:w-2/5">
                         <SecondSectionCardVideo
                             title={i18n.t('seconSection.cards.guidedTour.title')}
-                            youtubeUrl="https://www.youtube.com/watch?v=dd2ppeeYNXA"
+                            youtubeUrl="https://www.youtube.com/watch?v=GqPe-Okr2L0"
                             buttonText={i18n.t('buttons.informations')}
                             internalLink
                             buttonLink={"/" + i18n.activeLocale + "/offers"}
