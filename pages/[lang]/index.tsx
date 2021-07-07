@@ -8,6 +8,7 @@ import useI18n from '../../hooks/i18n-hook'
 import { HomeProps } from '../../types/Pages'
 import { getStaticPathsHome, getStaticPropsHome } from '../../utils/pageUtils/accueil'
 import MetaOpenGraph from '../../components/MetaOpenGraph'
+import SEO from '../../components/SEO'
 
 export default function index(props: HomeProps) {
     const i18n = useI18n()
@@ -20,6 +21,9 @@ export default function index(props: HomeProps) {
                 // Image de fond de la MainSection
                 thumb="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/mainSectionBackground.jpg"
                 title={i18n.t("home.title")}
+            />
+            <SEO
+                path={props.lng}
             />
             <meta name="description" content={i18n.t("home.description")}></meta>
             <title>{i18n.t("home.title")}</title>

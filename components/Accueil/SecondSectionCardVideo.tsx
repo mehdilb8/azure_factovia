@@ -1,9 +1,13 @@
 import YoutubeVideo from '../../elements/YoutubeVideo'
+import Link from 'next/link'
+import NewTabIcon from '../../elements/NewTabIcon'
 
 interface SecondSectionCardProps {
     title: string,
     youtubeUrl: string
     buttonText: string
+    buttonLink: string
+    internalLink?: boolean
 }
 
 export default function SecondSectionCardVideo(props: SecondSectionCardProps) {
@@ -19,8 +23,27 @@ export default function SecondSectionCardVideo(props: SecondSectionCardProps) {
                 />
             </div>
             <div className="flex justify-center">
-                <button className="btn relative top-9">{props.buttonText}</button>
+                {
+                    props.internalLink
+                        ? <Link href={props.buttonLink}>
+                            <a>
+                                <button className="btn px-10 relative top-9">{props.buttonText}</button>
+                            </a>
+                        </Link>
+                        : <a href={props.buttonLink}>
+                            <button className="btn px-8 flex justify-center items-center relative top-9" >
+                                <span className="mr-2">
+                                    {props.buttonText}
+                                </span>
+                                <span>
+                                    <NewTabIcon className="w-4 h-4" />
+                                </span>
+                            </button>
+
+                        </a>
+                }
             </div>
+
         </div>
     </div>
 }

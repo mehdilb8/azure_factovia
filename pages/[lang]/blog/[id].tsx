@@ -9,6 +9,7 @@ import footnot from 'remark-footnotes'
 import { BlogMetaData, BlogContent } from '../../../types/Blog'
 import TopNav from '../../../components/TopNav'
 import MetaOpenGraph from '../../../components/MetaOpenGraph'
+import SEO from '../../../components/SEO'
 import { ArticleJsonLd } from 'next-seo';
 import { LOGO_URL } from '../../../constantes'
 
@@ -23,6 +24,9 @@ export default function BlobPage(props: BlogContent & I18nProps) {
                 path={props.language + "/blog/" + props.data.slug}
                 thumb={props.data.thumb}
                 title={props.data.title}
+            />
+            <SEO
+                path={props.language + "/blog/" + props.data.slug}
             />
             <ArticleJsonLd
                 url={"https://factovia.fr/" + props.language + "/blog/" + props.data.slug}

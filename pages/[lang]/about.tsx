@@ -7,6 +7,7 @@ import AboutProjects from "../../components/About/AboutProjects"
 import TechExpertise from "../../components/About/TechExpertise"
 import Success from "../../components/About/Sucess"
 import { getStaticPathsStaticPage, getStaticPropsStaticPage } from "../../utils/pageUtils/staticPage"
+import SEO from '../../components/SEO'
 
 export default function About() {
     const i18n = useI18n()
@@ -17,6 +18,9 @@ export default function About() {
                 path={i18n.activeLocale + "/about"}
                 thumb="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/about_bg.jpg"
                 title={i18n.t("about.title")}
+            />
+            <SEO
+                path={i18n.activeLocale + "/about"}
             />
             <meta name="description" content={i18n.t("about.description")}></meta>
             <title>{i18n.t("about.title")}</title>

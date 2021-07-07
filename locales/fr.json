@@ -46,7 +46,7 @@
             },
             "opportunities": {
                 "title": "Opportunités : Réinventer de nouvelles façons d'apprendre",
-                "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires ; sur la base d'une approche développée en 1900, combinée à des recherches scientifiques récentes en Montessori et en psychologie, nous avons créé une pédagogie immersive, basée sur l'innovation (matériel et logiciel)."
+                "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires ; sur la base d'une approche développée en 1900, combinées à des recherches scientifiques récentes en Montessori et en psychologie, nous avons créé une pédagogie immersive, basée sur l'innovation (matériel et logiciel)."
             },
             "seeInAction": {
                 "title": "Démonstration"
@@ -109,11 +109,11 @@
         },
         "intro": {
             "title": "Le Hub",
-            "description": "Rejoignez notre communauté d’experts ! Que vous soyez un client ou un expert ayat une forte valeur ajoutée dans un domaine spécifique de l’industry 4.0, rejoignez-nous gratuitement !"
+            "description": "Rejoignez notre communauté d’experts ! Que vous soyez un client ou un expert ayant une forte valeur ajoutée dans un domaine spécifique de l’industry 4.0, rejoignez-nous gratuitement !"
         },
         "hero": {
             "community": {
-                "title": "Communautée",
+                "title": "Communauté",
                 "content": "Ayez accès aux meilleurs experts reconnus et aux technologies de points pour couvrir toutes les facettes de votre projet IoT industriel : depuis la création de l’usine sur un terrain vague, jusqu’à la création d’une plateforme mondiale, en passant par la commande de puces directement depuis la Chine à Shenzen "
             },
             "premium": {
@@ -126,10 +126,10 @@
             }
         },
         "hubMain": {
-            "title": "Entourez vous des meilleurs expert",
+            "title": "Entourez-vous des meilleurs experts",
             "description": {
                 "1": "Notre communauté comporte plus de 40 partenaires (tels que HPE, ADVANTECH, STÄUBLI, ...), répartis sur",
-                "2": "catégories (fabriquant de capteurs, fournisseurs de Cloud privié ou publique, ...)"
+                "2": "catégories (fabricant de capteurs, fournisseurs de Cloud privé ou public ...)"
             }
         }
     },
@@ -138,7 +138,7 @@
         "description": "Notre combat à FactoVia est de donner une autre image de l'industrie.",
         "marraines": {
             "title": "#Diversité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception",
-            "description": "Notre combat à FactoVia est de donner une autre image de l'industrie. Elle a des inconvénients, mais de nouvelles alternatives comme l'économie circulaire qui consiste à préserver la planète doivent être développée plus largement, et dé-carbonées les industries. L'image de l'industrie doit également changer en termes de mentalité en promouvant la #Diversité, où le secteur est largement trop masculin. Et parce que les enfants sont les travailleurs de demain dans l'industrie, faisons en sorte que le sujet soit amusant et intéressant pour eux !",
+            "description": "Notre combat à FactoVia est de donner une autre image de l'industrie. Elle a des inconvénients, mais de nouvelles alternatives comme l'économie circulaire qui consiste à préserver la planète doivent être développée plus largement, et dé carbonées les industries. L'image de l'industrie doit également changer en termes de mentalité en promouvant la #Diversité, où le secteur est largement trop masculin. Et parce que les enfants sont les travailleurs de demain dans l'industrie, faisons en sorte que le sujet soit amusant et intéressant pour eux !",
             "support": "Ces femmes d’exception nous soutiennent !"
         },
         "projects": {
@@ -159,12 +159,12 @@
                 "1": {
                     "name": "LPG Medical Systems",
                     "intro": "2021, Rémi Peletier, responsable connectivité :",
-                    "content": "“En 2012, Vincent et ses équipes sont intervenus sur de la formation et de l’accompagnement à la mise en œuvre d’un projet IoT d’ampleur. A date, nous comprenons mieux les usages pour investir là où il y a du sens, et plusieurs centaines de milliers d’euros d’économisé sur un parc de plus de 100 000 machines. Grand bravo !”"
+                    "content": "“En 2012, Vincent et ses équipes sont intervenus sur de la formation et de l’accompagnement à la mise en œuvre d’un projet IoT d’ampleur. À date, nous comprenons mieux les usages pour investir là où il y a du sens, et plusieurs centaines de milliers d’euros d’économisés sur un parc de plus de 100 000 machines. Grand bravo !”"
                 },
                 "2": {
                     "name": "AzurDrones, #1 Drones autonomes en Europe",
                     "intro": "2021, Emmanuel, CTO :",
-                    "content": "“Nous avions de fortes contraintes pour livrer un projet IoT industriel novateur, dans les délais et le budget impartis. La combinaison de l'approche pédagogique et pragmatique, ainsi que les compétences, nous ont permis de livrer le projet dans les temps.”"
+                    "content": "“Nous avions de fortes contraintes pour livrer un projet IoT industriel novateur, dans les délais et le budget impartis. La combinaison de l'approche pédagogique et pragmatique, ainsi que les compétences, nous a permis de livrer le projet dans les temps.”"
                 },
                 "3": {
                     "name": "Fabricant de vaccins, leader mondial",
@@ -180,7 +180,7 @@
         }
     },
     "offers": {
-        "title": "Offres",
+        "title": "Factovia Offres",
         "description": "Factovia - Kit d'entraînement, Accès premium au hub, Acheter Factovia One et bien plus encore.",
         "intro": {
             "title": "Nos offres"
@@ -188,15 +188,15 @@
         "hero": {
             "1": {
                 "title": "Kit d'entraînement",
-                "content": "We offer you a large choice of trainings, weither you are a student, a teacher, a training center or a factory shopfloor manager. Besides we could provide keynotes during your events."
+                "content": "Nous vous offrons un large choix de formations, que vous soyez un étudiant, enseignant, centre de formation ou un responsable d'atelier d'usine. De plus, nous pouvons fournir des keynotes lors de vos événements."
             },
             "2": {
                 "title": "Accéder au hub",
-                "content": "You could access for free to our hub and discuss with proven experts. To go even beyond, we could access a Premium offering"
+                "content": "Vous pourriez accéder gratuitement à notre hub et discuter avec des experts confirmés. Pour aller encore plus loin, on pourrait accéder à une offre premium."
             },
             "3": {
                 "title": "Acheter Factovia One",
-                "content": "To promote largely the education, we made Open Source our training kit material so you  could make it yourself ! If you are not DYI, buy the ready-to-use version for a 20000€ fee. Alternatively, rent it or visit it from many places in France"
+                "content": "Afin de promouvoir largement l'éducation, nous avons rendu open source le matériel de notre kit de formation afin que vous puissiez le fabriquer vous-même ! Si vous n'êtes pas DYI, achetez la version prête à l'emploi pour un montant de 20000€. Vous pouvez également la louer ou la visiter dans de nombreux endroits en France."
             }
         },
         "training": {

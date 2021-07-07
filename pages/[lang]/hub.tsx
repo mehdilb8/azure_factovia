@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { getStaticPathsStaticPage, getStaticPropsStaticPage } from '../../utils/pageUtils/staticPage'
 import useI18n from '../../hooks/i18n-hook'
 import MetaOpenGraph from '../../components/MetaOpenGraph'
+import SEO from '../../components/SEO'
 
 import HubIntro from '../../components/Hub/HubIntro'
 import HubCommunity from '../../components/Hub/HubCommunity'
@@ -18,6 +19,9 @@ export default function Hub() {
                 path={i18n.activeLocale + "/hub"}
                 thumb="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/hub_bg.jpg"
                 title={i18n.t("hub.title")}
+            />
+            <SEO
+                path={i18n.activeLocale + "/hub"}
             />
             <meta name="description" content={i18n.t("hub.description")}></meta>
             <title>{i18n.t("hub.title")}</title>

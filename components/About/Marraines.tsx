@@ -23,7 +23,7 @@ export default function Marraines() {
                 <div className="flex flex-wrap space-y-6 lg:space-y-0 z-10 relative">
                     <div className="w-full lg:w-2/5">
                         <MarrainesHero
-                            picture="https://media-exp3.licdn.com/dms/image/C4D03AQH_h2xb13GDAQ/profile-displayphoto-shrink_400_400/0/1622752063161?e=1630540800&v=beta&t=EdMjhK4ZB36kOfoZ5Gr9ZTDOeIP--xqaBnYrZNj9XkE"
+                            picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/estelleAuberix.jpg"
                             name="Estelle Auberix"
                             title="Solution Architect, Microsoft Regional Director & Azure MVP"
                             school="Conservatoire National des Arts et Métiers"
@@ -34,7 +34,7 @@ export default function Marraines() {
                     <div className="w-1/5 hidden lg:block" />
                     <div className="w-full lg:w-2/5">
                         <MarrainesHero
-                            picture="https://media-exp3.licdn.com/dms/image/C4E03AQGv3pOVeKttkQ/profile-displayphoto-shrink_400_400/0/1516324013300?e=1630540800&v=beta&t=z63guT-SX5xBxhNHXTu8KqD4z2sAXbBIYx2ZzxpXpaM"
+                            picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/MaritxuGoyhetcheAvatar.png"
                             name="Maritxu Goyhetche"
                             title="Manager in action - Innovation-Development-Industrialisation in Industry"
                             school="The University of Sheffield"

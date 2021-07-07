@@ -57,6 +57,17 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                 <Menu.Item>
                     {({ active }) => (
                         <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
+                            <Link href={"/" + i18n.activeLocale + "/offers"}>
+                                <a className="w-full h-full flex items-center">
+                                    <p className="text-primaryWhite">{i18n.t("nav.offers")}</p>
+                                </a>
+                            </Link>
+                        </div>
+                    )}
+                </Menu.Item>
+                <Menu.Item>
+                    {({ active }) => (
+                        <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                             <a href={QUALTRIC_CONTACT} target="_blank"
                                 className="w-full h-full flex items-center ">
                                 <p className="flex items-center">

@@ -2,14 +2,14 @@ import { CorporateContactJsonLd } from 'next-seo';
 import { LOGO_URL } from '../constantes'
 
 interface SEOProps {
-    url: string,
+    path: string,
 
 }
 
 export default function SEO(props: SEOProps) {
     return <>
         <CorporateContactJsonLd
-            url={props.url}
+            url={"https://factovia.fr/" + props.path}
             logo={LOGO_URL}
             contactPoint={[
                 {
