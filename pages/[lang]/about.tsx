@@ -25,10 +25,12 @@ export default function About() {
             <meta name="description" content={i18n.t("about.description")}></meta>
             <title>{i18n.t("about.title")}</title>
         </Head>
-        <Marraines />
-        <Success />
-        <TechExpertise />
-        <AboutProjects />
+        <div className="mb-20">
+            <Marraines />
+            <Success />
+            <TechExpertise />
+            <AboutProjects />
+        </div>
     </>
 }
 
