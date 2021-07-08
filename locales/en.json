@@ -36,7 +36,7 @@
         "title": "Trending !",
         "more": "Read more"
     },
-    "seconSection": {
+    "secondSection": {
         "title": "Industry 4.0 made easy with Montessori principles",
         "cards": {
             "problem": {
@@ -62,8 +62,8 @@
             "3": "!"
         },
         "description": {
-            "1": "This project has been co-created with the support of many industries since 2015, and deployed in 2019. The founder of FactoVia has deployed over 40 Industrial IoT projects, and has got 21 years of experience. ",
-            "2": "It is made of real robust industrial equipment, thus it can interract with true co-bot, robot, remote assistance, Cloud, IoT Edge. Allowing over 10 true Use Cases to be tought. Besides, based on Digital Twins, we are teaching at global reach with MOOC."
+            "1": "To train you and deploy into your factories, this initiative has been co-created with the support of many industries since 2015, with a first deployment back in 2019. With 21 years of experiences, the founder of FactoVia has deployed over 40 Industrial IoT projects.",
+            "2": "The training kit is designed in France with real robust industrial equipment, thus it can interract with true co-bot, robot, Cloud, IoT Edge and Smart glasses. Allowing over 10 true Use Cases to be tought. Besides, we are also teaching at global reach with MOOC."
         },
         "alt": "Picture of FactoviaOne"
     },

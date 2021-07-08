@@ -37,7 +37,7 @@
         "title": "Tendances !",
         "more": "En savoir plus"
     },
-    "seconSection": {
+    "secondSection": {
         "title": "L'industrie 4.0 facilitée par les principes Montessori",
         "cards": {
             "problem": {
@@ -63,8 +63,8 @@
             "3": "!"
         },
         "description": {
-            "1": "Ce projet a été co-créé avec le soutien de nombreuses industries depuis 2015, et déployé en 2019. Le fondateur de FactoVia a déployé plus de 40 projets IoT industriels, et dispose de 21 ans d'expérience.",
-            "2": "Elle est constituée de véritables équipements industriels robustes. Ce qui en fait une vraie mini-usine qui peut interagir avec de vrais co-bots, robots, 'remote' assistance, Cloud, IoT Edge. Ce qui permet d'enseigner de véritables cas d'utilisation. En outre, sur la base de Digital Twins, nous enseignons à l'échelle mondiale avec des MOOC."
+            "1": "Pour vous former et mettre en oeuvre cela dans vos usines, ce projet a été co-créé avec industriels depuis 2015, avec de premiers déploiement en 2019. Avec 21 ans d'expériences, le fondateur de FactoVia a déployé plus de 40 projets IoT industriels.",
+            "2": "Le matériel de formation est conçu en France avec de véritables équipements industriels. Ce qui en fait une vraie mini-usine pouvant interagir avec de vrais co-bots, robots, Cloud, IoT Edge, et lunettes connectées. Ce qui permet d'enseigner de 10 véritables cas d'utilisation. Enfin, nous enseignons également à l'échelle mondiale avec des MOOC."
         },
         "alt": "Photo de FactoviaOne"
     },
