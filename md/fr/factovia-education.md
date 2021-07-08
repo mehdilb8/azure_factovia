@@ -1,8 +1,8 @@
 ---
 title: "Industry 4.0 - The very easy way to teach [EN]"
 author: "Vincent Thavonekham"
-date: "2021-07-10"
-modified: "2021-07-10"
+date: "2021-08-01"
+modified: "2021-08-01"
 description: "The fundamental concepts of Industry 4.0 are very easy to teach when you do it the right way."
 thumb: "https://cdn.pixabay.com/photo/2014/03/12/18/45/boys-286245_960_720.jpg"
 ---
