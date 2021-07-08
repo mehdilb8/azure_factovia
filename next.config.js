@@ -5,4 +5,6 @@ const nextConfig = {
   reactStrictMode: true
 }
 
+console.log("HOST : ", process.env.HOST)
+
 module.exports = nextConfig

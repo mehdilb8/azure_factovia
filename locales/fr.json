@@ -139,7 +139,23 @@
         "marraines": {
             "title": "#Diversité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception",
             "description": "Notre combat à FactoVia est de donner une autre image de l'industrie. Elle a des inconvénients, mais de nouvelles alternatives comme l'économie circulaire qui consiste à préserver la planète doivent être développée plus largement, et dé carbonées les industries. L'image de l'industrie doit également changer en termes de mentalité en promouvant la #Diversité, où le secteur est largement trop masculin. Et parce que les enfants sont les travailleurs de demain dans l'industrie, faisons en sorte que le sujet soit amusant et intéressant pour eux !",
-            "support": "Ces femmes d’exception nous soutiennent !"
+            "support": "Ces femmes d’exception nous soutiennent !",
+            "content": {
+                "1": {
+                    "name": "Estelle Auberix",
+                    "title": "Architecte de solutions, directeur régional Microsoft et MVP Azure",
+                    "school": "Conservatoire National des Arts et Métiers",
+                    "job": "IOKELA CEO, fondatrice",
+                    "tags": "Moteur de la parité;Cloud;Intelligence artificielle"
+                },
+                "2": {
+                    "name": "Maritxu Goyhetche",
+                    "title": "Directeur adjointe R&D",
+                    "school": "Université de Sheffield",
+                    "job": "Manager active - Innovation-Développement dans l'industrie",
+                    "tags": "Aérospatial;Médical;Éolien;Innovation"
+                }
+            }
         },
         "projects": {
             "title": "Qualité de nos travaux et engagements de nos projets",

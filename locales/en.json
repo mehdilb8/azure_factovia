@@ -138,7 +138,23 @@
         "marraines": {
             "title": "#Diversity #Inclusion: our project to help change the industry features two exceptional female engineering sponsors",
             "description": "Our combat at FactoVia is to provide a reverse image of the industry. Yes it has got some drawbacks, and let’s face it, new alternatives such as the circular economy that consists in preserving the planet has to be developed broader, and de-carbonite the industries. The image of the industry also must change in terms of mentality by promoting #Diversity, where the sector is vastly too masculine. And because the kids are tomorrow’s workers in the industry, let’s make the topic fun and interresting for them !",
-            "support": "These exceptional women support us!"
+            "support": "These exceptional women support us!",
+            "content": {
+                "1": {
+                    "name": "Estelle Auberix",
+                    "title": "Solution Architect, Microsoft Regional Director & Azure MVP",
+                    "school": "National Conservatory of Arts and Crafts of Paris",
+                    "job": "IOKELA CEO, founder",
+                    "tags": "Promoton of Parity;Cloud;Artificial Intelligence"
+                },
+                "2": {
+                    "name": "Maritxu Goyhetche",
+                    "title": "Deputy Director of R&D-Engineering",
+                    "school": "The University of Sheffield",
+                    "job": "Manager in action - Innovation-Development-Industrialisation in Industry",
+                    "tags": "Aerospace;Medical;Wind Power;Innovation"
+                }
+            }
         },
         "projects": {
             "title": "Quality of our work and commitment to our projects",

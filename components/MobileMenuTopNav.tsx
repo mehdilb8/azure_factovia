@@ -13,7 +13,6 @@ interface MobileMenuTopNavProps {
 
 export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
     const i18n = usei18()
-    const menuButtonClass = "h-6 w-6 text-primaryWhite"
 
     return <Menu>
         <Menu.Button as="div" className="p-2">

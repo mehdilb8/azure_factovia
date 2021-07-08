@@ -24,22 +24,22 @@ export default function Marraines() {
                     <div className="w-full lg:w-2/5">
                         <MarrainesHero
                             picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/estelleAuberix.jpg"
-                            name="Estelle Auberix"
-                            title="Solution Architect, Microsoft Regional Director & Azure MVP"
-                            school="Conservatoire National des Arts et Métiers"
-                            job="IOKELA CEO, founder"
-                            tags={["Promoton of Parity", "Cloud", "Artificial Intelligence"]}
+                            name={i18n.t("about.marraines.content.1.name")}
+                            title={i18n.t("about.marraines.content.1.title")}
+                            school={i18n.t("about.marraines.content.1.school")}
+                            job={i18n.t("about.marraines.content.1.job")}
+                            tags={i18n.t("about.marraines.content.1.tags").split(";")}
                         />
                     </div>
                     <div className="w-1/5 hidden lg:block" />
                     <div className="w-full lg:w-2/5">
                         <MarrainesHero
                             picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/MaritxuGoyhetcheAvatar.png"
-                            name="Maritxu Goyhetche"
-                            title="Manager in action - Innovation-Development-Industrialisation in Industry"
-                            school="The University of Sheffield"
-                            job="Manager in action - Innovation-Development-Industrialisation in Industry"
-                            tags={["Innovation", "Development & Industrialisation", "growth"]}
+                            name={i18n.t("about.marraines.content.2.name")}
+                            title={i18n.t("about.marraines.content.2.title")}
+                            school={i18n.t("about.marraines.content.2.school")}
+                            job={i18n.t("about.marraines.content.2.job")}
+                            tags={i18n.t("about.marraines.content.2.tags").split(";")}
                         />
                     </div>
                 </div>
