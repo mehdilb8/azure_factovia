@@ -19,9 +19,9 @@
     },
     "mainSection": {
         "title": {
-            "main": "Factovia",
+            "main": "Industrie 4.0",
             "concept": {
-                "1": "Formation",
+                "1": "Formation et mise en oeuvre",
                 "2": "Technologie",
                 "3": "Industrie"
             }
@@ -29,8 +29,8 @@
         "description": {
             "1": "Face aux changements dans l'industrie, nous",
             "2": "réinventons la formation",
-            "3": "et vous accompagnons avec une",
-            "4": "communauté d'experts."
+            "3": "et mettons en oeuvre via",
+            "4": "notre communauté d'experts."
         }
     },
     "trending": {
@@ -49,7 +49,7 @@
                 "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires ; sur la base d'une approche développée en 1900, combinées à des recherches scientifiques récentes en Montessori et en psychologie, nous avons créé une pédagogie immersive, basée sur l'innovation (matériel et logiciel)."
             },
             "seeInAction": {
-                "title": "Démonstration"
+                "title": "Preuve de la simplicité"
             },
             "guidedTour": {
                 "title": "Présentation"
@@ -63,8 +63,8 @@
             "3": "!"
         },
         "description": {
-            "1": "Ce projet a été cocréé avec le soutien de nombreuses industries depuis 2015, et déployé en 2019. Le fondateur de FactoVia a déployé plus de 40 projets IoT industriels, et a 20 ans d'expérience.",
-            "2": "Elle est constituée de véritables équipements industriels robustes. Ce qui en fait une vraie mini-usine qui peut interagir avec de vrais co-bots, robots, téléassistance, Cloud, IoT Edge. Ce qui permet d'enseigner de véritables cas d'utilisation. En outre, sur la base de Digital Twins, nous enseignons à l'échelle mondiale avec des MOOC."
+            "1": "Ce projet a été co-créé avec le soutien de nombreuses industries depuis 2015, et déployé en 2019. Le fondateur de FactoVia a déployé plus de 40 projets IoT industriels, et dispose de 21 ans d'expérience.",
+            "2": "Elle est constituée de véritables équipements industriels robustes. Ce qui en fait une vraie mini-usine qui peut interagir avec de vrais co-bots, robots, 'remote' assistance, Cloud, IoT Edge. Ce qui permet d'enseigner de véritables cas d'utilisation. En outre, sur la base de Digital Twins, nous enseignons à l'échelle mondiale avec des MOOC."
         },
         "alt": "Photo de FactoviaOne"
     },
@@ -72,7 +72,7 @@
         "title": "Témoignages d'industriels",
         "comments": {
             "1": {
-                "content": "Smart-F: Excellent",
+                "content": "La mini-usine est Excellente !",
                 "author": {
                     "name": "Fouad Benris",
                     "description": "IoT & SmartData Lead Europe Management School GN-Board of Directors"
@@ -82,14 +82,14 @@
                 "content": "Beau démonstrateur OPC UA",
                 "author": {
                     "name": "Stéphane Potier",
-                    "description": "Marketing Manager France B&R (ABB group)"
+                    "description": "2018: Marketing Manager France B&R (ABB group)"
                 }
             },
             "3": {
                 "content": "👍 J'ADORE !!!!",
                 "author": {
                     "name": "Marcia Paglia",
-                    "description": "Partner Manager"
+                    "description": "SAP Partner Manager"
                 }
             }
         }
@@ -212,7 +212,7 @@
             },
             "3": {
                 "title": "Acheter Factovia One",
-                "content": "Afin de promouvoir largement l'éducation, nous avons rendu open source le matériel de notre kit de formation afin que vous puissiez le fabriquer vous-même ! Si vous n'êtes pas DYI, achetez la version prête à l'emploi pour un montant de 20000€. Vous pouvez également la louer ou la visiter dans de nombreux endroits en France."
+                "content": "Afin de promouvoir largement l'éducation, nous avons rendu open source le matériel de notre kit de formation afin que vous puissiez le fabriquer vous-même ! Si vous n'êtes pas bricoleur, achetez la version prête à l'emploi. Vous pouvez également la louer ou l'essayer dans plusieurs endroits de France."
             }
         },
         "training": {

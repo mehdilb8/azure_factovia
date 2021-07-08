@@ -18,17 +18,17 @@
     },
     "mainSection": {
         "title": {
-            "main": "Factovia",
+            "main": "Industry 4.0",
             "concept": {
-                "1": "Formation",
+                "1": "Training & Deployment",
                 "2": "Technology",
                 "3": "Industry"
             }
         },
         "description": {
-            "1": "Faced with changes in the industry, we",
-            "2": "reinvents training",
-            "3": "and supports you with a",
+            "1": "The industry is changing: we",
+            "2": "reinvent training",
+            "3": "and help deploy via our",
             "4": "community of experts."
         }
     },
@@ -48,10 +48,10 @@
                 "description": "New Industry 4.0 training are needed; based on approached developped in 1900, combined with recent scientific reseaches in Montessori and psychology, we created an immersive pedagogy, based on innovation (hardware and software)."
             },
             "seeInAction": {
-                "title": "See it in action"
+                "title": "Proof of simplicity"
             },
             "guidedTour": {
-                "title": "Presentation"
+                "title": "See it in action"
             }
         }
     },
@@ -62,8 +62,8 @@
             "3": "!"
         },
         "description": {
-            "1": "his project has been co-created with the support of many industries since 2015, and deployed in 2019. The founder of FactoVia has deployed over 40 Industrial IoT projects, and has got 20 years of experience. ",
-            "2": "It is made of real robust industrial equipment. Making it a real-mini-factory that can interract with true co-bot, robot, remote assistance, Cloud, IoT Edge. Allowing true Use Cases to be tought. Besides, based on Digital Twins, we are teaching at global reach with MOOC."
+            "1": "This project has been co-created with the support of many industries since 2015, and deployed in 2019. The founder of FactoVia has deployed over 40 Industrial IoT projects, and has got 21 years of experience. ",
+            "2": "It is made of real robust industrial equipment, thus it can interract with true co-bot, robot, remote assistance, Cloud, IoT Edge. Allowing over 10 true Use Cases to be tought. Besides, based on Digital Twins, we are teaching at global reach with MOOC."
         },
         "alt": "Picture of FactoviaOne"
     },
@@ -71,7 +71,7 @@
         "title": "Testimonials of industrials",
         "comments": {
             "1": {
-                "content": "Smart-F: Excellent",
+                "content": "The mini-factory is Excellent !",
                 "author": {
                     "name": "Fouad Benris",
                     "description": "IoT & SmartData Lead Europe Management School GN-Board of Directors"
@@ -81,14 +81,14 @@
                 "content": "Great demonstrator OPC UA",
                 "author": {
                     "name": "Stéphane Potier",
-                    "description": "Marketing Manager France B&R (ABB group)"
+                    "description": "2018: Marketing Manager France B&R (ABB group)"
                 }
             },
             "3": {
                 "content": "👍 I LOVE IT !!!!",
                 "author": {
                     "name": "Marcia Paglia",
-                    "description": "Partner Manager"
+                    "description": "SAP Partner Manager"
                 }
             }
         }
@@ -189,7 +189,7 @@
                 "4": {
                     "name": "CETIM, inventor of 1rst artificial heart, leader in mechanical engineering",
                     "intro": "2021, Abdellah LAMALLEM, Factory project manager ",
-                    "content": "“We master Industry 4.0, and you and you team helped us on the IoT Cloud and realtime dashboard aspects of the projet. Your agile way of thinking was key to deliver on time, and the hight competency in OPC UA industrial standards and Industrial IoT made this project a success.”"
+                    "content": "“We master Industry 4.0 ; you and your team helped us on the IoT Cloud with realtime dashboard aspects of the projet. Your agile way of thinking was key to deliver on time our project. Your competency in OPC UA industrial standards was key to our success.”"
                 }
             }
         }
@@ -211,7 +211,7 @@
             },
             "3": {
                 "title": "Acheter Factovia One",
-                "content": "To promote largely the education, we made Open Source our training kit material so you  could make it yourself ! If you are not DYI, buy the ready-to-use version for a 20000€ fee. Alternatively, rent it or visit it from many places in France"
+                "content": "To promote largely the education, we made Open Source our training kit material so you  could make it yourself ! If you are not DYI, buy the ready-to-use version. Alternatively, rent it or visit it from many places in France"
             }
         },
         "training": {
