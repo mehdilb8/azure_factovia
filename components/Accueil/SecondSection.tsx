@@ -10,13 +10,13 @@ export default function SecondSection() {
     return <AccueilContainer>
         <div className="py-12">
             <div className="mb-6">
-                <h2 className="text-primaryDark text-4xl font-bold">{i18n.t('seconSection.title')}</h2>
+                <h2 className="text-primaryDark text-4xl font-bold">{i18n.t('secondSection.title')}</h2>
             </div>
             <div className="py-6">
                 <div className="mb-12">
                     <SecondSectionCard
-                        title={i18n.t('seconSection.cards.problem.title')}
-                        content={i18n.t('seconSection.cards.problem.description')}
+                        title={i18n.t('secondSection.cards.problem.title')}
+                        content={i18n.t('secondSection.cards.problem.description')}
                         buttonText={i18n.t('buttons.contact')}
                         buttonLink={QUALTRIC_CONTACT[i18n.activeLocale]}
 
@@ -24,8 +24,8 @@ export default function SecondSection() {
                 </div>
                 <div className="mb-12">
                     <SecondSectionCard
-                        title={i18n.t('seconSection.cards.opportunities.title')}
-                        content={i18n.t('seconSection.cards.opportunities.description')}
+                        title={i18n.t('secondSection.cards.opportunities.title')}
+                        content={i18n.t('secondSection.cards.opportunities.description')}
                         buttonText={i18n.t('buttons.informations')}
                         buttonLink={"/" + i18n.activeLocale + "/offers"}
                         internalLink
@@ -34,7 +34,7 @@ export default function SecondSection() {
                 <div className="flex flex-wrap space-y-6 lg:space-y-0">
                     <div className="w-full lg:w-2/5">
                         <SecondSectionCardVideo
-                            title={i18n.t('seconSection.cards.seeInAction.title')}
+                            title={i18n.t('secondSection.cards.seeInAction.title')}
                             youtubeUrl="https://www.youtube.com/watch?v=Uc5gQKQkjYg"
                             buttonText={i18n.t('buttons.contact')}
                             buttonLink={QUALTRIC_CONTACT[i18n.activeLocale]}
@@ -43,7 +43,7 @@ export default function SecondSection() {
                     <div className="w-1/5" />
                     <div className="w-full lg:w-2/5">
                         <SecondSectionCardVideo
-                            title={i18n.t('seconSection.cards.guidedTour.title')}
+                            title={i18n.t('secondSection.cards.guidedTour.title')}
                             youtubeUrl="https://www.youtube.com/watch?v=GqPe-Okr2L0"
                             buttonText={i18n.t('buttons.informations')}
                             internalLink
