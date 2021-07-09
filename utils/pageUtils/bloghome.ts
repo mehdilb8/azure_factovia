@@ -1,5 +1,5 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
-import { defaultLanguage, languages } from "../../lib/i18n"
+import { DEFAULT_LANG } from '../../constantes'
 import { BlogIndexProps } from "../../types/Blog"
 import fetchBlogPosts from '../fetchAllBlogPosts'
 import getLangAndDict from '../getLangAndDict'
@@ -25,12 +25,12 @@ export const getStaticPropsBlogHome: GetStaticProps<BlogIndexProps> = async (con
 
     } catch (e) {
         console.error({ e })
-        const lngDict = getLangDict(defaultLanguage)
+        const lngDict = getLangDict(DEFAULT_LANG)
 
         return {
             props: {
                 posts: [],
-                lng: defaultLanguage,
+                lng: DEFAULT_LANG,
                 lngDict
             }
         }

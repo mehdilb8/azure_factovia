@@ -1,3 +1,6 @@
+export const DEFAULT_LANG = "en";
+export const LANGS = ['fr', 'en']
+export const CONTENT_LANGUAGES_MAP = { fr: 'fr-FR', en: 'en-US' }
 export const PAGES_WITH_IMG_BACKGROUND = [
     "/", "/[lang]",
     "/hub", "/[lang]/hub",

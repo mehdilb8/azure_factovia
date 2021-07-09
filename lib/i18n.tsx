@@ -4,18 +4,15 @@ import { I18nWrapper } from '../types/i18n'
 
 import FR from '../locales/fr.json'
 import EN from '../locales/en.json'
+import { DEFAULT_LANG } from '../constantes'
 
 const i18n = rosetta()
-
-export const defaultLanguage = 'fr'
-export const languages = ['fr', 'en']
-export const contentLanguageMap = { fr: 'fr-FR', en: 'en-US' }
 
 //@ts-ignore
 export const I18nContext = createContext<I18nWrapper>()
 
 // default language
-i18n.locale(defaultLanguage)
+i18n.locale(DEFAULT_LANG)
 
 // Add langauges
 i18n.set('fr', FR)
@@ -30,7 +27,7 @@ interface I18nParams {
 export default function I18n(i18nArgs: I18nParams) {
     const { children, locale, lngDict } = i18nArgs
 
-    const activeLocaleRef = useRef(locale || defaultLanguage)
+    const activeLocaleRef = useRef(locale || DEFAULT_LANG)
     const [, setTick] = useState(0)
     const firstRender = useRef(true)
 

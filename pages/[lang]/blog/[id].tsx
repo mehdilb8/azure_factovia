@@ -11,9 +11,8 @@ import TopNav from '../../../components/TopNav'
 import MetaOpenGraph from '../../../components/MetaOpenGraph'
 import SEO from '../../../components/SEO'
 import { ArticleJsonLd } from 'next-seo';
-import { LOGO_URL } from '../../../constantes'
+import { LOGO_URL, LANGS } from '../../../constantes'
 
-import { languages } from '../../../lib/i18n'
 import { I18nProps } from '../../../types/i18n'
 
 export default function BlobPage(props: BlogContent & I18nProps) {
@@ -93,7 +92,7 @@ export const getStaticProps: GetStaticProps<BlogContent & I18nProps> = async (co
  * Convert all `.md` files in `.html` files when trigger `next export`
  */
 export const getStaticPaths: GetStaticPaths = async (_) => {
-    const paths = languages.flatMap((lang) => {
+    const paths = LANGS.flatMap((lang) => {
         const filesNames = readdirSync('md/' + lang);
         return filesNames.map((blogSlug) => ({ params: { lang, id: blogSlug.split('.md')[0] } }))
     })
