@@ -15,8 +15,8 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
     const i18n = usei18()
 
     return <Menu>
-        <Menu.Button as="div" className="p-2">
-            <BurgerIcon className="w-6 h-6 cursor-pointer" />
+        <Menu.Button>
+            <BurgerIcon className="w-6 h-6 cursor-pointer mr-4" />
         </Menu.Button>
         <Menu.Items className="lg:hidden absolute right-0 w-56 mt-2 py-2 origin-top-right bg-secondary divide-y divide-gray-200 rounded-md shadow-lg outline-none border-2 border-primaryWhite border-opacity-10">
             <Menu.Item>

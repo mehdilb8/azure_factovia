@@ -1,5 +1,6 @@
 interface SuccessStoryProps {
     name: string
+    intro?: string
     description: string
     picture: string
     picturePosition: 'left' | 'right'
@@ -26,7 +27,14 @@ export default function SuccessStory(props: SuccessStoryProps) {
                             : null
                     }
                     <p className={props.pictureInParagraph ? "w-full lg:w-4/5" : ""}>
-                        {props.description}
+                        <span>
+                            {props.intro}
+                        </span>
+                        <br />
+                        <span>
+                            {props.description}
+
+                        </span>
                     </p>
                     {
                         props.list

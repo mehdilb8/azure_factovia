@@ -9,6 +9,7 @@ export default function Success() {
             <h2 className="title text-primary">{i18n.t("about.success.title")}</h2>
             <SuccessStory
                 name={i18n.t("about.success.firms.1.name")}
+                intro={i18n.t("about.success.firms.1.intro")}
                 description={i18n.t("about.success.firms.1.content")}
                 picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/lpgThumb.jpg"
                 picturePosition="right"
@@ -16,18 +17,21 @@ export default function Success() {
             />
             <SuccessStory
                 name={i18n.t("about.success.firms.2.name")}
+                intro={i18n.t("about.success.firms.2.intro")}
                 description={i18n.t("about.success.firms.2.content")}
                 picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/azdThumb.jpg"
                 picturePosition="left"
             />
             <SuccessStory
                 name={i18n.t("about.success.firms.3.name")}
+                intro={i18n.t("about.success.firms.3.intro")}
                 description={i18n.t("about.success.firms.3.content")}
                 picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/vaccinThumb.jpg"
                 picturePosition="right"
             />
             <SuccessStory
                 name={i18n.t("about.success.firms.4.name")}
+                intro={i18n.t("about.success.firms.4.intro")}
                 description={i18n.t("about.success.firms.4.content")}
                 picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/cetimThumb.jpg"
                 picturePosition="left"
