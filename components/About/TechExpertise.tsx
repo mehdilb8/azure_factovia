@@ -6,7 +6,7 @@ import YoutubeVideo from "../../elements/YoutubeVideo";
 
 export default function TechExpertise() {
     const i18n = useI18n()
-    const youtubeId = "uC6skEWqgdg";
+    const youtubeId = "Vt0O94Ybsjw";
 
     return <div className="bg-secondary my-8">
         <AccueilContainer className="py-8">
@@ -35,7 +35,10 @@ export default function TechExpertise() {
                         />
                     </div>
                     <p className="text-center">
-                        <a className="border-b-2 border-opacity-0 border-primaryWhite text-primaryWhite hover:border-opacity-100" href="https://www.youtube.com/watch?v=uC6skEWqgdg" target="_blank"><i>https://www.youtube.com/watch?v=uC6skEWqgdg [FR]</i></a>
+                        <a  className="border-b-2 border-opacity-0 border-primaryWhite text-primaryWhite hover:border-opacity-100" 
+                            href="https://www.youtube.com/watch?v=Vt0O94Ybsjw" 
+                            target="_blank"><i>https://www.youtube.com/watch?v=Vt0O94Ybsjw</i>
+                        </a>
                     </p>
                 </div>
             </div>
