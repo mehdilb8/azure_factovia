@@ -13,7 +13,8 @@ export default function ThirdSection() {
                     <div className="bg-primaryWhite bg-opacity-40 pt-6 px-6">
                         <h2 className="text-primaryYellow text-2xl lg:text-4xl font-bold mb-4">{i18n.t("thirdSection.title.1")} <span className="text-primaryWhite">{i18n.t("thirdSection.title.2")} </span>{i18n.t("thirdSection.title.3")}</h2>
                         <p className="text-primaryWhite text-base lg:text-lg mb-4"> {i18n.t("thirdSection.description.1")} </p>
-                        <p className="text-primaryWhite text-base lg:text-lg"> {i18n.t("thirdSection.description.2")} </p>
+                        <p className="text-primaryWhite text-base lg:text-lg mb-4"> {i18n.t("thirdSection.description.2")} </p>
+                        <p className="text-primaryWhite text-base lg:text-lg"> {i18n.t("thirdSection.description.3")} </p>
                         <a href={QUALTRIC_CONTACT[i18n.activeLocale]}>
                             <button className="btn relative top-5 flex items-center">
                                 <span className="mr-2">

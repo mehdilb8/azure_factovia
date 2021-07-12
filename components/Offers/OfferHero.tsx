@@ -13,7 +13,7 @@ export default function OfferHero() {
                         title={i18n.t("offers.hero.1.title")}
                         content={i18n.t("offers.hero.1.content")}
                         buttonText={i18n.t("buttons.contact")}
-                        image={"https://discord.com/assets/cb48d2a8d4991281d7a6a95d2f58195e.svg"}
+                        // image={"https://discord.com/assets/cb48d2a8d4991281d7a6a95d2f58195e.svg"}
                         buttonLink={QUALTRIC_CONTACT[i18n.activeLocale]}
                     />
                 </div>

@@ -28,7 +28,7 @@
         "description": {
             "1": "The industry is changing: we",
             "2": "reinvent training",
-            "3": "and help deploy via our",
+            "3": "and help deploy digital tech via our",
             "4": "community of experts."
         }
     },
@@ -48,27 +48,28 @@
                 "description": "New Industry 4.0 training are needed; based on approached developped in 1900, combined with recent scientific reseaches in Montessori and psychology, we created an immersive pedagogy, based on innovation (hardware and software)."
             },
             "seeInAction": {
-                "title": "Proof of simplicity"
+                "title": "Montessori makes easy even advanced principles"
             },
             "guidedTour": {
-                "title": "See it in action"
+                "title": "Preview of our pedagogical training kit"
             }
         }
     },
     "thirdSection": {
         "title": {
-            "1": "Ready",
+            "1": "Ready ",
             "2": "today",
             "3": "!"
         },
         "description": {
-            "1": "To train you and deploy into your factories, this initiative has been co-created with the support of many industries since 2015, with a first deployment back in 2019. With 21 years of experiences, the founder of FactoVia has deployed over 40 Industrial IoT projects.",
-            "2": "The training kit is designed in France with real robust industrial equipment, thus it can interract with true co-bot, robot, Cloud, IoT Edge and Smart glasses. Allowing over 10 true Use Cases to be tought. Besides, we are also teaching at global reach with MOOC."
+            "1": "To get trained and make your Factories 'Smart', this initiative has been jointly created with industrial actors since 2015, with a first deployment was back in 2019. With 21 years of experiences, the founder of FactoVia has deployed over 40 Industrial IoT projects.",
+            "2": "The training kit is designed in France with real robust industrial equipment, thus it is a mini-factory that interracts with true co-bot, robot, Cloud, IoT Edge and even Smart glasses. The kit allows us to teach you with over 10 true Use Cases.",
+            "3": "Finally, we are also teaching at global scale with MOOC (Massively Online Open Courses)."
         },
         "alt": "Picture of FactoviaOne"
     },
     "fourthSection": {
-        "title": "Testimonials of industrials",
+        "title": "The industry is talking about us",
         "comments": {
             "1": {
                 "content": "The mini-factory is Excellent !",
@@ -78,7 +79,7 @@
                 }
             },
             "2": {
-                "content": "Great demonstrator OPC UA",
+                "content": "Great demonstrator based on industrial standards such as OPC UA",
                 "author": {
                     "name": "Stéphane Potier",
                     "description": "2018: Marketing Manager France B&R (ABB group)"
@@ -113,7 +114,7 @@
         "hero": {
             "community": {
                 "title": "Community",
-                "content": "Get access to the best recognized experts and point technologies to cover all facets of your industrial IoT project: from setting up the factory on a vacant lot, to creating a global platform, to ordering chips directly from China in Shenzen"
+                "content": "Get access to the best recognized experts and point technologies to cover all facets of your industrial IoT project: from setting up the factory on a vacant lot, to creating a global platform, to ordering chips directly from China in Shenzhen"
             },
             "premium": {
                 "title": {
@@ -198,7 +199,7 @@
         "title": "Factovia Offers",
         "description": "Factovia - Training Kit, Premium Hub Access, Buy Factovia One and more.",
         "intro": {
-            "title": "Our offers"
+            "title": "What the Premium offer brings you"
         },
         "hero": {
             "1": {
@@ -206,19 +207,19 @@
                 "content": "We offer you a large choice of training, whether you are a student, a teacher, a training center or a factory shop floor manager. Besides we could provide keynotes during your events."
             },
             "2": {
-                "title": "Access to hub",
-                "content": "You could access for free to our hub and discuss with proven experts. To go even beyond, we could access a premium offering."
+                "title": "Access to the hub",
+                "content": "Premium allows a full access to the entire hub of our experts and our advices, allowing be surrounded by the best proven experts for your challenges."
             },
             "3": {
-                "title": "Acheter Factovia One",
-                "content": "To promote largely the education, we made Open Source our training kit material so you  could make it yourself ! If you are not DYI, buy the ready-to-use version. Alternatively, rent it or visit it from many places in France"
+                "title": "Get 'Factovia One'",
+                "content": "'FactoVia One' is a kit created to teach about industry 4.0. To promote largely the education for free, it has been Open Source. However, this still requires some time and expertise to build it. With the Premium offer, get manufactured in France, ready to be plugged into a power socket, and that works ! It’s elegant design has already convinced some industries who bought it for there reception for a WOUW effect. And training centers are buying it because it’s cheaper, less cumbersome and lighter than traditional training industrial equipment."
             }
         },
         "training": {
             "title": {
                 "1": "Trainings",
                 "2": "with the latest",
-                "3": "Tech"
+                "3": "Tech !"
             },
             "content": "We are offering training on the latest innovative technology, that you could learn with ease, thanks to our training material. Lear about Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Below a sample of our catalog."
         },

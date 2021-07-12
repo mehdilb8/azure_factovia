@@ -29,8 +29,8 @@
         "description": {
             "1": "Face aux changements dans l'industrie, nous",
             "2": "réinventons la formation",
-            "3": "et mettons en oeuvre via",
-            "4": "notre communauté d'experts."
+            "3": "et mettons en oeuvre la digitalisation de vos usines ",
+            "4": "via notre communauté d'experts."
         }
     },
     "trending": {
@@ -41,45 +41,46 @@
         "title": "L'industrie 4.0 facilitée par les principes Montessori",
         "cards": {
             "problem": {
-                "title": "Sous-évaluation de la rupture liée aux innovations",
-                "description": "Il est difficile d'expliquer à de nombreux cadres les concepts de l'industrie 4.0. Les présentations et les démonstrations ne sont pas assez tangibles pour être transposées dans le monde réel. Cela conduit à un manque d'investissements, à des retards dans les décisions et à la saturation des employés par des tâches manuelles. Ce qui a un impact sur la compétitivité."
+                "title": "Prise en compte de la résistance aux innovations",
+                "description": "Il est difficile d'expliquer à de nombreux cadres les concepts de l'industrie 4.0. Les présentations et les démonstrations existantes ne sont pas assez tangibles pour être transposées dans le monde réel. Les décideurs n’étant pas convaincus et/ou découragés par la complexité des projets, cela conduit à un manque d'investissements, à des retards dans les décisions, et donc à une perte de compétitivité."
             },
             "opportunities": {
                 "title": "Opportunités : Réinventer de nouvelles façons d'apprendre",
-                "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires ; sur la base d'une approche développée en 1900, combinées à des recherches scientifiques récentes en Montessori et en psychologie, nous avons créé une pédagogie immersive, basée sur l'innovation (matériel et logiciel)."
+                "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires ; sur la base de l’approche Montessori combinées à des recherches scientifiques récentes en pédagogie et psychologie, nous avons créé une méthode immersive innovante."
             },
             "seeInAction": {
-                "title": "Preuve de la simplicité"
+                "title": "Montessori : méthode simple pour comprendre des notions complexes"
             },
             "guidedTour": {
-                "title": "Présentation"
+                "title": "Aperçu du matériel pédagogique"
             }
         }
     },
     "thirdSection": {
         "title": {
-            "1": "Prêt",
-            "2": "aujourd'hui",
-            "3": "!"
+            "1": "Prêt à vous lancer dans la ",
+            "2": "transformation",
+            "3": "de votre usine ?"
         },
         "description": {
-            "1": "Pour vous former et mettre en oeuvre cela dans vos usines, ce projet a été co-créé avec des industriels depuis 2015, avec de premiers déploiement en 2019. Avec 21 ans d'expériences, le fondateur de FactoVia a déployé plus de 40 projets IoT industriels.",
-            "2": "Le matériel de formation est conçu en France avec de véritables équipements industriels. Ce qui en fait une vraie mini-usine pouvant interagir avec de vrais co-bots, robots, Cloud, IoT Edge, et lunettes connectées. Ce qui permet d'enseigner plus 10 véritables cas d'utilisation. Enfin, nous enseignons également à l'échelle mondiale avec des MOOC."
+            "1": "Pour vous former et mettre en œuvre la digitalisation de vos usines, ce projet a été construit avec des industriels depuis 2015. Il a fait l’objet de premiers déploiements dès 2019. Fort de 21 ans d'expérience, le fondateur de FactoVia a déjà accompagné plus de 40 projets IoT industriels.",
+            "2": "Le matériel de formation est conçu en France avec de véritables équipements industriels. Cela en fait une vraie mini-usine, pouvant interagir avec de vrais co-bots, robots, Cloud, IoT Edge, et des lunettes connectées. L’outil permet d'enseigner plus de 10 véritables cas clients.",
+            "3": "Enfin, nous formons également à l'échelle mondiale avec des MOOC (Massive Online Open Course, i.e. FOAD, Formation Ouverte A Distance)."
         },
         "alt": "Photo de FactoviaOne"
     },
     "fourthSection": {
-        "title": "Témoignages d'industriels",
+        "title": "Les industriels en parlent",
         "comments": {
             "1": {
-                "content": "La mini-usine est Excellente !",
+                "content": "La mini-usine est excellente !",
                 "author": {
                     "name": "Fouad Benris",
                     "description": "IoT & SmartData Lead Europe Management School GN-Board of Directors"
                 }
             },
             "2": {
-                "content": "Beau démonstrateur OPC UA",
+                "content": "Beau démonstrateur basé sur des standards industriels / OPC UA !",
                 "author": {
                     "name": "Stéphane Potier",
                     "description": "2018: Marketing Manager France B&R (ABB group)"
@@ -104,7 +105,7 @@
         "title": "Factovia Hub",
         "description": "Venez rejoindre un des plus grand réseaux d'experts en industrie 4.0 de France",
         "buttons": {
-            "freeAccount": "Rejoindre la communautée",
+            "freeAccount": "Rejoindre la communauté",
             "offers": "Voir les offres"
         },
         "intro": {
@@ -114,14 +115,14 @@
         "hero": {
             "community": {
                 "title": "Communauté",
-                "content": "Ayez accès aux meilleurs experts reconnus et aux technologies de points pour couvrir toutes les facettes de votre projet IoT industriel : depuis la création de l’usine sur un terrain vague, jusqu’à la création d’une plateforme mondiale, en passant par la commande de puces directement depuis la Chine à Shenzen "
+                "content": "Ayez accès aux meilleurs experts reconnus et aux technologies de pointe pour couvrir toutes les facettes de votre projet de digitalisation de votre usine : depuis la création de l’usine sur un terrain vague, jusqu’à la création d’une plateforme mondiale, en passant par la commande de puces directement depuis la Chine à Shenzhen "
             },
             "premium": {
                 "title": {
                     "1": "Offre",
                     "2": "Premium"
                 },
-                "content": "Pour aller encore plus loin, nous vous proposons un espace “VIP” avec une offre Premium, où les membres qualifiés bénéficieront d’informations permettant d’augmenter leurs compétitivités, et auront accès aux conseils personnalisés de l’équipe FactoVia.",
+                "content": "Pour aller encore plus loin, nous vous proposons un espace “VIP” avec une offre Premium, où les membres qualifiés bénéficieront d’informations permettant d’augmenter leur compétitivité, et auront accès aux conseils personnalisés de l’équipe FactoVia.",
                 "button": "Avoir le status Premium"
             }
         },
@@ -199,20 +200,20 @@
         "title": "Factovia Offres",
         "description": "Factovia - Kit d'entraînement, Accès premium au hub, Acheter Factovia One et bien plus encore.",
         "intro": {
-            "title": "Nos offres"
+            "title": "Ce que vous apporte l’offre Premium"
         },
         "hero": {
             "1": {
                 "title": "Kit d'entraînement",
-                "content": "Nous vous offrons un large choix de formations, que vous soyez un étudiant, enseignant, centre de formation ou un responsable d'atelier d'usine. De plus, nous pouvons fournir des keynotes lors de vos événements."
+                "content": "Nous vous offrons un large choix de formations, que vous soyez un étudiant, enseignant, centre de formation ou un responsable d'atelier d'usine. De plus, nous pouvons fournir des intervenants experts lors de vos événements."
             },
             "2": {
                 "title": "Accéder au hub",
-                "content": "Vous pourriez accéder gratuitement à notre hub et discuter avec des experts confirmés. Pour aller encore plus loin, on pourrait accéder à une offre premium."
+                "content": "Nous vous permettons un accès privilégié à l’intégralité de notre réseau de partenaires et aux équipes de FactoVia, ce qui vous permet de disposer des meilleurs acteurs pour votre projet."
             },
             "3": {
-                "title": "Acheter Factovia One",
-                "content": "Afin de promouvoir largement l'éducation, nous avons rendu open source le matériel de notre kit de formation afin que vous puissiez le fabriquer vous-même ! Si vous n'êtes pas bricoleur, achetez la version prête à l'emploi. Vous pouvez également la louer ou l'essayer dans plusieurs endroits de France."
+                "title": "Accéder à 'Factovia One'",
+                "content": "'Factovia One' est un kit pour vulgariser largement l'éducation. Bien qu'Open Sourcé, il nécessite un certain niveau d'expertise pour le fabriquer. Avec l’offre Premium, bénéficiez de la version prête à l’emploi réalisée en France par des professionnels : branchez-le sur une prise d’électricité et le kit fonctionne déjà ! Son design élégant a déjà convaincu certains industriels qui le placent à leur accueil. Et nos clients des centres de formation s’en servent pour former plus facilement, car moins cher et moins volumineux que le matériel de formation traditionnel."
             }
         },
         "training": {
