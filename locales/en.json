@@ -180,29 +180,29 @@
                 "1": {
                     "name": "LPG Medical Systems",
                     "intro": "2021, Rémi Peletier, connectivity manager :",
-                    "content": "“In 2012, Vincent and his teams provided training and support for the implementation of a large-scale IoT project. To date, we have a better understanding of the uses to invest where it makes sense, and several hundred thousand euros saved on a fleet of over 100,000 machines. Congratulations!”"
+                    "content": "In 2016, Vincent and his teams provided training and support for the implementation of a large-scale IoT project. Now, we have a precise understanding of the machine's usage and can better invest where it makes sense. That's several hundred thousand USD saved on a fleet of over 100,000 machines. Thank you !"
                 },
                 "2": {
                     "name": "AzurDrones, #1 of autonomous drones in Europe",
-                    "intro": "2021, Emmanuel, CTO :",
-                    "content": "“We had strong constraints to deliver a novel industrial IoT project, on time and on budget. The combination of pedagogical and pragmatical approach, together with skills has helped us deliver the projet on time.”"
+                    "intro": "2021, Emmanuel, CTO",
+                    "content": "We had strong constraints to deliver a novel industrial IoT project, on time and on budget. The combination of pedagogical and pragmatical approach, together with skills has helped us deliver the projet on time. Now we have realtime alerts to allow us act immediatly. As a result, we managed to scale worldwide, and still keep our customers happy thanks to anticipation."
                 },
                 "3": {
                     "name": "Vaccine manufacturer, worldwide leader",
                     "intro": "2021, IT program manager",
-                    "content": "“Through a lot of energy and methodology, on a worldwide complex Smart Factory deployment, you were able to federate disparate vision and make it converge into a single technical answer, with a lot of necessary documentation due to our medical requirements. We learnt a lot. Thank you.”"
+                    "content": "Through a lot of energy and methodology, on a worldwide complex Smart Factory deployment, you were able to federate disparate vision and make it converge into a single technical answer, with a lot of necessary documentation due to our medical requirements. We learnt a lot. Thank you."
                 },
                 "4": {
                     "name": "CETIM, inventor of 1rst artificial heart, leader in mechanical engineering",
                     "intro": "2021, Abdellah LAMALLEM, Factory project manager ",
-                    "content": "“We master Industry 4.0 ; you and your team helped us on the IoT Cloud with realtime dashboard aspects of the projet. Your agile way of thinking was key to deliver on time our project. Your competency in OPC UA industrial standards was key to our success.”"
+                    "content": "We master Industry 4.0 and you are expert in IoT Cloud : a perfect combination to deliver the projet on time. Based on your knowledge of OPC UA industrial standards, we are now able to monitor the impact of CO2 emitted for the entire installation, and detect potential savings by turning off unnecessary equipments. Not a negligible saving at a scale of factories, with high positive impact for the planet."
                 }
             }
         }
     },
     "offers": {
         "title": "Factovia Offers",
-        "description": "Factovia - Training Kit, Premium Hub Access, Buy Factovia One and more.",
+        "description": "Factovia - Training Kit, Premium Hub Access, Buy FactoVia One and more.",
         "intro": {
             "title": "What the Premium offer brings you"
         },
@@ -216,20 +216,20 @@
                 "content": "Premium allows a full access to the entire hub of our experts and our advices, allowing be surrounded by the best proven experts for your challenges."
             },
             "3": {
-                "title": "Get 'Factovia One'",
-                "content": "'FactoVia One' is a kit created to teach about industry 4.0. To promote largely the education for free, it has been Open Source. However, this still requires some time and expertise to build it. With the Premium offer, get manufactured in France, ready to be plugged into a power socket, and that works ! It’s elegant design has already convinced some industries who bought it for there reception for a WOUW effect. And training centers are buying it because it’s cheaper, less cumbersome and lighter than traditional training industrial equipment."
+                "title": "Get 'FactoVia One'",
+                "content": "Get a discount on 'FactoVia One' training kit (see below). It is manufactured in France, ready to be plugged into a power socket, and that works !"
             }
         },
         "training": {
             "title": {
-                "1": "Trainings",
-                "2": "with the latest",
-                "3": "Tech !"
+                "1": "What is ",
+                "2": "'FactoVia One'",
+                "3": " ?"
             },
-            "content": "We are offering training on the latest innovative technology, that you could learn with ease, thanks to our training material. Lear about Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Below a sample of our catalog."
+            "content": "'FactoVia One' is a kit composed of a mini-factory with software in it to teach about industry 4.0. To promote largely the education for free, both hardware and software have been Open Source. However, this still requires some time and expertise to build it. The Premium offering allows to get it or borrow it at a discounted price. On one hand, its elegant design has already convinced some industries to put it at the reception desk for a WOUW effect on their customers ! And on the other hand, training centers are buying it because it is cheaper, less cumbersome and lighter than traditional training industrial equipment. With 'FactoVia One' you can learn about Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Below a sample of our catalog."
         },
         "samples": {
-            "title": "Samples",
+            "title": "Extract of our training catalog",
             "offers": {
                 "1": {
                     "name": "Overall Equipment Effectiveness (OEE)",

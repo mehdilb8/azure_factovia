@@ -180,30 +180,30 @@
             "firms": {
                 "1": {
                     "name": "LPG Medical Systems",
-                    "intro": "2021, Rémi Peletier, responsable connectivité :",
-                    "content": "“En 2012, Vincent et ses équipes sont intervenus sur de la formation et de l’accompagnement à la mise en œuvre d’un projet IoT d’ampleur. À date, nous comprenons mieux les usages pour investir là où il y a du sens, et plusieurs centaines de milliers d’euros d’économisés sur un parc de plus de 100 000 machines. Grand bravo !”"
+                    "intro": "2021, Rémi Peletier, responsable connectivité",
+                    "content": "En 2016, Vincent et ses équipes sont intervenus sur de la formation et de l’accompagnement à la mise en œuvre d’un projet IoT d’ampleur. Aujourd’hui, nous comprenons mieux les usages pour investir là où il y a du sens, et nous avons économisé plusieurs centaines de milliers d’euros sur un parc de plus de 100 000 machines. Grand merci !"
                 },
                 "2": {
                     "name": "AzurDrones, #1 Drones autonomes en Europe",
-                    "intro": "2021, Emmanuel, CTO :",
-                    "content": "“Nous avions de fortes contraintes pour livrer un projet IoT industriel novateur, dans les délais et le budget impartis. La combinaison de l'approche pédagogique et pragmatique, ainsi que les compétences, nous a permis de livrer le projet dans les temps.”"
+                    "intro": "2021, Emmanuel, CTO",
+                    "content": "Nous avions de fortes contraintes de livraisons d'un projet IoT industriel novateur. Vincent a passé plusieurs jours en immersion pour comprendre les besoins et amorcer la transition nécessaire. Pragmatique et compétent, Vincent et ses équipes nous ont permis de livrer à temps dans le budget estimé. Nous avons à présent des alertes en temps réels et donc des résolutions de pannes rapides. Nous avons donc pu passer à l'échelle tout en maintenant La haute satisfaction client dans le monde."
                 },
                 "3": {
                     "name": "Fabricant de vaccins, leader mondial",
                     "intro": "2021, IT program manager",
-                    "content": "“Avec beaucoup d'énergie et de méthodologie, sur un déploiement mondial complexe de Smart Factory, vous avez été capable de fédérer des visions disparates et de les faire converger vers une réponse technique unique, avec beaucoup de documentation nécessaire en raison de nos exigences médicales. Nous avons beaucoup appris. Merci.”"
+                    "content": "Avec beaucoup d'énergie et de méthodologie, sur un déploiement mondial complexe de Smart Factory, vous avez été capable de fédérer des visions disparates et de les faire converger vers une réponse technique unique, avec beaucoup de documentation nécessaire en raison de nos exigences médicales. Nous avons beaucoup appris. Merci."
                 },
                 "4": {
                     "name": "CETIM, inventeur du premier cœur artificiel, leader en ingénierie mécanique",
                     "intro": "2021, Abdellah LAMALLEM, Chef de projet en usine ",
-                    "content": "“Nous maîtrisons l'industrie 4.0, et vous et votre équipe nous avez aidés sur les aspects Cloud IoT et tableau de bord en temps réel du projet. Votre façon agile de penser a été la clé pour livrer à temps, et la haute compétence dans les standards industriels OPC UA et l'IoT industriel a fait de ce projet un succès.”"
+                    "content": "Nous maîtrisons l'industrie 4.0, et vous maitrisez le Cloud IoT. C'est une très bonne complémentarité pour livrer rapidement notre projet reposant sur des standards industriels tel que l'OPC UA. Nous sommes à présent capable voir immédiatement l’impact de la consommation carbone de l’usine dans sa globalité, et donc agir par exemple en éteignant à distance des équipements non nécessaires. Economies considérables à l’échelle des usines, et un impact positif pour la planète !"
                 }
             }
         }
     },
     "offers": {
         "title": "Factovia Offres",
-        "description": "Factovia - Kit d'entraînement, Accès premium au hub, Acheter Factovia One et bien plus encore.",
+        "description": "Factovia - Kit d'entraînement, Accès premium au hub, Acheter FactoVia One et bien plus encore.",
         "intro": {
             "title": "Ce que vous apporte l’offre Premium"
         },
@@ -217,34 +217,35 @@
                 "content": "Nous vous permettons un accès privilégié à l’intégralité de notre réseau de partenaires et aux équipes de FactoVia, ce qui vous permet de disposer des meilleurs acteurs pour votre projet."
             },
             "3": {
-                "title": "Accéder à 'Factovia One'",
-                "content": "'Factovia One' est un kit pour vulgariser largement l'éducation. Bien qu'Open Sourcé, il nécessite un certain niveau d'expertise pour le fabriquer. Avec l’offre Premium, bénéficiez de la version prête à l’emploi réalisée en France par des professionnels : branchez-le sur une prise d’électricité et le kit fonctionne déjà ! Son design élégant a déjà convaincu certains industriels qui le placent à leur accueil. Et nos clients des centres de formation s’en servent pour former plus facilement, car moins cher et moins volumineux que le matériel de formation traditionnel."
+                "title": "'FactoVia One'",
+                "content": "Obtenez des réductions sur 'FactoVia One', le kit de formation pour vulgariser l'industry 4.0 (voir ci-dessous). Avec l’offre Premium, bénéficiez de la version prête à l’emploi : branchez-le et il fonctionne déjà !"
             }
         },
         "training": {
             "title": {
-                "1": "Formez-vous",
-                "2": "avec des technologies",
-                "3": "de pointes !"
+                "1": "Qu'est-ce que",
+                "2": "'FactoVia One'",
+                "3": "?"
             },
-            "content": "Nous proposons des formations sur les dernières technologies innovantes, que vous pourriez apprendre facilement, grâce à notre matériel de formation. Apprenez à connaître Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Ci-dessous un échantillon de notre catalogue"
+            "content": "'FactoVia One' est un kit de formation composé d'une mini-usine opérationnelle et de logiciels industriels qui permettent d'enseigner ce qu'est l'industrie du futur. Pour vulgariser largement, le matériel et le logiciel sont rendus Open Source. Toutefois, une certaine expertise est nécessaire pour refabriquer l'ensemble. L'offre Premium permet d'acquérir ou de louer le matériel à prix réduit. Grâce à l'élégance de son design, nos clients en font l'acquisition pour le placer à leur accueil de leur établissement pour interpeler leurs clients. Les centres de formations utilisent ce kit car il est moins cher et moins encombrant que les kits traditionnels de formation industriel. Avec ce kit, apprenez à utiliser Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Ci-dessous un échantillon de notre catalogue."
         },
         "samples": {
-            "title": "Exemples",
+            "title": "Extrait du catalogue de formations",
             "offers": {
                 "1": {
                     "name": "Efficacité globale de l'équipement (OEE)",
-                    "description": "Ne vous contentez plus de surveiller vos équipements ! Faites circuler les données en temps réel et envoyez des actions à l'usine du bout des doigts ?",
-                    "list": "1 journée de formation avec prise en compte de votre cas d'utilisation : 1100€.;2 heures de formations : gratuit."
+                    "description": "Ne vous contentez plus de surveiller sur site vos équipements ! Connectez vos usines entre elles, pour réellement utiliser toutes vos données collectées plus efficacement, afin d’anticiper les pannes en identifiant les signaux faibles… et agir en temps réel sur la cause du problème ! En résumé, allez plus loin et plus vite dans l’analyse et la résolution des problèmes avec la smart factory…",
+                    "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
                 },
                 "2": {
                     "name": "Digital Twins",
-                    "description": "Ce sujet est souvent sous-estimé car une notion similaire existe depuis quelques décennies. Cependant, ce sujet est une véritable nouvelle révolution, qui est définie par le Consortium Digital Twin. Nous verrons la théorie (20%), analyserons les cas d'utilisation (10%) et mettrons en œuvre un exemple réel (60%). Enfin, nous verrons les applications avancées (10%)."
+                    "description": "Le bâtiment utilise le BIM (Building Information Model) pour traduire en numérique le bâtiment et ses constituants. Le 'Digital Twin' permet d’étendre cela en suivant et interagissant avec les objets physique depuis leur copie-conforme numérique. En cas d'alertes, agissez directement sur la copie pour modifier immédiatement l'original. Une véritable révolution que vous saurez mettre en oeuvre concrètement via avec notre kit de formation !",
+                    "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
                 },
                 "3": {
                     "name": "Azure IoT Central",
-                    "description": "Vous avez un projet facile qui doit être déployé rapidement et à un coût de quelques centimes par appareil, avec presque pas de code et des solutions \"plug-and-play\" ? Cette formation et cette solution sont pour vous",
-                    "list": "1 journée de formation avec prise en compte de votre cas d'utilisation : 1100€.;2 heures de formations : gratuit."
+                    "description": "Vous avez un projet facile qui doit être déployé rapidement et à un coût de quelques centimes par appareil, avec presque pas de code et des solutions 'plug-and-play' (prêtes à l’emploi) ? Cette formation et cette solution sont pour vous : nous vous donnons toutes les clefs pour la configuration de cet outil.",
+                    "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
                 }
             }
         }

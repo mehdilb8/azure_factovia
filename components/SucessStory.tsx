@@ -32,8 +32,7 @@ export default function SuccessStory(props: SuccessStoryProps) {
                         </span>
                         <br />
                         <span>
-                            {props.description}
-
+                            <i>“{props.description}”</i>
                         </span>
                     </p>
                     {

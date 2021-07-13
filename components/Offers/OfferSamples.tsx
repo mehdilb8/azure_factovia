@@ -19,6 +19,7 @@ export default function OffersSample() {
                 description={i18n.t("offers.samples.offers.2.description")}
                 picture="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/offerSample2.jpg"
                 picturePosition="left"
+                list={i18n.t("offers.samples.offers.2.list").split(";")}
             />
             <SuccessStory
                 name={i18n.t("offers.samples.offers.3.name")}
