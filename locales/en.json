@@ -105,7 +105,7 @@
         "description": "Come and join one of the largest networks of Industry 4.0 experts in France",
         "buttons": {
             "freeAccount": "Join Community",
-            "offers": "See offers"
+            "offers": "See Premium offer"
         },
         "intro": {
             "title": "The Hub",
@@ -233,17 +233,18 @@
             "offers": {
                 "1": {
                     "name": "Overall Equipment Effectiveness (OEE)",
-                    "description": "Stop simply monitoring your equipments ! Have data flowing realtimeto you and send actions to the factory from your finger-tip ?",
-                    "list": "1 day training with consideration of you use case : 1100€;2 hours training : free "
+                    "description": "Stop simply monitoring your equipment ! Have data flowing real time to a centralized location to anticipate failure and take actions real-time.",
+                    "list": "Two hours training for free, and one day training with consideration of your use case : 1100$"
                 },
                 "2": {
                     "name": "Digital Twins",
-                    "description": "This topic is often under estimated because a similar notion exists for the last few decades. However, this topic is true new revolution, that is defined by the Digital Twin consorsium. We will see the theory (20%), and analyse use case (10%) and implement a real example (60%). Finally see advanced applications (10%)."
+                    "description": "This topic is often under estimated because a similar notion exists for the last few decades. However, this topic is true new revolution, that is defined by the Digital Twin consorsium. You will master apply its principles thanks to our training kit.",
+                    "list": "Two hours training for free, and one day training with consideration of your use case : 1100$"
                 },
                 "3": {
                     "name": "Azure IoT Central",
                     "description": "You have an easy project that needs to be deployed fast and at a cost of few cents per devices, with nearly no code and “plug-and-play” solutions ? This training and solution is for you",
-                    "list": "1 day training with consideration of you use case : 1100€;2 hours training : free "
+                    "list": "Two hours training for free, and one day training with consideration of your use case : 1100$"
                 }
             }
         }

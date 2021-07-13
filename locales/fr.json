@@ -49,10 +49,10 @@
                 "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires ; sur la base de l’approche Montessori combinées à des recherches scientifiques récentes en pédagogie et psychologie, nous avons créé une méthode immersive innovante."
             },
             "seeInAction": {
-                "title": "Montessori : méthode simple pour comprendre des notions complexes"
+                "title": "Méthode simple et notions complexes"
             },
             "guidedTour": {
-                "title": "Aperçu du matériel pédagogique"
+                "title": "Aperçu du matériel pédagogique 'FactoVia One'"
             }
         }
     },
@@ -106,7 +106,7 @@
         "description": "Venez rejoindre un des plus grand réseaux d'experts en industrie 4.0 de France",
         "buttons": {
             "freeAccount": "Rejoindre la communauté",
-            "offers": "Voir les offres"
+            "offers": "Voir l'offre Premium"
         },
         "intro": {
             "title": "Le Hub",
@@ -233,8 +233,8 @@
             "title": "Extrait du catalogue de formations",
             "offers": {
                 "1": {
-                    "name": "Efficacité globale de l'équipement (OEE)",
-                    "description": "Ne vous contentez plus de surveiller sur site vos équipements ! Connectez vos usines entre elles, pour réellement utiliser toutes vos données collectées plus efficacement, afin d’anticiper les pannes en identifiant les signaux faibles… et agir en temps réel sur la cause du problème ! En résumé, allez plus loin et plus vite dans l’analyse et la résolution des problèmes avec la smart factory…",
+                    "name": "Efficacité globale de l'équipement",
+                    "description": "Ne vous contentez plus de surveiller sur site vos équipements et le TRS (Taux de rendement synthétique) ! Connectez vos usines entre elles, pour réellement utiliser toutes vos données collectées plus efficacement, afin d’anticiper les pannes en identifiant les signaux faibles… et agir en temps réel sur la cause du problème ! En résumé, allez plus loin et plus vite dans l’analyse et la résolution des problèmes avec la smart factory…",
                     "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
                 },
                 "2": {
