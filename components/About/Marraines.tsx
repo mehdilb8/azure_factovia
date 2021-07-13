@@ -14,8 +14,17 @@ export default function Marraines() {
                 <section className="bg-secondary bg-opacity-60 rounded-lg shadow-lg">
                     <div className="px-6 py-8 mb-8">
                         <h1 className="title text-primaryWhite">{i18n.t("about.marraines.title")}</h1>
-                        <p className="text-primaryWhite mb-6">
-                            {i18n.t("about.marraines.description")}
+                        <p className="text-primaryWhite mb-1">
+                            {i18n.t("about.marraines.description.1")}
+                        </p>
+                        <p className="text-primaryWhite mb-1">
+                            {i18n.t("about.marraines.description.2")}
+                        </p>
+                        <p className="text-primaryWhite mb-1">
+                            {i18n.t("about.marraines.description.3")}
+                        </p>
+                        <p className="text-primaryWhite mb-1">
+                            {i18n.t("about.marraines.description.4")}
                         </p>
                         <h2 className="title text-primaryWhite text-3xl text-center">{i18n.t("about.marraines.support")}</h2>
                     </div>

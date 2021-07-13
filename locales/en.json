@@ -138,7 +138,12 @@
         "description": "Our combat at FactoVia is to provide a reverse image of the industry",
         "marraines": {
             "title": "#Diversity #Inclusion: our project to help reshaping the industry features two exceptional engineers as Godmother",
-            "description": "Our combat at FactoVia is to provide a reverse image of the industry. Yes it has got some drawbacks, and let’s face it, new alternatives such as the circular economy that consists in preserving the planet has to be developed broader, and de-carbonite the industries. The image of the industry also must change in terms of mentality by promoting #Diversity, where the sector is vastly too masculine. And because the kids are tomorrow’s workers in the industry, let’s make the topic fun and interresting for them !",
+            "description": {
+                "1": "Our combat at FactoVia it to change the industry and therefore also the negative image it has got.",
+                "2": "The current industry could have negative impacts on the planet,but some alternatives exist such as circular economy that must be implemented at a broader scale, in order to decarbonite and preserve the planet.",
+                "3": "To do so, mentality must change and evolve. In a short term, new vision could be brought thanks to #mixity and #diversity in a sector that is generally composed of men.",
+                "4": "In a long term, because kids are tomorrow's adults, let's prepare them today with fun training materials !"
+            },
             "support": "These exceptional women support us!",
             "content": {
                 "1": {
@@ -170,7 +175,7 @@
             "description": "Proud of our knowledge in the deployment of industry of the future projects, we offer you the possibility to implement advanced technologies in your industry thanks to our network of experts. "
         },
         "success": {
-            "title": "Des projets réussis !",
+            "title": "Our success is your!",
             "firms": {
                 "1": {
                     "name": "LPG Medical Systems",

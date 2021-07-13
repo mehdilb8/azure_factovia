@@ -138,8 +138,13 @@
         "title": "Factovia À propos",
         "description": "Notre combat à FactoVia est de donner une autre image de l'industrie.",
         "marraines": {
-            "title": "#Diversité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception",
-            "description": "Notre combat à FactoVia est de donner une autre image de l'industrie. Elle a des inconvénients, mais de nouvelles alternatives comme l'économie circulaire qui consiste à préserver la planète doivent être développée plus largement, et dé carbonées les industries. L'image de l'industrie doit également changer en termes de mentalité en promouvant la #Diversité, où le secteur est largement trop masculin. Et parce que les enfants sont les travailleurs de demain dans l'industrie, faisons en sorte que le sujet soit amusant et intéressant pour eux !",
+            "title": "#DéveloppementDurable #Mixité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception",
+            "description": {
+                "1": "Notre combat à FactoVia est de changer l’industrie et donc de « redorer son blason ».",
+                "2": "La forme actuelle de développement industriel peut avoir des impacts négatifs sur la planète. Or il existe des alternatives comme l'économie circulaire qui doivent être développées plus largement afin de décarboner les industries et préserver la planète.",
+                "3": "Le changement de l'image de l'industrie doit également passer par une transformation des mentalités. A court terme, nous promouvons la #Diversité et la #Mixité dans un secteur encore majoritairement masculin.",
+                "4": "Et à long terme, parce que les enfants sont les travailleurs de demain dans l'industrie, faisons en sorte que le sujet soit amusant et intéressant pour eux, dès à présent !"
+            },
             "support": "Ces femmes d’exception nous soutiennent !",
             "content": {
                 "1": {
@@ -154,7 +159,7 @@
                     "title": "Directrice R&D Engineering",
                     "school": "J'ai 20 ans d'expériences dans la conception de procédés industriels. Je soutiens FactoVia qui oeuvre vers l'économie circulaire et le développement durable",
                     "job": "Manager active - Innovation-Développement dans l'industrie",
-                    "tags": "Aérospatial;Médical;Éolien;Innovation"
+                    "tags": "Aérospatiale;Médical;Éolien;Innovation"
                 }
             }
         },
@@ -171,7 +176,7 @@
             "description": "Fier de nos connaissances en matière de déploiement de projets industrie du futur nous vous offrons la possibilité de mettre en place à votre tour des technologies de pointe dans votre industrie grâce à notre réseau d'experts."
         },
         "success": {
-            "title": "Des projets réussis !",
+            "title": "Nos succès !",
             "firms": {
                 "1": {
                     "name": "LPG Medical Systems",
