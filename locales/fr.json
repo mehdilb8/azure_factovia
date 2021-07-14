@@ -42,11 +42,11 @@
         "cards": {
             "problem": {
                 "title": "Prise en compte de la résistance aux innovations",
-                "description": "Il est difficile d'expliquer à de nombreux cadres les concepts de l'industrie 4.0. Les présentations et les démonstrations existantes ne sont pas assez tangibles pour être transposées dans le monde réel. Les décideurs n’étant pas convaincus et/ou découragés par la complexité des projets, cela conduit à un manque d'investissements, à des retards dans les décisions, et donc à une perte de compétitivité."
+                "description": "Les concepts de l'industrie 4.0 et variantes (usines du futur, industry 4.0, ...) peuvent être déroutants et chronophages à assimiler pour de nombreux cadres de l'industrie. Les présentations et les démonstrations existantes ne sont pas assez tangibles pour être transposées dans le monde réel. Les décideurs n’étant pas convaincus et/ou découragés par la complexité des projets, cela conduit à un manque d'investissements, à des retards dans les décisions, et donc à une perte de compétitivité."
             },
             "opportunities": {
                 "title": "Opportunités : Réinventer de nouvelles façons d'apprendre",
-                "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires ; sur la base de l’approche Montessori combinées à des recherches scientifiques récentes en pédagogie et psychologie, nous avons créé une méthode immersive innovante."
+                "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires : sur la base de l’approche Montessori combinées à des recherches scientifiques récentes en pédagogie et psychologie, nous avons créé une méthode immersive innovante."
             },
             "seeInAction": {
                 "title": "Méthode simple et notions complexes"
@@ -196,7 +196,7 @@
                 "4": {
                     "name": "CETIM, inventeur du premier cœur artificiel, leader en ingénierie mécanique",
                     "intro": "2021, Abdellah LAMALLEM, Chef de projet en usine ",
-                    "content": "Nous maîtrisons l'industrie 4.0, et vous maitrisez le Cloud IoT. C'est une très bonne complémentarité pour livrer rapidement notre projet reposant sur des standards industriels tel que l'OPC UA. Nous sommes à présent capable voir immédiatement l’impact de la consommation carbone de l’usine dans sa globalité, et donc agir par exemple en éteignant à distance des équipements non nécessaires. Economies considérables à l’échelle des usines, et un impact positif pour la planète !"
+                    "content": "Nous maîtrisons l'industrie mécanique depuis 50 ans, et vous maitrisez le Cloud IoT dans un contexte industriel. C'est une très bonne complémentarité pour livrer rapidement notre projet reposant sur des standards industriels tel que l'OPC UA. Nous sommes à présent capable de voir immédiatement l’impact de la consommation carbone de l’usine dans sa globalité, et donc d'agir par exemple en éteignant à distance des équipements non nécessaires. Economies considérables à l’échelle des usines, et un impact positif pour la planète !"
                 }
             }
         }
@@ -210,7 +210,7 @@
         "hero": {
             "1": {
                 "title": "Kit d'entraînement",
-                "content": "Nous vous offrons un large choix de formations, que vous soyez un étudiant, enseignant, centre de formation ou un responsable d'atelier d'usine. De plus, nous pouvons fournir des intervenants experts lors de vos événements."
+                "content": "Nous vous offrons un large choix de formations, que vous soyez étudiant, enseignant, centre de formation ou responsable d'atelier d'usine. De plus, nous pouvons fournir des intervenants experts lors de vos événements."
             },
             "2": {
                 "title": "Accéder au hub",
@@ -218,7 +218,7 @@
             },
             "3": {
                 "title": "'FactoVia One'",
-                "content": "Obtenez des réductions sur 'FactoVia One', le kit de formation pour vulgariser l'industry 4.0 (voir ci-dessous). Avec l’offre Premium, bénéficiez de la version prête à l’emploi : branchez-le et il fonctionne déjà !"
+                "content": "Obtenez des réductions sur 'FactoVia One', le kit de formation pour vulgariser l'industrie 4.0 (voir ci-dessous). Avec l’offre Premium, bénéficiez de la version prête à l’emploi : branchez-le et il fonctionne déjà !"
             }
         },
         "training": {
@@ -227,7 +227,7 @@
                 "2": "'FactoVia One'",
                 "3": "?"
             },
-            "content": "'FactoVia One' est un kit de formation composé d'une mini-usine opérationnelle et de logiciels industriels qui permettent d'enseigner ce qu'est l'industrie du futur. Pour vulgariser largement, le matériel et le logiciel sont rendus Open Source. Toutefois, une certaine expertise est nécessaire pour refabriquer l'ensemble. L'offre Premium permet d'acquérir ou de louer le matériel à prix réduit. Grâce à l'élégance de son design, nos clients en font l'acquisition pour le placer à leur accueil de leur établissement pour interpeler leurs clients. Les centres de formations utilisent ce kit car il est moins cher et moins encombrant que les kits traditionnels de formation industriel. Avec ce kit, apprenez à utiliser Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Ci-dessous un échantillon de notre catalogue."
+            "content": "'FactoVia One' est un kit de formation composé d'une mini-usine opérationnelle et de logiciels industriels qui permettent d'enseigner ce qu'est l'industrie du futur. Pour vulgariser largement, le matériel et le logiciel sont rendus Open Source. Toutefois, une certaine expertise est nécessaire pour refabriquer l'ensemble. L'offre Premium permet d'acquérir ou de louer le matériel à prix réduit. Grâce à l'élégance de son design, nos clients en font l'acquisition pour le présenter et l'exposer à l'accueil de leur établissement afin d'interpeller leurs clients. Les centres de formations quand à eux l'utilisent car il est moins cher et moins encombrant que les kits traditionnels de formations industrielles. Avec ce kit, apprenez à utiliser Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Ci-dessous un échantillon de notre catalogue."
         },
         "samples": {
             "title": "Extrait du catalogue de formations",
