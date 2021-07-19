@@ -1,0 +1,14 @@
+.concept {
+    @apply relative;
+    animation: conceptRotation 1s ease-in-out;
+}
+
+@keyframes conceptRotation {
+    from {
+        @apply opacity-0 top-4;
+    }
+
+    to {
+        @apply opacity-100 top-0;
+    }
+}

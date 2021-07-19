@@ -5,6 +5,8 @@ import Link from 'next/link'
 import TopNav from '../../../components/TopNav'
 import useI18n from "../../../hooks/i18n-hook"
 import { getStaticPathsBlogHome, getStaticPropsBlogHome } from '../../../utils/pageUtils/bloghome'
+import MetaOpenGraph from '../../../components/MetaOpenGraph'
+import SEO from '../../../components/SEO'
 
 export default function index(props: BlogIndexProps) {
     const first = props.posts[0] as BlogMetaData
@@ -13,6 +15,15 @@ export default function index(props: BlogIndexProps) {
 
     return <>
         <Head>
+            <MetaOpenGraph
+                description={i18n.t("blog.index.description")}
+                path={i18n.activeLocale + "/blog"}
+                thumb={first.thumb || `https://picsum.photos/seed/${first.title}/1600`}
+                title={i18n.t("blog.index.title")}
+            />
+            <SEO
+                path={i18n.activeLocale + "/blog"}
+            />
             <meta name="description" content={i18n.t("blog.index.description")}></meta>
             <title>{i18n.t("blog.index.title")}</title>
         </Head>
@@ -38,7 +49,7 @@ export default function index(props: BlogIndexProps) {
                     {
                         posts.map((blogPost) => <div className="lg:w-1/3 md:w-1/2 w-full mb-4 lg:pr-8 md:pr-6 pr-0" key={blogPost.slug}>
                             <div className="mb-2">
-                                <Link href={i18n.activeLocale + "/blog/" + blogPost.slug}>
+                                <Link href={"/" + i18n.activeLocale + "/blog/" + blogPost.slug}>
                                     <a>
                                         <img className="list-blog-thumb w-full object-cover rounded-sm shadow-md transition-transform transform hover:translate-x-2 hover:-translate-y-2"
                                             src={blogPost.thumb || `https://picsum.photos/seed/${blogPost.title}/1600`}
@@ -47,7 +58,7 @@ export default function index(props: BlogIndexProps) {
                                 </Link>
                             </div>
                             <p className="text-gray-500 text-sm">{new Date(blogPost.date || Date.now()).toLocaleDateString()}</p>
-                            <Link href={i18n.activeLocale + "/blog/" + blogPost.slug}>
+                            <Link href={"/" + i18n.activeLocale + "/blog/" + blogPost.slug}>
                                 <a>
                                     <h3 className="cursor-pointer text-3xl font-semibold">{blogPost.title}</h3>
                                 </a>

@@ -1,5 +1,5 @@
-import { defaultLanguage } from '../lib/i18n'
 import { readFileSync } from 'fs'
+import { DEFAULT_LANG } from '../constantes';
 
 export default async function getLangAndDict(lang: string) {
     let lng = lang
@@ -12,7 +12,7 @@ export default async function getLangAndDict(lang: string) {
     }
 
     if (!lngDict) {
-        lng = defaultLanguage
+        lng = DEFAULT_LANG
         lngDict = await JSON.parse(readFileSync('locales/' + lang + '.json', 'utf-8'))
     }
 

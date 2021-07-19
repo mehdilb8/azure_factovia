@@ -24,19 +24,19 @@
 }
 
 .blog-content  h1 {
-    @apply text-5xl font-black;
+    @apply text-4xl lg:text-5xl font-black;
 }
 
 .blog-content  h2 {
-    @apply text-4xl font-bold;
+    @apply text-3xl lg:text-4xl font-bold;
 }
 
 .blog-content  h3 {
-    @apply text-3xl font-semibold;
+    @apply text-2xl lg:text-3xl font-semibold;
 }
 
 .blog-content p {
-    @apply font-serif text-xl my-2 text-justify;
+    @apply font-serif text-lg lg:text-xl my-2 text-justify;
 }
 
 .blog-content  ul, .blog-content  ol, .blog-content  ol  li  ul {
@@ -60,7 +60,7 @@
 }
 
 .blog-content li {
-    @apply font-serif text-xl;
+    @apply font-serif text-lg lg:text-xl;
 }
 
 .blog-content  blockquote {

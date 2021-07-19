@@ -1,5 +1,5 @@
-import Head from 'next/head'
 import isBrowser from '../utils/isBrowser'
+import Script from 'next/script'
 
 export default function GoogleAnalytics() {
 
@@ -11,17 +11,14 @@ export default function GoogleAnalytics() {
             function gtag() { dataLayer.push(arguments) }
             //@ts-ignore
             gtag('js', new Date())
-
             //@ts-ignore
-            gtag('config', 'UA-199420266-1')
+            gtag('config', 'G-ML41TN8SSL')
         }
         return null
     }
 
     return <>
-        <Head>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199420266-1" />
-        </Head>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-ML41TN8SSL" />
         {analytics()}
     </>
 }

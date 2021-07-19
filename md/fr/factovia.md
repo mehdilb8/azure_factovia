@@ -1,6 +1,8 @@
 ---
 title: "Démarrage de FactoVia"
-date: "2021-07-08"
+author: "Vincent Thavonekham"
+date: "2021-08-01"
+modified: "2021-08-01"
 description: "L'entreprise d'apprentissage et de consulation sur le sujet de SmartFactory ouvre ses portes !"
 thumb: https://cdn.pixabay.com/photo/2021/03/08/06/23/green-tea-6078275_960_720.jpg
 ---

@@ -1,24 +1,37 @@
+import Head from 'next/head'
 import { getStaticPathsStaticPage, getStaticPropsStaticPage } from '../../utils/pageUtils/staticPage'
-import AccueilContainer from '../../components/Accueil/AccueilContainer'
+import useI18n from '../../hooks/i18n-hook'
+import MetaOpenGraph from '../../components/MetaOpenGraph'
+import SEO from '../../components/SEO'
 
-import TopNav from "../../components/TopNav"
 import HubIntro from '../../components/Hub/HubIntro'
-import HubHero from '../../components/Hub/HubHero'
+import HubCommunity from '../../components/Hub/HubCommunity'
+import HubPremium from '../../components/Hub/HubPremium'
 import HubMain from '../../components/Hub/HubMain'
 import HubEnd from '../../components/Hub/HubEnd'
 
 export default function Hub() {
-    return <div>
-        <TopNav />
-        <AccueilContainer className="py-10">
-            <>
-                <HubIntro />
-                <HubHero />
-                <HubMain />
-                <HubEnd />
-            </>
-        </AccueilContainer>
-    </div>
+    const i18n = useI18n()
+    return <>
+        <Head>
+            <MetaOpenGraph
+                description={i18n.t("hub.description")}
+                path={i18n.activeLocale + "/hub"}
+                thumb="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/hub_bg.jpg"
+                title={i18n.t("hub.title")}
+            />
+            <SEO
+                path={i18n.activeLocale + "/hub"}
+            />
+            <meta name="description" content={i18n.t("hub.description")}></meta>
+            <title>{i18n.t("hub.title")}</title>
+        </Head>
+        <HubIntro />
+        <HubCommunity />
+        <HubPremium />
+        <HubMain />
+        <HubEnd />
+    </>
 }
 
 export const getStaticProps = getStaticPropsStaticPage

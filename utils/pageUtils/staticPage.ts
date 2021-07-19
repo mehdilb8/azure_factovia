@@ -1,8 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
-import { languages } from '../../lib/i18n'
 import getLangAndDict from '../getLangAndDict'
 import fetchBlogPosts from '../fetchAllBlogPosts'
 import { I18nProps } from '../../types/i18n'
+import { LANGS } from '../../constantes'
 
 export const getStaticPropsStaticPage: GetStaticProps<I18nProps> = async (context) => {
     if (!context.params || !context.params.lang) {
@@ -21,7 +21,7 @@ export const getStaticPropsStaticPage: GetStaticProps<I18nProps> = async (contex
 }
 
 export const getStaticPathsStaticPage: GetStaticPaths = async () => {
-    const langPath = languages.map((lang) => ({ params: { lang } }))
+    const langPath = LANGS.map((lang) => ({ params: { lang } }))
 
     return {
         paths: langPath,

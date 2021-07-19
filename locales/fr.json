@@ -1,84 +1,96 @@
 {
     "buttons": {
         "contact": "Nous contacter",
+        "join": "Nous rejoindre",
         "informations": "Plus d'informations"
     },
     "nav": {
-        "home": "Acceuil",
+        "home": "Accueil",
         "offering": "Offres",
         "hub": "Hub",
-        "about": "À propos",
-        "lang": "EN/FR"
+        "blog": "Blog",
+        "offers": "Offres",
+        "contact": "Contact",
+        "about": "À propos"
     },
     "home": {
         "title": "Factovia",
         "description": "L'apprentissage de l'industrie du futur n'a jamais été aussi simple."
     },
     "mainSection": {
+        "title": {
+            "main": "Industrie 4.0",
+            "concept": {
+                "1": "Formation et mise en oeuvre",
+                "2": "Technologie",
+                "3": "Industrie"
+            }
+        },
         "description": {
             "1": "Face aux changements dans l'industrie, nous",
-            "2": "réinvente la formation",
-            "3": "et vous accompagne avec une",
-            "4": "communauté d'experts."
+            "2": "réinventons la formation",
+            "3": "et mettons en oeuvre la digitalisation de vos usines ",
+            "4": "via notre communauté d'experts."
         }
     },
     "trending": {
-        "title": "En tendance !",
+        "title": "Tendances !",
         "more": "En savoir plus"
     },
-    "seconSection": {
+    "secondSection": {
         "title": "L'industrie 4.0 facilitée par les principes Montessori",
         "cards": {
             "problem": {
-                "title": "Problème : mauvaise compréhension de la perturbation",
-                "description": "Il est difficile d'expliquer à de nombreux cadres les concepts de l'industrie 4.0. Les présentations et les démonstrations ne sont pas assez tangibles pour être transposées dans le monde réel. Cela conduit à un manque d'investissements, à des retards dans les décisions et à la saturation des employés par des tâches manuelles. Ce qui a un impact sur la compétitivité."
+                "title": "Prise en compte de la résistance aux innovations",
+                "description": "Les concepts de l'industrie 4.0 et variantes (usines du futur, industry 4.0, ...) peuvent être déroutants et chronophages à assimiler pour de nombreux cadres de l'industrie. Les présentations et les démonstrations existantes ne sont pas assez tangibles pour être transposées dans le monde réel. Les décideurs n’étant pas convaincus et/ou découragés par la complexité des projets, cela conduit à un manque d'investissements, à des retards dans les décisions, et donc à une perte de compétitivité."
             },
             "opportunities": {
                 "title": "Opportunités : Réinventer de nouvelles façons d'apprendre",
-                "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires ; sur la base d'une approche développée en 1900, combinée à des recherches scientifiques récentes en Montessori et en psychologie, nous avons créé une pédagogie immersive, basée sur l'innovation (matériel et logiciel)."
+                "description": "De nouvelles formations pour l'industrie 4.0 sont nécessaires : sur la base de l’approche Montessori combinées à des recherches scientifiques récentes en pédagogie et psychologie, nous avons créé une méthode immersive innovante."
             },
             "seeInAction": {
-                "title": "Démonstration"
+                "title": "Méthode simple et notions complexes"
             },
             "guidedTour": {
-                "title": "Présentation 3D"
+                "title": "Aperçu du matériel pédagogique 'FactoVia One'"
             }
         }
     },
     "thirdSection": {
         "title": {
-            "1": "Prêt",
-            "2": "aujourd'hui",
-            "3": "!"
+            "1": "Prêt à vous lancer dans la ",
+            "2": "transformation",
+            "3": "de votre usine ?"
         },
         "description": {
-            "1": "Ce projet a été cocréé avec le soutien de nombreuses industries depuis 2015, et déployé en 2019. Le fondateur de FactoVia a déployé plus de 40 projets IoT industriels, et a 20 ans d'expérience.",
-            "2": "Elle est constituée de véritables équipements industriels robustes. Ce qui en fait une vraie mini-usine qui peut interagir avec de vrais co-bots, robots, téléassistance, Cloud, IoT Edge. Ce qui permet d'enseigner de véritables cas d'utilisation. En outre, sur la base de Digital Twins, nous enseignons à l'échelle mondiale avec des MOOC."
+            "1": "Pour vous former et mettre en œuvre la digitalisation de vos usines, ce projet a été construit avec des industriels depuis 2015. Il a fait l’objet de premiers déploiements dès 2019. Fort de 21 ans d'expérience, le fondateur de FactoVia a déjà accompagné plus de 40 projets IoT industriels.",
+            "2": "Le matériel de formation est conçu en France avec de véritables équipements industriels. Cela en fait une vraie mini-usine, pouvant interagir avec de vrais co-bots, robots, Cloud, IoT Edge, et des lunettes connectées. L’outil permet d'enseigner plus de 10 véritables cas clients.",
+            "3": "Enfin, nous formons également à l'échelle mondiale avec des MOOC (Massive Online Open Course, i.e. FOAD, Formation Ouverte A Distance)."
         },
         "alt": "Photo de FactoviaOne"
     },
     "fourthSection": {
-        "title": "Témoignages d'industriels",
+        "title": "Les industriels en parlent",
         "comments": {
             "1": {
-                "content": "Smart-F: Excellent",
+                "content": "La mini-usine est excellente !",
                 "author": {
                     "name": "Fouad Benris",
                     "description": "IoT & SmartData Lead Europe Management School GN-Board of Directors"
                 }
             },
             "2": {
-                "content": "Beau démonstrateur OPC UA",
+                "content": "Beau démonstrateur basé sur des standards industriels / OPC UA !",
                 "author": {
                     "name": "Stéphane Potier",
-                    "description": "Marketing Manager France B&R (ABB group)"
+                    "description": "2018: Marketing Manager France B&R (ABB group)"
                 }
             },
             "3": {
                 "content": "👍 J'ADORE !!!!",
                 "author": {
                     "name": "Marcia Paglia",
-                    "description": "Partner Manager"
+                    "description": "SAP Partner Manager"
                 }
             }
         }
@@ -90,26 +102,152 @@
         }
     },
     "hub": {
+        "title": "Factovia Hub",
+        "description": "Venez rejoindre un des plus grand réseaux d'experts en industrie 4.0 de France",
         "buttons": {
-            "freeAccount": "Créer un compte gratuit"
+            "freeAccount": "Rejoindre la communauté",
+            "offers": "Voir l'offre Premium"
         },
         "intro": {
-            "title": "Le Hub"
+            "title": "Le Hub",
+            "description": "Rejoignez notre communauté d’experts ! Que vous soyez un client ou un expert ayant une forte valeur ajoutée dans un domaine spécifique de l’industry 4.0, rejoignez-nous gratuitement !"
         },
         "hero": {
             "community": {
-                "title": "Communautée",
-                "content": "Ayez accès aux meilleurs experts reconnus et aux technologies de points pour couvrir toutes les facettes de votre projet IoT industriel : depuis la création de l’usine sur un terrain vague, jusqu’à la création d’une plateforme mondiale, en passant par la commande de puces directement depuis la Chine à Shenzen "
+                "title": "Communauté",
+                "content": "Ayez accès aux meilleurs experts reconnus et aux technologies de pointe pour couvrir toutes les facettes de votre projet de digitalisation de votre usine : depuis la création de l’usine sur un terrain vague, jusqu’à la création d’une plateforme mondiale, en passant par la commande de puces directement depuis la Chine à Shenzhen "
             },
             "premium": {
-                "title": "Offre Premium",
-                "content": "TODO : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper mi vitae commodo. Nam vel semper nibh. Nam fermentum sem id lacus volutpat suscipit at in quam. Quisque vel augue euismod, eleifend lectus eu, feugiat tellus. Ut faucibus libero quis lectus vulputate tempus. Donec eget purus quam. Proin accumsan enim et dapibus volutpat. Etiam sapien arcu, efficitur at volutpat nec, sollicitudin hendrerit ipsum.",
+                "title": {
+                    "1": "Offre",
+                    "2": "Premium"
+                },
+                "content": "Pour aller encore plus loin, nous vous proposons un espace “VIP” avec une offre Premium, où les membres qualifiés bénéficieront d’informations permettant d’augmenter leur compétitivité, et auront accès aux conseils personnalisés de l’équipe FactoVia.",
                 "button": "Avoir le status Premium"
             }
         },
         "hubMain": {
-            "title": "Entourez vous des meilleurs expert",
-            "description": "Notre communauté comporte plus de 40 partenaires (tels que HPE, ADVANTECH, STÄUBLI, ...), répartis sur 11 catégories (fabriquant de capteurs, fournisseurs de Cloud privié ou publique, ...)"
+            "title": "Entourez-vous des meilleurs experts",
+            "description": {
+                "1": "Notre communauté comporte plus de 40 partenaires (tels que HPE, ADVANTECH, STÄUBLI, ...), répartis sur",
+                "2": "catégories (fabricant de capteurs, fournisseurs de Cloud privé ou public ...)"
+            }
+        }
+    },
+    "about": {
+        "title": "Factovia À propos",
+        "description": "Notre combat à FactoVia est de donner une autre image de l'industrie.",
+        "marraines": {
+            "title": "#DéveloppementDurable #Mixité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception",
+            "description": {
+                "1": "Notre combat à FactoVia est de changer l’industrie et donc de « redorer son blason ».",
+                "2": "La forme actuelle de développement industriel peut avoir des impacts négatifs sur la planète. Or il existe des alternatives comme l'économie circulaire qui doivent être développées plus largement afin de décarboner les industries et préserver la planète.",
+                "3": "Le changement de l'image de l'industrie doit également passer par une transformation des mentalités. A court terme, nous promouvons la #Diversité et la #Mixité dans un secteur encore majoritairement masculin.",
+                "4": "Et à long terme, parce que les enfants sont les travailleurs de demain dans l'industrie, faisons en sorte que le sujet soit amusant et intéressant pour eux, dès à présent !"
+            },
+            "support": "Ces femmes d’exception nous soutiennent !",
+            "content": {
+                "1": {
+                    "name": "Estelle Auberix",
+                    "title": "CEO, Fondatrice",
+                    "school": "Je travaille dans la robotique et la cybersécurité. Mon combat c'est la diversité et l'entraide",
+                    "job": "Microsoft Regional Director et MVP Azure",
+                    "tags": "Moteur de la parité;Cloud;Intelligence artificielle;Experte en sécurité"
+                },
+                "2": {
+                    "name": "Maritxu Goyhetche",
+                    "title": "Directrice R&D Engineering",
+                    "school": "J'ai 20 ans d'expériences dans la conception de procédés industriels. Je soutiens FactoVia qui oeuvre vers l'économie circulaire et le développement durable",
+                    "job": "Manager active - Innovation-Développement dans l'industrie",
+                    "tags": "Aérospatiale;Médical;Éolien;Innovation"
+                }
+            }
+        },
+        "projects": {
+            "title": "Qualité de nos travaux et engagements de nos projets",
+            "figureDescription": {
+                "1": "Au grand Palais des Congrès à Paris sur la Keynote de la Vice-Présidente Microsoft Azure monde (Julia White en 2018) :",
+                "2": "Sur le plus grand événement Microsoft d’Europe, retour sur nos projets innovants en IoT, face à 4000 personnes et 150 000 connectés"
+            }
+        },
+        "techExpertise": {
+            "title": "Une expertise technologique",
+            "videoTitle": "MS Experiences Altametris VISEO",
+            "description": "Fier de nos connaissances en matière de déploiement de projets industrie du futur nous vous offrons la possibilité de mettre en place à votre tour des technologies de pointe dans votre industrie grâce à notre réseau d'experts."
+        },
+        "success": {
+            "title": "Nos succès !",
+            "firms": {
+                "1": {
+                    "name": "LPG Medical Systems",
+                    "intro": "2021, Rémi Peletier, responsable connectivité",
+                    "content": "En 2016, Vincent et ses équipes sont intervenus sur de la formation et de l’accompagnement à la mise en œuvre d’un projet IoT d’ampleur. Aujourd’hui, nous comprenons mieux les usages pour investir là où il y a du sens, et nous avons économisé plusieurs centaines de milliers d’euros sur un parc de plus de 100 000 machines. Grand merci !"
+                },
+                "2": {
+                    "name": "AzurDrones, #1 Drones autonomes en Europe",
+                    "intro": "2021, Emmanuel, CTO",
+                    "content": "Nous avions de fortes contraintes de livraisons d'un projet IoT industriel novateur. Vincent a passé plusieurs jours en immersion pour comprendre les besoins et amorcer la transition nécessaire. Pragmatique et compétent, Vincent et ses équipes nous ont permis de livrer à temps dans le budget estimé. Nous avons à présent des alertes en temps réels et donc des résolutions de pannes rapides. Nous avons donc pu passer à l'échelle tout en maintenant La haute satisfaction client dans le monde."
+                },
+                "3": {
+                    "name": "Fabricant de vaccins, leader mondial",
+                    "intro": "2021, IT program manager",
+                    "content": "Avec beaucoup d'énergie et de méthodologie, sur un déploiement mondial complexe de Smart Factory, vous avez été capable de fédérer des visions disparates et de les faire converger vers une réponse technique unique, avec beaucoup de documentation nécessaire en raison de nos exigences médicales. Nous avons beaucoup appris. Merci."
+                },
+                "4": {
+                    "name": "CETIM, inventeur du premier cœur artificiel, leader en ingénierie mécanique",
+                    "intro": "2021, Abdellah LAMALLEM, Chef de projet en usine ",
+                    "content": "Nous maîtrisons l'industrie mécanique depuis 50 ans, et vous maitrisez le Cloud IoT dans un contexte industriel. C'est une très bonne complémentarité pour livrer rapidement notre projet reposant sur des standards industriels tel que l'OPC UA. Nous sommes à présent capable de voir immédiatement l’impact de la consommation carbone de l’usine dans sa globalité, et donc d'agir par exemple en éteignant à distance des équipements non nécessaires. Economies considérables à l’échelle des usines, et un impact positif pour la planète !"
+                }
+            }
+        }
+    },
+    "offers": {
+        "title": "Factovia Offres",
+        "description": "Factovia - Kit d'entraînement, Accès premium au hub, Acheter FactoVia One et bien plus encore.",
+        "intro": {
+            "title": "Ce que vous apporte l’offre Premium"
+        },
+        "hero": {
+            "1": {
+                "title": "Kit d'entraînement",
+                "content": "Nous vous offrons un large choix de formations, que vous soyez étudiant, enseignant, centre de formation ou responsable d'atelier d'usine. De plus, nous pouvons fournir des intervenants experts lors de vos événements."
+            },
+            "2": {
+                "title": "Accéder au hub",
+                "content": "Nous vous permettons un accès privilégié à l’intégralité de notre réseau de partenaires et aux équipes de FactoVia, ce qui vous permet de disposer des meilleurs acteurs pour votre projet."
+            },
+            "3": {
+                "title": "'FactoVia One'",
+                "content": "Obtenez des réductions sur 'FactoVia One', le kit de formation pour vulgariser l'industrie 4.0 (voir ci-dessous). Avec l’offre Premium, bénéficiez de la version prête à l’emploi : branchez-le et il fonctionne déjà !"
+            }
+        },
+        "training": {
+            "title": {
+                "1": "Qu'est-ce que",
+                "2": "'FactoVia One'",
+                "3": "?"
+            },
+            "content": "'FactoVia One' est un kit de formation composé d'une mini-usine opérationnelle et de logiciels industriels qui permettent d'enseigner ce qu'est l'industrie du futur. Pour vulgariser largement, le matériel et le logiciel sont rendus Open Source. Toutefois, une certaine expertise est nécessaire pour refabriquer l'ensemble. L'offre Premium permet d'acquérir ou de louer le matériel à prix réduit. Grâce à l'élégance de son design, nos clients en font l'acquisition pour le présenter et l'exposer à l'accueil de leur établissement afin d'interpeller leurs clients. Les centres de formations quand à eux l'utilisent car il est moins cher et moins encombrant que les kits traditionnels de formations industrielles. Avec ce kit, apprenez à utiliser Azure Digital Twins, Dyn365 Remote Assist/Guides, Azure IoT Hub / Central, Azure Defender for IoT, IoT Edge, Azure Custom Vision... Ci-dessous un échantillon de notre catalogue."
+        },
+        "samples": {
+            "title": "Extrait du catalogue de formations",
+            "offers": {
+                "1": {
+                    "name": "Efficacité globale de l'équipement",
+                    "description": "Ne vous contentez plus de surveiller sur site vos équipements et le TRS (Taux de rendement synthétique) ! Connectez vos usines entre elles, pour réellement utiliser toutes vos données collectées plus efficacement, afin d’anticiper les pannes en identifiant les signaux faibles… et agir en temps réel sur la cause du problème ! En résumé, allez plus loin et plus vite dans l’analyse et la résolution des problèmes avec la smart factory…",
+                    "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
+                },
+                "2": {
+                    "name": "Digital Twins",
+                    "description": "Le bâtiment utilise le BIM (Building Information Model) pour traduire en numérique le bâtiment et ses constituants. Le 'Digital Twin' permet d’étendre cela en suivant et interagissant avec les objets physique depuis leur copie-conforme numérique. En cas d'alertes, agissez directement sur la copie pour modifier immédiatement l'original. Une véritable révolution que vous saurez mettre en oeuvre concrètement via avec notre kit de formation !",
+                    "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
+                },
+                "3": {
+                    "name": "Azure IoT Central",
+                    "description": "Vous avez un projet facile qui doit être déployé rapidement et à un coût de quelques centimes par appareil, avec presque pas de code et des solutions 'plug-and-play' (prêtes à l’emploi) ? Cette formation et cette solution sont pour vous : nous vous donnons toutes les clefs pour la configuration de cet outil.",
+                    "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
+                }
+            }
         }
     }
 }
