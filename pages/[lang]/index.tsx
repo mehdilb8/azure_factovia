@@ -29,7 +29,11 @@ export default function index(props: HomeProps) {
             <title>{i18n.t("home.title")}</title>
         </Head>
         <MainSection />
-        <Trending blog={props.blog} />
+        {
+            i18n.activeLocale !== 'fr'
+                ? <Trending blog={props.blog} />
+                : null
+        }
         <SecondSection />
         <ThirdSection />
         <FourthSection />
