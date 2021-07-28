@@ -20,6 +20,7 @@ specifiers:
   remark-gfm: ^1.0.0
   rosetta: ^1.1.0
   tailwindcss: ^2.1.4
+  three: ^0.130.1
   typescript: ^4.3.3
 
 dependencies:
@@ -30,11 +31,12 @@ dependencies:
   next-sitemap: 1.6.133_next@11.0.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  react-force-graph: 1.41.6_react@17.0.2
+  react-force-graph: 1.41.6_react@17.0.2+three@0.130.1
   react-markdown: 6.0.2_189cc19b8edfe5959338b863f6e5c247
   remark-footnotes: 3.0.0
   remark-gfm: 1.0.0
   rosetta: 1.1.0
+  three: 0.130.1
 
 devDependencies:
   '@types/node': 15.12.2
@@ -48,22 +50,22 @@ devDependencies:
 
 packages:
 
-  /3d-force-graph-ar/1.7.1:
+  /3d-force-graph-ar/1.7.1_three@0.130.1:
     resolution: {integrity: sha512-YZvKgHqwetnENyaRT9hW461b55JMSk4gnfWNgXUeSW5Qfkz71vci8PVqv9SYw5G9/7t/ggelysbOp06Va/l1UQ==}
     dependencies:
-      aframe-forcegraph-component: 3.0.2
+      aframe-forcegraph-component: 3.0.2_three@0.130.1
       kapsule: 1.13.4
     transitivePeerDependencies:
       - three
     dev: false
 
-  /3d-force-graph-vr/2.0.6:
+  /3d-force-graph-vr/2.0.6_three@0.130.1:
     resolution: {integrity: sha512-bnvsBXokpfdzX3D/PH0x1iPeyWKDUlC2bOiLYZn4M3DnY8hWN+7OWj0veOUs7D0fcDjf/S8yNzykayukEpRHpQ==}
     dependencies:
       accessor-fn: 1.3.1
       aframe: 1.2.0
       aframe-extras: 6.1.1_aframe@1.2.0
-      aframe-forcegraph-component: 3.0.2
+      aframe-forcegraph-component: 3.0.2_three@0.130.1
       kapsule: 1.13.4
     transitivePeerDependencies:
       - three
@@ -392,11 +394,11 @@ packages:
       three-pathfinding: 0.7.0
     dev: false
 
-  /aframe-forcegraph-component/3.0.2:
+  /aframe-forcegraph-component/3.0.2_three@0.130.1:
     resolution: {integrity: sha512-SZwM1NdRURlWriJVGJkaFC9hRSODH4SNNBkXeuT/10vEBlt58Up+GxQ6zWDdqMEByghgJu6fP/eB23WjwewSsg==}
     dependencies:
       accessor-fn: 1.3.1
-      three-forcegraph: 1.39.1
+      three-forcegraph: 1.39.1_three@0.130.1
     transitivePeerDependencies:
       - three
     dev: false
@@ -3521,14 +3523,14 @@ packages:
       scheduler: 0.20.2
     dev: false
 
-  /react-force-graph/1.41.6_react@17.0.2:
+  /react-force-graph/1.41.6_react@17.0.2+three@0.130.1:
     resolution: {integrity: sha512-Tl/VFpmDxivluNEQmydHpQoe069Gq+3KQLzlypo6ZeGo9EST2KZJSeLH/EHlIRCLzluK4a7mVa42/+x7TxGCOw==}
     peerDependencies:
       react: '*'
     dependencies:
       3d-force-graph: 1.70.4
-      3d-force-graph-ar: 1.7.1
-      3d-force-graph-vr: 2.0.6
+      3d-force-graph-ar: 1.7.1_three@0.130.1
+      3d-force-graph-vr: 2.0.6_three@0.130.1
       force-graph: 1.41.2
       prop-types: 15.7.2
       react: 17.0.2
@@ -4171,23 +4173,6 @@ packages:
     resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
     dev: true
 
-  /three-forcegraph/1.39.1:
-    resolution: {integrity: sha512-IRmp4nAkmuJ84igSRazz05wwgckyjHbrMHBmZlhPw3HbpZMv0V8WtQ5aRE4vuqBdJX2wNexR/RZJu9khg1OhXQ==}
-    peerDependencies:
-      three: '>=0.118.3'
-    dependencies:
-      accessor-fn: 1.3.1
-      d3-array: 3.0.1
-      d3-force-3d: 3.0.2
-      d3-scale: 4.0.0
-      d3-scale-chromatic: 3.0.0
-      data-joint: 1.2.4
-      kapsule: 1.13.4
-      ngraph.forcelayout: 3.1.0
-      ngraph.graph: 19.1.0
-      tinycolor2: 1.4.2
-    dev: false
-
   /three-forcegraph/1.39.1_three@0.129.0:
     resolution: {integrity: sha512-IRmp4nAkmuJ84igSRazz05wwgckyjHbrMHBmZlhPw3HbpZMv0V8WtQ5aRE4vuqBdJX2wNexR/RZJu9khg1OhXQ==}
     peerDependencies:
@@ -4203,6 +4188,24 @@ packages:
       ngraph.forcelayout: 3.1.0
       ngraph.graph: 19.1.0
       three: 0.129.0
+      tinycolor2: 1.4.2
+    dev: false
+
+  /three-forcegraph/1.39.1_three@0.130.1:
+    resolution: {integrity: sha512-IRmp4nAkmuJ84igSRazz05wwgckyjHbrMHBmZlhPw3HbpZMv0V8WtQ5aRE4vuqBdJX2wNexR/RZJu9khg1OhXQ==}
+    peerDependencies:
+      three: '>=0.118.3'
+    dependencies:
+      accessor-fn: 1.3.1
+      d3-array: 3.0.1
+      d3-force-3d: 3.0.2
+      d3-scale: 4.0.0
+      d3-scale-chromatic: 3.0.0
+      data-joint: 1.2.4
+      kapsule: 1.13.4
+      ngraph.forcelayout: 3.1.0
+      ngraph.graph: 19.1.0
+      three: 0.130.1
       tinycolor2: 1.4.2
     dev: false
 
@@ -4224,6 +4227,10 @@ packages:
 
   /three/0.129.0:
     resolution: {integrity: sha512-wiWio1yVRg2Oj6WEWsTHQo5eSzYpEwSBtPSi3OofNpvFbf26HFfb9kw4FZJNjII4qxzp0b1xLB11+tKkBGB1ZA==}
+    dev: false
+
+  /three/0.130.1:
+    resolution: {integrity: sha512-OSPPKcGvFSiGkG3jFrwwC76PBV/ZSrGxpBbg28bW8s9GU8r/y2spNGtEXHEb/CVqo0Ctf5Lx2rVaxQZB6OasaA==}
     dev: false
 
   /timed-out/4.0.1:

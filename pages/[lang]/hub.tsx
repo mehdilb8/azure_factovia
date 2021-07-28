@@ -9,6 +9,7 @@ import HubCommunity from '../../components/Hub/HubCommunity'
 import HubPremium from '../../components/Hub/HubPremium'
 import HubMain from '../../components/Hub/HubMain'
 import HubEnd from '../../components/Hub/HubEnd'
+import Footer from '../../components/Footer'
 
 export default function Hub() {
     const i18n = useI18n()
@@ -31,6 +32,7 @@ export default function Hub() {
         <HubPremium />
         <HubMain />
         <HubEnd />
+        <Footer />
     </>
 }
 
