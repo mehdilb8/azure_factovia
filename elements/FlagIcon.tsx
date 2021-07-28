@@ -14,12 +14,12 @@ export default function FlagIcon(props: FlagIconProps) {
 }
 
 const flags = {
-    'fr': (className?: string) => <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 85.333 512 341.333">
+    'en': (className?: string) => <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 85.333 512 341.333">
         <rect y="85.331" fill="#FFFFFF" width="512" height="341.337" />
         <rect y="85.331" fill="#0052B4" width="170.663" height="341.337" />
         <rect x="341.337" y="85.331" fill="#D80027" width="170.663" height="341.337" />
     </svg>,
-    'en': (className?: string) => <svg className={className} version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513 342">
+    'fr': (className?: string) => <svg className={className} version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513 342">
         <rect y="0" fill="#FFFFFF" width="513" height="342" />
         <g fill="#D80027">
             <rect y="0" width="513" height="38" />
