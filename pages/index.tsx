@@ -4,6 +4,10 @@ import { HomeProps } from '../types/Pages'
 import { DEFAULT_LANG } from '../constantes'
 
 export default function IndexDefaultPage(props: HomeProps) {
+    const caca: caca = {
+        name: "caca"
+    }
+
     return <IndexPage {...props} />
 }
 

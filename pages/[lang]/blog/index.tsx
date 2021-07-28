@@ -7,6 +7,7 @@ import useI18n from "../../../hooks/i18n-hook"
 import { getStaticPathsBlogHome, getStaticPropsBlogHome } from '../../../utils/pageUtils/bloghome'
 import MetaOpenGraph from '../../../components/MetaOpenGraph'
 import SEO from '../../../components/SEO'
+import Footer from '../../../components/Footer'
 
 export default function index(props: BlogIndexProps) {
     const first = props.posts[0] as BlogMetaData
@@ -28,7 +29,7 @@ export default function index(props: BlogIndexProps) {
             <title>{i18n.t("blog.index.title")}</title>
         </Head>
         <TopNav />
-        <div className="flex justify-center">
+        <div className="flex justify-center min-h-screen-80">
             <div className="lg:w-8/12 md:w-9/12 w-10/12">
                 <h1 className="text-7xl my-8 font-semibold">{i18n.t("blog.index.title")}</h1>
                 <div className="flex flex-col lg:flex-row mb-8">
@@ -70,6 +71,7 @@ export default function index(props: BlogIndexProps) {
                 </div>
             </div>
         </div>
+        <Footer />
     </>
 }
 

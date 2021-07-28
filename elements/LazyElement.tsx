@@ -22,6 +22,7 @@ export default function LazyElement(props: LazyElementProps) {
 
     useEffect(() => {
         if (isBrowser()) {
+            onSeeFunction();
             window.addEventListener('scroll', onSeeFunction)
 
             return () => window.removeEventListener('scroll', onSeeFunction)
