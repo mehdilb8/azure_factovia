@@ -55,8 +55,8 @@ export default function RGPD() {
     return <>
         {
             !state.ask
-                ? <div ref={rgpdDisclaimerRef} className="bg-primaryWhite fixed bottom-0 w-screen z-30">
-                    <div className="px-8 py-4">
+                ? <div ref={rgpdDisclaimerRef} className="bg-primaryWhite fixed bottom-0 w-1/4 z-30">
+                    <div className="px-8 py-4 ">
                         <p className="title mb-2">{i18n.t("rgpd.title")}</p>
                         <p className="text-primaryDark mb-2">
                             <span>{i18n.t("rgpd.text.content")} </span>
@@ -67,7 +67,6 @@ export default function RGPD() {
                             <button onClick={decline} className="btn bg-secondary active:ring-secondaryLight">{i18n.t("rgpd.buttons.agree")}</button>
                         </div>
                     </div>
-
                 </div>
                 : null
         }
@@ -77,6 +76,4 @@ export default function RGPD() {
                 : null
         }
     </>
-
-
 }
