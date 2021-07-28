@@ -34,12 +34,12 @@ export default function TopNav(props: TopNavProps) {
     }, [])
 
     return <>
-        <div className={`py-3 lg:px-16 px-4 fixed w-screen ${isTop && PAGES_WITH_IMG_BACKGROUND.includes(router.route) ? 'bg-transparent' : 'bg-secondary shadow-lg'} ${isTop ? 'h-20' : 'h-16'} z-20`}>
+        <div className={`py-3 lg:px-16 px-4 fixed w-screen transition-all ${isTop && PAGES_WITH_IMG_BACKGROUND.includes(router.route) ? 'bg-transparent' : 'bg-secondary shadow-lg'} ${isTop ? 'h-20' : 'h-16'} z-20`}>
             <div className="flex items-center space-x-6 ">
                 <div>
                     <Link href={"/" + i18n.activeLocale}>
                         <a>
-                            <img className={`${isTop ? 'h-12' : 'h-10'}`} src={LOGO_URL} alt="Factovia Logo" />
+                            <img className={`${isTop ? 'h-12' : 'h-10'} transition-all`} src={LOGO_URL} alt="Factovia Logo" />
                         </a>
                     </Link>
                 </div>
