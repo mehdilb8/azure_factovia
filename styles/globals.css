@@ -50,6 +50,7 @@ p, li {
 
 @import './blog.css';
 @import './accueil.css';
+@import './rpgd.css';
 
 @tailwind components;
 @tailwind utilities;

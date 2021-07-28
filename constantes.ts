@@ -14,4 +14,8 @@ export const QUALTRIC_CONTACT: { [lang: string]: string } = {
     fr: "https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_9tdOSesEai9UdYW",
     en: "https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_8GQNV8JcRhWhkDc"
 }
+
 export const CREATION_DATE = new Date(1627464598382)
+
+export const RGPD_LOCALSTORAGE_KEY = 'rgpd'
+export const RGPD_GOOGLE_ANALYTICS = "https://policies.google.com/privacy?hl="

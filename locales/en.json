@@ -23,6 +23,17 @@
             "mail": "contact@factovia.fr"
         }
     },
+    "rgpd": {
+        "title": "Miam cookies !",
+        "text": {
+            "content": "We use third-party services to provide you with personalized navigation based on some of your personal information. To learn more click",
+            "link": "here"
+        },
+        "buttons": {
+            "agree": "AGREE",
+            "decline": "no thank"
+        }
+    },
     "home": {
         "title": "Factovia",
         "description": "Learning industry 4.0 has never been easier."
