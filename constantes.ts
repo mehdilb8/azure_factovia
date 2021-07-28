@@ -13,3 +13,4 @@ export const QUALTRIC_CONTACT: { [lang: string]: string } = {
     fr: "https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_9tdOSesEai9UdYW",
     en: "https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_8GQNV8JcRhWhkDc"
 }
+export const CREATION_DATE = new Date(1627464598382)

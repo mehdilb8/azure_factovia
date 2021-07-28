@@ -12,6 +12,17 @@
         "contact": "Contact",
         "about": "About"
     },
+    "footer": {
+        "identity": {
+            "slogan": "Shaping the new industry",
+            "copyright": "© Factovia"
+        },
+        "contact": {
+            "title": "Contact-us !",
+            "tel": "+33 1 23 45 67 89",
+            "mail": "contact@factovia.fr"
+        }
+    },
     "home": {
         "title": "Factovia",
         "description": "Learning industry 4.0 has never been easier."

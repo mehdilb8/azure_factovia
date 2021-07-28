@@ -13,6 +13,17 @@
         "contact": "Contact",
         "about": "À propos"
     },
+    "footer": {
+        "identity": {
+            "slogan": "Shaping the new industry",
+            "copyright": "© Factovia"
+        },
+        "contact": {
+            "title": "Contactez-nous !",
+            "tel": "01 23 45 67 89",
+            "mail": "contact@factovia.fr"
+        }
+    },
     "home": {
         "title": "Factovia",
         "description": "L'apprentissage de l'industrie du futur n'a jamais été aussi simple."
