@@ -6,8 +6,8 @@ import isBrowser from '../utils/isBrowser';
 import GoogleAnalytics from './GoogleAnalytics';
 
 const rgpdinitState: RPGDLocalStorageState = {
-    ask: false,
-    googleAnalytics: false
+    ask: true,
+    googleAnalytics: true
 }
 
 export default function RGPD() {
