@@ -5,7 +5,7 @@ import { QUALTRIC_CONTACT, DISCORD_INVIT } from '../../constantes'
 
 export default function OfferHero() {
     const i18n = useI18n()
-    return <AccueilContainer className="relative max-h-full lg:h-screen-30 bottom-60 -mb-48 lg:mb-0">
+    return <AccueilContainer className="relative max-h-full lg:h-screen-30 bottom-40 -mb-32 lg:mb-0">
         <div className="flex flex-wrap space-y-8 lg:space-y-0">
             <div className="w-full lg:w-1/3">
                 <div className="lg:pr-12 h-full">
