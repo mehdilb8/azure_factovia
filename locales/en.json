@@ -34,6 +34,9 @@
             "decline": "no thank"
         }
     },
+    "bot": {
+        "button": "Generate free devis !"
+    },
     "home": {
         "title": "Factovia",
         "description": "Learning industry 4.0 has never been easier."

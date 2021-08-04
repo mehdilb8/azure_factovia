@@ -35,6 +35,9 @@
             "decline": "non merci"
         }
     },
+    "bot": {
+        "button": "Générer un devis gratuit !"
+    },
     "home": {
         "title": "Factovia",
         "description": "L'apprentissage de l'industrie du futur n'a jamais été aussi simple."
