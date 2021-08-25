@@ -5,7 +5,7 @@ import useI18n from "../../hooks/i18n-hook"
 export default function OfferIntro() {
     const i18n = useI18n()
     return <div className="min-h-screen-80 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/offer_bg.jpg')" }}
+        style={{ backgroundImage: "url('https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/offer_bg.jpg')" }}
     >
         <TopNav />
         <AccueilContainer className="py-28">

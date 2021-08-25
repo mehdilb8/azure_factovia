@@ -17,7 +17,7 @@ export default function Hub() {
             <MetaOpenGraph
                 description={i18n.t("hub.description")}
                 path={i18n.activeLocale + "/hub"}
-                thumb="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/hub_bg.jpg"
+                thumb="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/hub_bg.jpg"
                 title={i18n.t("hub.title")}
             />
             <SEO

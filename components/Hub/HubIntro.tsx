@@ -8,7 +8,7 @@ export default function HubIntro() {
     const i18n = useI18n()
 
     return <div className="min-h-screen-70 lg:min-h-screen-80 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/hub_bg.jpg')" }}
+        style={{ backgroundImage: "url('https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/hub_bg.jpg')" }}
     >
         <TopNav />
         <AccueilContainer className="px-1 py-12 lg:px-36 lg:py-32">
