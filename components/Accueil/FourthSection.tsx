@@ -14,8 +14,8 @@ export default function FourthSection() {
                             content={i18.t("fourthSection.comments.1.content")}
                             authorName={i18.t("fourthSection.comments.1.author.name")}
                             authorDescription={i18.t("fourthSection.comments.1.author.description")}
-                            img="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/fouadBenris.jpg"
-                            authorLogo="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/hp_enterprise_logo.jpg"
+                            img="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/fouadBenris.jpg"
+                            authorLogo="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/hp_enterprise_logo.jpg"
                             firmName="Hewlett Packard Logo"
                         />
                     </div>
@@ -24,8 +24,8 @@ export default function FourthSection() {
                             content={i18.t("fourthSection.comments.2.content")}
                             authorName={i18.t("fourthSection.comments.2.author.name")}
                             authorDescription={i18.t("fourthSection.comments.2.author.description")}
-                            img="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/stephanePotier.jpg"
-                            authorLogo="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/b&r.jpg"
+                            img="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/stephanePotier.jpg"
+                            authorLogo="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/b&r.jpg"
                             firmName="B&R Logo"
                         />
                     </div>
@@ -34,8 +34,8 @@ export default function FourthSection() {
                             content={i18.t("fourthSection.comments.3.content")}
                             authorName={i18.t("fourthSection.comments.3.author.name")}
                             authorDescription={i18.t("fourthSection.comments.3.author.description")}
-                            img="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/MarciaPaglia.jpg"
-                            authorLogo="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/SAP-Logo.png"
+                            img="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/MarciaPaglia.jpg"
+                            authorLogo="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/SAP-Logo.png"
                             firmName="SAP Logo"
                         />
                     </div>

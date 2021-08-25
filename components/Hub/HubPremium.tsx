@@ -7,7 +7,7 @@ export default function HubPremium() {
         <div className="my-20">
             <div className="flex">
                 <div className="w-1/2 hidden lg:block">
-                    <img src="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/PremiumThumb.jpg" />
+                    <img src="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/PremiumThumb.jpg" />
                 </div>
                 <div className="w-full lg:w-1/2 bg-secondary">
                     <div className="px-12 py-10">

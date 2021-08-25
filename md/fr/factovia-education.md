@@ -34,7 +34,7 @@ We tried for years to highlight the leap and the disruptions of those technologi
 **And what if we were wrong for the last 7 years, by adopting an incorrect approach?**
 Before trying to create a revolutionary new training material, let’s consider the existing ecosystem.
 
-![Price And Cubersome](https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/educationdraft/priceCumbersome.jpg)
+![Price And Cubersome](https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/educationdraft/priceCumbersome.jpg)
 
 On one hand, we have Lego bricks that mimic a factory, but we cannot transpose to a reality Legos; 
 on the other hand, we have a heavy-duty and expensive showrooms ; something is missing in the middle.
@@ -57,11 +57,11 @@ The results are kids with self-motivation and creativity.
 **Let's consider the Cube-Root of 1000.**
 For example, adults solve that the with numerous abstract calculation and demonstrations (source [cube-root-of-1000](https://www.cuemath.com/algebra/cube-root-of-1000)).
 
-![cuberoot](https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/educationdraft/cuberoot.jpg)
+![cuberoot](https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/educationdraft/cuberoot.jpg)
 
 Whereas a 5-year-old kids finds the result of 10 easily via gaming and concret manipulations : They feel and understand that the answer is 10, because it is precisely the number of beads that touches a table.
 
-![medium](https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/educationdraft/cube2d.jpg)
+![medium](https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/educationdraft/cube2d.jpg)
 
 [![Factovia Education](http://img.youtube.com/vi/Uc5gQKQkjYg/0.jpg)](https://youtu.be/Uc5gQKQkjYg "Factovia Education")
         _25-seconds video : [Kid learning Cube-root of 1000 the Montessori way](https://youtu.be/Uc5gQKQkjYg)_
@@ -84,7 +84,7 @@ It is based on :
   - teenagers
   - adults (from operators to C-levels)
 
-![Three pillar of Montessori Learning](https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/educationdraft/pillars.jpg)
+![Three pillar of Montessori Learning](https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/educationdraft/pillars.jpg)
 
 ## Conclusion
 
@@ -97,11 +97,11 @@ FactoVia One has already been sold and it has already helped students and profes
 5. Maintain a large number of factories : using “Digital Twins” perform updates, real-time monitoring and querying any assets
 A marketplace offers other use cases ; some of them are free and open sourced ; some of them are closed source and available at a fee.
 
-![FactoviaOne](https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/educationdraft/maquette1.jpg)
+![FactoviaOne](https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/educationdraft/maquette1.jpg)
 
 It is important to remember that the inside of FactoVia One is made of real factory devices, so real industrial equipment could be connected to it, such as a robot arm. Also, the connection to the cloud allows sophisticated real-time use cases.
 
-![FactoviaOne Photo 2](https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/educationdraft/maquette2.jpg)
+![FactoviaOne Photo 2](https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/educationdraft/maquette2.jpg)
 
 The wooden shell has been designed by various specialized architects. And it accommodates real industrial apparatus that uses true industrial protocols such as OPC UA to learn and demonstrate today’s challenges (security, cyberattacks, digital Twins, productivity, …). It interacts bi-directionally with either a public cloud or a private cloud, and optionally it has the ability to connect to any real industrial robot arms or co-bot or AGV or CNC.
 

@@ -20,7 +20,7 @@ export default function index(props: HomeProps) {
                 description={i18n.t("home.description")}
                 path={props.lng}
                 // Image de fond de la MainSection
-                thumb="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/mainSectionBackground.jpg"
+                thumb="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/mainSectionBackground.jpg"
                 title={i18n.t("home.title")}
             />
             <SEO

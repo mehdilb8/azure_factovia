@@ -1,6 +1,6 @@
 # Factovia's website
 
-![Logo](https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/logoGreen.png)
+![Logo](https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/logoGreen.png)
 
 ## Demo
 [Website with dev version](https://yellow-beach-029375b03.azurestaticapps.net)

@@ -32,7 +32,7 @@ export default function ThirdSection() {
                 <img className="w-full h-full object-cover absolute top-0 opacity-30"
                     alt={i18n.t("thirdSection.alt")}
                     style={{ zIndex: -1 }}
-                    src="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/maquette1.jpg" />
+                    src="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/maquette1.jpg" />
             </LazyElement>
 
         </div>

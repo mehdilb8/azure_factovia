@@ -17,7 +17,7 @@ export default function Offers() {
             <MetaOpenGraph
                 description={i18n.t("offers.description")}
                 path={i18n.activeLocale + "/offers"}
-                thumb="https://stmediarassetsfrcerec.blob.core.windows.net/other/factovia/web/offer_bg.jpg"
+                thumb="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/offer_bg.jpg"
                 title={i18n.t("offers.title")}
             />
             <SEO

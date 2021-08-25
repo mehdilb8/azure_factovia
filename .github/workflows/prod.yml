@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     env:
-      HOST: https://factovia.fr/
+      HOST: https://www.factovia.fr/
     steps:
       - uses: actions/checkout@v2
         with:

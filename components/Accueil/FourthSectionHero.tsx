@@ -13,10 +13,10 @@ export default function FourthSectionHero(props: FourthSectionHeroProps) {
         <LazyElement>
             <img className="w-32 rounded-full m-auto mb-2" src={props.img} alt={props.authorName} />
         </LazyElement>
-        <div className="h-24 flex items-center justify-center mb-2">
+        <div className="h-auto lg:h-24 flex items-center justify-center mb-2">
             <h3 className="text-2xl"><i>"{props.content}"</i></h3>
         </div>
-        <div className="h-24 flex items-center justify-center mb-2 ">
+        <div className="h-auto lg:h-24 flex items-center justify-center mb-2 ">
             <LazyElement>
                 <img alt={props.firmName} className="h-3/4" src={props.authorLogo} />
             </LazyElement>
