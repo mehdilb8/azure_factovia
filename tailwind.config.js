@@ -49,7 +49,12 @@ module.exports = {
         'screen-70': '70vh',
         'screen-80': '80vh',
         'screen-90': '90vh'
+      },
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
       }
+
     }
   },
   variants: {

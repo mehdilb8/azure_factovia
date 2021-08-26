@@ -25,7 +25,7 @@ export default function SwitchLangButton(props: SwitchLangButtonProps) {
         }
     }, [i18n.activeLocale])
 
-    return <Link href={target}>
+    return <Link href={target} scroll={false}>
         <a className="w-full h-full flex items-center">
             <FlagIcon country={i18n.activeLocale.toLowerCase() as any} className="h-6 w-6" />
         </a>
