@@ -20,4 +20,4 @@ export const CREATION_DATE = new Date(1627464598382)
 export const RGPD_LOCALSTORAGE_KEY = 'rgpd'
 export const RGPD_GOOGLE_ANALYTICS = "https://policies.google.com/privacy?hl="
 
-export const BOT_SECRET = "pwwn2MESCGA.qY9hDwJdKVUDk2YZNxjIn_r-IhdHfAbHqmMVlLmu0X8"
+export const BOT_SECRET = "cMwy6OBWqw0.RT4vfp-nSFWg5xwu-VEhFoxAeuqjgXbj1xcsknMRdX0"

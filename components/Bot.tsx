@@ -15,7 +15,7 @@ export default function Bot() {
             </button>
             <div className={`${open ? 'visible' : 'hidden'} h-screen-50 transition-all`}>
                 <iframe
-                    src={'https://webchat.botframework.com/embed/factovia-devis-chatbot?s=' + BOT_SECRET}
+                    src={'https://webchat.botframework.com/embed/bot-factovia-devis?s=' + BOT_SECRET}
                     className="h-full w-full" />
             </div>
         </div>
