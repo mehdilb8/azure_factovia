@@ -16,7 +16,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <I18n lngDict={pageProps.lngDict} locale={pageProps.lng}>
       <div>
         <RGPD />
-        <Bot />
       </div>
       <Component {...pageProps} />
     </I18n>
