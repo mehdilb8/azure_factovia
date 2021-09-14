@@ -12,6 +12,31 @@
         "contact": "Contact",
         "about": "About"
     },
+    "footer": {
+        "identity": {
+            "slogan": "Shaping the new industry",
+            "copyright": "©"
+        },
+        "contact": {
+            "title": "Contact-us !",
+            "tel": "vthavo+webqueryinfo2528@factovia.fr",
+            "mail": ""
+        }
+    },
+    "rgpd": {
+        "title": "Miam cookies !",
+        "text": {
+            "content": "We use third-party services to provide you with personalized navigation based on some of your personal information. To learn more click",
+            "link": "here"
+        },
+        "buttons": {
+            "agree": "AGREE",
+            "decline": "no thank"
+        }
+    },
+    "bot": {
+        "button": "Contact us !"
+    },
     "home": {
         "title": "Factovia",
         "description": "Learning industry 4.0 has never been easier."
@@ -74,7 +99,7 @@
             "1": {
                 "content": "The mini-factory is excellent!",
                 "author": {
-                    "name": "Fouad Benris",
+                    "name": "Fouad Bendris",
                     "description": "IoT & SmartData Lead Europe Management School GN-Board of Directors"
                 }
             },

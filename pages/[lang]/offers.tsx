@@ -8,6 +8,7 @@ import OfferIntro from '../../components/Offers/OfferIntro'
 import OfferHero from '../../components/Offers/OfferHero'
 import OfferTraining from '../../components/Offers/OfferTraining'
 import OffersSample from '../../components/Offers/OfferSamples'
+import Footer from '../../components/Footer'
 
 export default function Offers() {
     const i18n = useI18n()
@@ -29,6 +30,7 @@ export default function Offers() {
         <OfferHero />
         <OfferTraining />
         <OffersSample />
+        <Footer />
     </>
 }
 

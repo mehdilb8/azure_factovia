@@ -12,6 +12,7 @@ import MetaOpenGraph from '../../../components/MetaOpenGraph'
 import SEO from '../../../components/SEO'
 import { ArticleJsonLd } from 'next-seo';
 import { LOGO_URL, LANGS } from '../../../constantes'
+import Footer from '../../../components/Footer'
 
 import { I18nProps } from '../../../types/i18n'
 
@@ -42,7 +43,7 @@ export default function BlobPage(props: BlogContent & I18nProps) {
             <title>{props.data.title}</title>
         </Head>
         <TopNav disableLocale={true} />
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center mt-8 min-h-screen-80">
             <div className="lg:w-8/12 md:w-9/12 w-10/12">
                 <div className="mb-6 text-center">
                     <h1 className="lg:text-6xl text-5xl font-bold mb-2">{props.data.title}</h1>
@@ -61,7 +62,7 @@ export default function BlobPage(props: BlogContent & I18nProps) {
                 </section>
             </div>
         </div>
-
+        <Footer />
     </>
 }
 

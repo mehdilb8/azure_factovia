@@ -7,7 +7,7 @@ import isBrowser from '../utils/isBrowser'
 import { useRouter } from 'next/router'
 import { PAGES_WITH_IMG_BACKGROUND } from '../constantes'
 import NewTabIcon from '../elements/NewTabIcon'
-import { QUALTRIC_CONTACT, LOGO_URL } from '../constantes'
+import { CONTACT_LINK, LOGO_URL } from '../constantes'
 
 interface TopNavProps {
     disableLocale?: boolean
@@ -34,12 +34,12 @@ export default function TopNav(props: TopNavProps) {
     }, [])
 
     return <>
-        <div className={`py-3 lg:px-16 px-4 fixed w-screen ${isTop && PAGES_WITH_IMG_BACKGROUND.includes(router.route) ? 'bg-transparent' : 'bg-secondary shadow-lg'} ${isTop ? 'h-20' : 'h-16'} z-20`}>
+        <div className={`py-3 lg:px-16 px-4 fixed w-screen transition-all ${isTop && PAGES_WITH_IMG_BACKGROUND.includes(router.route) ? 'bg-transparent' : 'bg-secondary shadow-lg'} ${isTop ? 'h-20' : 'h-16'} z-20`}>
             <div className="flex items-center space-x-6 ">
                 <div>
                     <Link href={"/" + i18n.activeLocale}>
                         <a>
-                            <img className={`${isTop ? 'h-12' : 'h-10'}`} src={LOGO_URL} alt="Factovia Logo" />
+                            <img className={`${isTop ? 'h-12' : 'h-10'} transition-all`} src={LOGO_URL} alt="Factovia Logo" />
                         </a>
                     </Link>
                 </div>
@@ -73,7 +73,7 @@ export default function TopNav(props: TopNavProps) {
                             <p className={linkClass}>{i18n.t("nav.offers")}</p>
                         </a>
                     </Link>
-                    <a href={QUALTRIC_CONTACT[i18n.activeLocale]} target="_blank">
+                    <a href={CONTACT_LINK} target="_blank">
                         <p className={linkClass + " flex items-center"}>
                             <span className="mr-1">{i18n.t("nav.contact")}</span>
                             <NewTabIcon className="w-3 h-3" />

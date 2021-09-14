@@ -1,0 +1,13 @@
+.rgpd {
+    animation: rgpd-dismiss 0.5s ease-in-out;
+}
+
+@keyframes rgpd-dismiss {
+    from {
+        @apply bottom-0 visible;
+    }
+
+    to {
+        @apply -bottom-48 hidden;
+    }
+}

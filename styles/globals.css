@@ -5,6 +5,10 @@ body {
     overflow-x: hidden;
 }
 
+::selection {
+    @apply bg-secondaryLight bg-opacity-40;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     @apply text-gray-800;
 }
@@ -46,6 +50,7 @@ p, li {
 
 @import './blog.css';
 @import './accueil.css';
+@import './rpgd.css';
 
 @tailwind components;
 @tailwind utilities;

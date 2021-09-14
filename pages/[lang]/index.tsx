@@ -4,6 +4,7 @@ import Trending from '../../components/Accueil/Trending'
 import SecondSection from "../../components/Accueil/SecondSection"
 import ThirdSection from "../../components/Accueil/ThirdSection"
 import FourthSection from "../../components/Accueil/FourthSection"
+import Footer from '../../components/Footer'
 import useI18n from '../../hooks/i18n-hook'
 import { HomeProps } from '../../types/Pages'
 import { getStaticPathsHome, getStaticPropsHome } from '../../utils/pageUtils/accueil'
@@ -37,6 +38,7 @@ export default function index(props: HomeProps) {
         <SecondSection />
         <ThirdSection />
         <FourthSection />
+        <Footer />
     </>
 }
 

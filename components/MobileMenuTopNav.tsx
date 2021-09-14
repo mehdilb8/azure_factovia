@@ -3,7 +3,7 @@ import Link from 'next/link'
 import usei18 from '../hooks/i18n-hook'
 import SwitchLangButton from './SwitchLangButton'
 import NewTabIcon from '../elements/NewTabIcon'
-import { QUALTRIC_CONTACT } from '../constantes'
+import { CONTACT_LINK } from '../constantes'
 import BurgerIcon from '../elements/BurgerIcon'
 
 interface MobileMenuTopNavProps {
@@ -67,7 +67,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
             <Menu.Item>
                 {({ active }) => (
                     <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
-                        <a href={QUALTRIC_CONTACT[i18n.activeLocale]} target="_blank"
+                        <a href={CONTACT_LINK} target="_blank"
                             className="w-full h-full flex items-center ">
                             <p className="flex items-center">
                                 <span className="mr-1 text-primaryWhite">{i18n.t("nav.contact")}</span>

@@ -2,7 +2,7 @@ import AccueilContainer from './AccueilContainer'
 import SecondSectionCard from './SecondSectionCard'
 import SecondSectionCardVideo from './SecondSectionCardVideo'
 import useI18n from "../../hooks/i18n-hook"
-import { QUALTRIC_CONTACT } from '../../constantes'
+import { CONTACT_LINK } from '../../constantes'
 
 export default function SecondSection() {
     const i18n = useI18n()
@@ -18,7 +18,7 @@ export default function SecondSection() {
                         title={i18n.t('secondSection.cards.problem.title')}
                         content={i18n.t('secondSection.cards.problem.description')}
                         buttonText={i18n.t('buttons.contact')}
-                        buttonLink={QUALTRIC_CONTACT[i18n.activeLocale]}
+                        buttonLink={CONTACT_LINK}
 
                     />
                 </div>
@@ -37,7 +37,7 @@ export default function SecondSection() {
                             title={i18n.t('secondSection.cards.seeInAction.title')}
                             youtubeUrl="https://www.youtube.com/watch?v=Uc5gQKQkjYg"
                             buttonText={i18n.t('buttons.contact')}
-                            buttonLink={QUALTRIC_CONTACT[i18n.activeLocale]}
+                            buttonLink={CONTACT_LINK}
                         />
                     </div>
                     <div className="w-1/5" />
