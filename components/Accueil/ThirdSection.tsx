@@ -2,7 +2,7 @@ import AccueilContainer from "./AccueilContainer"
 import useI18n from "../../hooks/i18n-hook"
 import LazyElement from "../../elements/LazyElement"
 import NewTabIcon from "../../elements/NewTabIcon"
-import { QUALTRIC_CONTACT } from "../../constantes"
+import { CONTACT_LINK } from "../../constantes"
 
 export default function ThirdSection() {
     const i18n = useI18n()
@@ -15,7 +15,7 @@ export default function ThirdSection() {
                         <p className="text-primaryWhite text-base lg:text-lg mb-4"> {i18n.t("thirdSection.description.1")} </p>
                         <p className="text-primaryWhite text-base lg:text-lg mb-4"> {i18n.t("thirdSection.description.2")} </p>
                         <p className="text-primaryWhite text-base lg:text-lg"> {i18n.t("thirdSection.description.3")} </p>
-                        <a href={QUALTRIC_CONTACT[i18n.activeLocale]}>
+                        <a href={CONTACT_LINK}>
                             <button className="btn relative top-5 flex items-center">
                                 <span className="mr-2">
                                     {i18n.t("buttons.contact")}
