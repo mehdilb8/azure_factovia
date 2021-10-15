@@ -117,7 +117,7 @@ export default function rgpd() {
                 </h2>
                 <h3 className="mb-2 text-lg">A. LE RESPONSABLE DU TRAITEMENT DES DONNÉES</h3>
                 <p className="mb-2">
-                    Le responsable du traitement des données à caractère personnel est : Vincent Thavonekham, FactoVia en cours de formation. Il peut être contacté de la manière suivante :  O6_69_31_46_44 de 9h à 18h, lundi au vendredi  Le responsable du traitement des données est chargé de déterminer les finalités et les moyens mis au service du traitement des données à caractère personnel.
+                    Le responsable du traitement des données à caractère personnel est : Vincent Thavonekham, FactoVia en cours de formation. Il peut être contacté de la manière suivante : 06 69 31 46 44 de 9h à 18h, lundi au vendredi  Le responsable du traitement des données est chargé de déterminer les finalités et les moyens mis au service du traitement des données à caractère personnel.
                 </p>
                 <h3 className="mb-2 text-lg">B. OBLIGATIONS DU RESPONSABLE DU TRAITEMENT DES DONNÉES</h3>
                 <p className="mb-2">
@@ -125,7 +125,7 @@ export default function rgpd() {
                 </p>
                 <h2 className="mb-2 text-xl">ARTICLE 5 : DROITS DE L'UTILISATEUR</h2>
                 <p className="mb-2">
-                    Conformément à la réglementation concernant le traitement des données à caractère personnel, l'utilisateur possède les droits ci-après énumérés.  Afin que le responsable du traitement des données fasse droit à sa demande, l'utilisateur est tenu de lui communiquer : ses prénom et nom ainsi que son adresse e-mail.  Le responsable du traitement des données est tenu de répondre à l'utilisateur dans un délai de 30 (trente) jours maximum.    B. DONNÉES PERSONNELLES DES PERSONNES MINEURES  Conformément aux dispositions de l'article 8 du règlement européen 2016/679 et à la loi Informatique et Libertés, seuls les mineurs âgés de 15 ans ou plus peuvent consentir au traitement de leurs données personnelles.  Si l'utilisateur est un mineur de moins de 15 ans, l'accord d'un représentant légal sera requis afin que des données à caractère personnel puissent être collectées et traitées.  L'éditeur du site se réserve le droit de vérifier par tout moyen que l'utilisateur est âgé de plus de 15 ans, ou qu'il aura obtenu l'accord d'un représentant légal avant de naviguer sur le site.
+                    Conformément à la réglementation concernant le traitement des données à caractère personnel, l'utilisateur possède les droits ci-après énumérés.  Afin que le responsable du traitement des données fasse droit à sa demande, l'utilisateur est tenu de lui communiquer : ses prénom et nom ainsi que son adresse e-mail.  Le responsable du traitement des données est tenu de répondre à l'utilisateur dans un délai de 30 (trente) jours maximum.
                 </p>
                 <h3 className="mb-2 text-lg">
                     A. PRÉSENTATION DES DROITS DE L'UTILISATEUR EN MATIÈRE DE COLLECTE ET TRAITEMENT DE DONNÉES
@@ -150,8 +150,14 @@ export default function rgpd() {
                         f. Droit de saisir l'autorité de contrôle compétente  Dans le cas où le responsable du traitement des données décide de ne pas répondre à la demande de l'utilisateur, et que l'utilisateur souhaite contester cette décision, ou, s'il pense qu'il est porté atteinte à l'un des droits énumérés ci-dessus, il est en droit de saisir la CNIL (Commission Nationale de l'Informatique et des Libertés, <a className="link" href="https://www.cnil.fr">https://www.cnil.fr</a>) ou tout juge compétent.
                     </li>
                 </ul>
+                <h3 className="mb-2 text-lg">
+                    B. DONNÉES PERSONNELLES DES PERSONNES MINEURES
+                </h3>
+                <p className="mb-2">
+                    Conformément aux dispositions de l'article 8 du règlement européen 2016/679 et à la loi Informatique et Libertés, seuls les mineurs âgés de 15 ans ou plus peuvent consentir au traitement de leurs données personnelles.  Si l'utilisateur est un mineur de moins de 15 ans, l'accord d'un représentant légal sera requis afin que des données à caractère personnel puissent être collectées et traitées.  L'éditeur du site se réserve le droit de vérifier par tout moyen que l'utilisateur est âgé de plus de 15 ans, ou qu'il aura obtenu l'accord d'un représentant légal avant de naviguer sur le site.
+                </p>
                 <h2 className="mb-2 text-xl">ARTICLE 6 : UTILISATION DES FICHIERS "COOKIES"  </h2>
-                <p>
+                <p className="mb-2">
                     Le site a éventuellement recours aux techniques de "cookies".
                 </p>
                 <p>
@@ -161,11 +167,7 @@ export default function rgpd() {
                     Ce consentement de l'utilisateur est considéré comme valide pour une durée de 6 (six) mois maximum. A l'issue de cette période, le site demandera à nouveau l'autorisation de l'utilisateur pour enregistrer des fichiers "cookies" sur son disque dur.
                 </p>
                 <p>
-
-
-
                     Opposition de l'utilisateur à l'utilisation de fichiers "cookies" par le site  Les cookies non essentiels au fonctionnement du site ne sont déposés sur le terminal de l'utilisateur qu'après avoir obtenu son consentement. L'utilisateur peut retirer son consentement à tout moment, de la manière suivante :
-
                     <ul className="ml-6 mb-2">
                         <li>
                             a. Ouvrir le navigateur en "session privée" ou "Configurer le navigateur selon la procédure ci-dessous."
