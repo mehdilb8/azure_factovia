@@ -47,6 +47,10 @@ p, li {
     max-height: 10rem;
 }
 
+.link {
+    @apply text-blue-500 hover:border-blue-500 border-transparent cursor-pointer border-b-2;
+}
+
 
 @import './blog.css';
 @import './accueil.css';

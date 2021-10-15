@@ -33,8 +33,8 @@ export default function Footer() {
                 <div className="flex md:block justify-center">
                     <div className="w-48 md:w-auto">
                         <h4 className="title mb-2 text-secondary">{i18n.t("footer.contact.title")}</h4>
-                        <p className="w-min text-blue-300 border-b-2 border-blue-300"><a href={"mailto:" + i18n.t("footer.contact.mail")}>{i18n.t("footer.contact.mail")}</a></p>
-                        <p className=" text-secondary">{i18n.t("footer.contact.tel")}</p>
+                        <p className="text-secondary">{i18n.t("footer.contact.tel")}</p>
+                        <p className="text-secondary"><Link href={"/" + i18n.activeLocale + "/rgpd"}><a>{i18n.t("footer.contact.rgpd")}</a></Link></p>
                     </div>
                 </div>
             </div>
