@@ -117,7 +117,7 @@ export default function rgpd() {
                 </h2>
                 <h3 className="mb-2 text-lg">A. LE RESPONSABLE DU TRAITEMENT DES DONNÉES</h3>
                 <p className="mb-2">
-                    Le responsable du traitement des données à caractère personnel est : Vincent Thavonekham, FactoVia en cours de formation. Il peut être contacté de la manière suivante : 06 69 31 46 44 de 9h à 18h, lundi au vendredi  Le responsable du traitement des données est chargé de déterminer les finalités et les moyens mis au service du traitement des données à caractère personnel.
+                    Le responsable du traitement des données à caractère personnel est : Vincent Thavonekham, FactoVia en cours de formation. Il peut être contacté de la manière suivante :O6_69_31_46_44de 9h à 18h, lundi au vendredi  Le responsable du traitement des données est chargé de déterminer les finalités et les moyens mis au service du traitement des données à caractère personnel.
                 </p>
                 <h3 className="mb-2 text-lg">B. OBLIGATIONS DU RESPONSABLE DU TRAITEMENT DES DONNÉES</h3>
                 <p className="mb-2">
