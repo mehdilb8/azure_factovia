@@ -27,7 +27,7 @@ export default function HubCommunity() {
                         </div>
                     </div>
                 </div>
-                <img src="https://discord.com/assets/cb48d2a8d4991281d7a6a95d2f58195e.svg" className="lg:float-right h-16 mx-auto" />
+                <img src="/discordlogo.svg" className="lg:float-right h-16 mx-auto" />
             </>
         </AccueilContainer>
     </>
