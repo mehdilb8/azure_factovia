@@ -203,6 +203,41 @@ export default function rgpd() {
                 <p>
                     La présente politique de confidentialité peut être consultée à tout moment à l'adresse ci-après indiquée :  <a className="link" href="https://www.factovia.tech/fr/rgpd">https://www.factovia.tech/fr/rgpd</a>  L'éditeur du site se réserve le droit de la modifier afin de garantir sa conformité avec le droit en vigueur.  Par conséquent, l'utilisateur est invité à venir consulter régulièrement cette politique de confidentialité afin de se tenir informé des derniers changements qui lui seront apportés.  Il est porté à la connaissance de l'utilisateur que la dernière mise à jour de la présente politique de confidentialité est intervenue le : 15/10/2021.
                 </p>
+                
+                
+                
+                <BR></BR>
+                
+                <h1 className="mb-2 text-2xl mt-6">Autorisation de droit à l'image</h1>
+                
+<p>Je, soussignée .......................................................................................</p>
+<p>Nom : ................................. Prénom : ...................................................</p>
+<p>Adresse : .........................................................................................................................</p>
+<p>Code postal : .............................................</p>
+<p>Ville : ..........................................................</p>
+<p>Pays : ..........................................................</p>
+<p>Tél : .............................................................</p>
+<p>Email : ......................................................@...................................</p>
+<p>Autorise, FactoVia à photographier et à filmer 
+.......................................................................</p>
+<p>Date</p>
+
+    <BR></BR>
+<p>- à effectuer un montage, reproduire et diffuser ces images lors de projections à but non lucratif : oui / non </p>
+<p>- à diffuser ces images au sein du groupe Gandhi Etats-Unis : oui / non </p>
+<p>- à publier ces images sur le web : oui / non </p>
+<p>Je peux me rétracter à tout moment, sur simple demande écrite à contact@factovia.fr </p>
+<p> </p>
+<p>Je m’engage à ne pas tenir responsable la personne ou structure précitée ainsi que
+ses représentantes et toute personne agissant avec sa permission pour ce qui relève
+de la possibilité d’un changement de cadrage, de couleur et de densité qui pourrait
+survenir lors de la reproduction.
+     </p>
+<p>J’ai lu et compris toutes les implications de cette autorisation. </p>
+
+<p>Fait à Le Signature : </p>
+                
+                
             </div>
         </div>
         <Footer />
