@@ -195,7 +195,6 @@ export default function rgpd() {
                         </li>
                         <li>
                             b. Description des fichiers "cookies" utilisés par le site  L'éditeur du site attire l'attention de l'utilisateur sur le fait que les cookies suivants sont utilisés lors de sa navigation :  Cookie : Google Analytics
-
                         </li>
                     </ul>
                 </p>
@@ -205,7 +204,8 @@ export default function rgpd() {
                 </p>
                 
                 
-                <h1 className="mb-2 text-2xl mt-6">Autorisation de droit à l'image</h1>
+                <h1 className="mb-2 text-2xl mt-6">ANNEXE 1 : TEMPLATE DE L'AUTORISATION DE DROIT A L'IMAGE</h1>
+                    <p> </p>
                     <p> Je, soussignée .......................................................................................</p>
                     <p> Nom : ................................. Prénom : ...................................................</p>
                     <p> Adresse : .........................................................................................................................</p>
@@ -214,19 +214,19 @@ export default function rgpd() {
                     <p> Pays : ..........................................................</p>
                     <p> Tél : .............................................................</p>
                     <p> Email : ......................................................@...................................</p>
-                    <p> Autorise, FactoVia à photographier et à filmer .......................................................................</p>
-                    <p></p>
-                    <p> - à effectuer un montage, reproduire et diffuser ces images lors de projections à but non lucratif : oui / non </p>
-                    <p> - à publier ces images sur le web : oui / non </p>
+                <p> Autorise, FactoVia</p>
+                <ul className="mb-2 ml-6">
+                    <li> - à photographier et à filmer : .......................................................................</li>
+                    <li> - à effectuer un montage, reproduire et diffuser ces images lors de projections à but non lucratif : oui / non </p>
+                    <li> - à publier ces images sur le web : oui / non </p>
+                </ul> 
                     <p> Je peux me rétracter à tout moment, sur simple demande écrite à contact@factovia.fr </p>
-                    <p> </p>
                     <p> Je m’engage à ne pas tenir responsable la personne ou structure précitée ainsi que ses représentantes et toute personne agissant 
                         avec sa permission pour ce qui relève de la possibilité d’un changement de cadrage, de couleur et de densité qui pourrait survenir lors de la reproduction. </p>
                     <p> J’ai lu et compris toutes les implications de cette autorisation. </p>
                     <p> </p>
-                    <p> Fait à Le Signature : </p>
-
-                
+                    <p> Fait à </p> 
+                    <p> Le Signature : </p>
             </div>
         </div>
         <Footer />
