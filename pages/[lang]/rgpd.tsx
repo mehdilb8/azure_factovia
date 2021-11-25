@@ -217,8 +217,8 @@ export default function rgpd() {
                 <p> Autorise, FactoVia</p>
                 <ul className="mb-2 ml-6">
                     <li> - à photographier et à filmer : .......................................................................</li>
-                    <li> - à effectuer un montage, reproduire et diffuser ces images lors de projections à but non lucratif : oui / non </p>
-                    <li> - à publier ces images sur le web : oui / non </p>
+                    <li> - à effectuer un montage, reproduire et diffuser ces images lors de projections à but non lucratif : oui / non </li>
+                    <li> - à publier ces images sur le web : oui / non </li>
                 </ul> 
                     <p> Je peux me rétracter à tout moment, sur simple demande écrite à contact@factovia.fr </p>
                     <p> Je m’engage à ne pas tenir responsable la personne ou structure précitée ainsi que ses représentantes et toute personne agissant 
