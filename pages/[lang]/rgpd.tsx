@@ -117,7 +117,7 @@ export default function rgpd() {
                 </h2>
                 <h3 className="mb-2 text-lg">A. LE RESPONSABLE DU TRAITEMENT DES DONNÉES</h3>
                 <p className="mb-2">
-                    Le responsable du traitement des données à caractère personnel est : Vincent Thavonekham, FactoVia en cours de formation. Il peut être contacté de la manière suivante :O6_69_31_46_44de 9h à 18h, lundi au vendredi  Le responsable du traitement des données est chargé de déterminer les finalités et les moyens mis au service du traitement des données à caractère personnel.
+                    Le responsable du traitement des données à caractère personnel est : Vincent Thavonekham, FactoVia société en cours de formation. Il peut être contacté de la manière suivante : O6_69_31_46_44de 9h à 18h, lundi au vendredi. Le responsable du traitement des données est chargé de déterminer les finalités et les moyens mis au service du traitement des données à caractère personnel.
                 </p>
                 <h3 className="mb-2 text-lg">B. OBLIGATIONS DU RESPONSABLE DU TRAITEMENT DES DONNÉES</h3>
                 <p className="mb-2">
@@ -125,29 +125,29 @@ export default function rgpd() {
                 </p>
                 <h2 className="mb-2 text-xl">ARTICLE 5 : DROITS DE L'UTILISATEUR</h2>
                 <p className="mb-2">
-                    Conformément à la réglementation concernant le traitement des données à caractère personnel, l'utilisateur possède les droits ci-après énumérés.  Afin que le responsable du traitement des données fasse droit à sa demande, l'utilisateur est tenu de lui communiquer : ses prénom et nom ainsi que son adresse e-mail.  Le responsable du traitement des données est tenu de répondre à l'utilisateur dans un délai de 30 (trente) jours maximum.
+                    Conformément à la réglementation concernant le traitement des données à caractère personnel, l'utilisateur possède les droits ci-après énumérés.  Afin que le responsable du traitement des données fasse droit à sa demande, l'utilisateur est tenu de lui communiquer : ses prénoms et nom ainsi que son adresse e-mail.  Le responsable du traitement des données est tenu de répondre à l'utilisateur dans un délai de 30 (trente) jours maximum.
                 </p>
                 <h3 className="mb-2 text-lg">
                     A. PRÉSENTATION DES DROITS DE L'UTILISATEUR EN MATIÈRE DE COLLECTE ET TRAITEMENT DE DONNÉES
                 </h3>
                 <ul className="mb-2 ml-6">
                     <li>
-                        a. Droit d'accès, de rectification et droit à l'effacement  L'utilisateur peut prendre connaissance, mettre à jour, modifier ou demander la suppression des données le concernant, en respectant la procédure ci-après énoncée :  L'utilisateur doit envoyer une demande via le lien "contacter" qui redirige vers les formulaires LinkedIn, où la demande pourra être formulée
+                        a. Droit d'accès, de rectification et droit à l'effacement. L'utilisateur peut prendre connaissance, mettre à jour, modifier ou demander la suppression des données le concernant, en respectant la procédure ci-après énoncée :  L'utilisateur doit envoyer une demande via le lien "contacter" qui redirige vers les formulaires LinkedIn, où la demande pourra être formulée
                     </li>
                     <li>
-                        b. Droit à la portabilité des données  L'utilisateur a le droit de demander la portabilité de ses données personnelles, détenues par le site, vers un autre site, en se conformant à la procédure ci-après :  L'utilisateur doit envoyer une demande via le lien "contacter" qui redirige vers les formulaires LinkedIn, où la demande pourra être formulée
+                        b. Droit à la portabilité des données. L'utilisateur a le droit de demander la portabilité de ses données personnelles, détenues par le site, vers un autre site, en se conformant à la procédure ci-après :  L'utilisateur doit envoyer une demande via le lien "contacter" qui redirige vers les formulaires LinkedIn, où la demande pourra être formulée
                     </li>
                     <li>
-                        c. Droit à la limitation et à l'opposition du traitement des données  L'utilisateur a le droit de demander la limitation ou de s'opposer au traitement de ses données par le site, sans que le site ne puisse refuser, sauf à démontrer l'existence de motifs légitimes et impérieux, pouvant prévaloir sur les intérêts et les droits et libertés de l'utilisateur.  Afin de demander la limitation du traitement de ses données ou de formuler une opposition au traitement de ses données, l'utilisateur doit suivre la procédure suivante :  L'utilisateur doit envoyer une demande via le lien "contacter" qui redirige vers les formulaires LinkedIn, où la demande pourra être formulée
+                        c. Droit à la limitation et à l'opposition du traitement des données. L'utilisateur a le droit de demander la limitation ou de s'opposer au traitement de ses données par le site, sans que le site ne puisse refuser, sauf à démontrer l'existence de motifs légitimes et impérieux, pouvant prévaloir sur les intérêts et les droits et libertés de l'utilisateur.  Afin de demander la limitation du traitement de ses données ou de formuler une opposition au traitement de ses données, l'utilisateur doit suivre la procédure suivante :  L'utilisateur doit envoyer une demande via le lien "contacter" qui redirige vers les formulaires LinkedIn, où la demande pourra être formulée
                     </li>
                     <li>
-                        d. Droit de ne pas faire l'objet d'une décision fondée exclusivement sur un procédé automatisé  Conformément aux dispositions du règlement 2016/679, l'utilisateur a le droit de ne pas faire l'objet d'une décision fondée exclusivement sur un procédé automatisé si la décision produit des effets juridiques le concernant, ou l'affecte de manière significative de façon similaire.
+                        d. Droit de ne pas faire l'objet d'une décision fondée exclusivement sur un procédé automatisé. Conformément aux dispositions du règlement 2016/679, l'utilisateur a le droit de ne pas faire l'objet d'une décision fondée exclusivement sur un procédé automatisé si la décision produit des effets juridiques le concernant, ou l'affecte de manière significative de façon similaire.
                     </li>
                     <li>
-                        e. Droit de déterminer le sort des données après la mort  Il est rappelé à l'utilisateur qu'il peut organiser quel doit être le devenir de ses données collectées et traitées s'il décède, conformément à la loi n°2016-1321 du 7 octobre 2016.
+                        e. Droit de déterminer le sort des données après la mort. Il est rappelé à l'utilisateur qu'il peut organiser quel doit être le devenir de ses données collectées et traitées s'il décède, conformément à la loi n°2016-1321 du 7 octobre 2016.
                     </li>
                     <li>
-                        f. Droit de saisir l'autorité de contrôle compétente  Dans le cas où le responsable du traitement des données décide de ne pas répondre à la demande de l'utilisateur, et que l'utilisateur souhaite contester cette décision, ou, s'il pense qu'il est porté atteinte à l'un des droits énumérés ci-dessus, il est en droit de saisir la CNIL (Commission Nationale de l'Informatique et des Libertés, <a className="link" href="https://www.cnil.fr">https://www.cnil.fr</a>) ou tout juge compétent.
+                        f. Droit de saisir l'autorité de contrôle compétente. Dans le cas où le responsable du traitement des données décide de ne pas répondre à la demande de l'utilisateur, et que l'utilisateur souhaite contester cette décision, ou, s'il pense qu'il est porté atteinte à l'un des droits énumérés ci-dessus, il est en droit de saisir la CNIL (Commission Nationale de l'Informatique et des Libertés, <a className="link" href="https://www.cnil.fr">https://www.cnil.fr</a>) ou tout juge compétent.
                     </li>
                 </ul>
                 <h3 className="mb-2 text-lg">
@@ -164,7 +164,7 @@ export default function rgpd() {
                     Un "cookie" est un fichier de petite taille (moins de 4 ko), stocké par le site sur le disque dur de l'utilisateur, contenant des informations relatives aux habitudes de navigation de l'utilisateur.
                     Ces fichiers lui permettent de traiter des statistiques et des informations sur le trafic, de faciliter la navigation et d'améliorer le service pour le confort de l'utilisateur.
                     Pour l'utilisation de fichiers "cookies" impliquant la sauvegarde et l'analyse de données à caractère personnel, le consentement de l'utilisateur est nécessairement demandé.
-                    Ce consentement de l'utilisateur est considéré comme valide pour une durée de 6 (six) mois maximum. A l'issue de cette période, le site demandera à nouveau l'autorisation de l'utilisateur pour enregistrer des fichiers "cookies" sur son disque dur.
+                    Ce consentement de l'utilisateur est considéré comme valide pour une durée de 6 (six) mois maximum. À l'issue de cette période, le site demandera à nouveau l'autorisation de l'utilisateur pour enregistrer des fichiers "cookies" sur son disque dur.
                 </p>
                 <p>
                     Opposition de l'utilisateur à l'utilisation de fichiers "cookies" par le site  Les cookies non essentiels au fonctionnement du site ne sont déposés sur le terminal de l'utilisateur qu'après avoir obtenu son consentement. L'utilisateur peut retirer son consentement à tout moment, de la manière suivante :
