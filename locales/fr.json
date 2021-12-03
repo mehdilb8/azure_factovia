@@ -267,17 +267,17 @@
                 "1": {
                     "name": "Efficacité globale de l'équipement",
                     "description": "Ne vous contentez plus de surveiller sur site vos équipements et le TRS (Taux de rendement synthétique) ! Connectez vos usines entre elles, pour réellement utiliser toutes vos données collectées plus efficacement, afin d’anticiper les pannes en identifiant les signaux faibles… et agir en temps réel sur la cause du problème ! En résumé, allez plus loin et plus vite dans l’analyse et la résolution des problèmes avec la smart factory…",
-                    "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
+                    "list": "Sensibilisation gratuite en 2 heures."
                 },
                 "2": {
                     "name": "Digital Twins",
                     "description": "Le bâtiment utilise le BIM (Building Information Model) pour traduire en numérique le bâtiment et ses constituants. Le 'Digital Twin' permet d’étendre cela en suivant et interagissant avec les objets physique depuis leur copie-conforme numérique. En cas d'alertes, agissez directement sur la copie pour modifier immédiatement l'original. Une véritable révolution que vous saurez mettre en oeuvre concrètement via avec notre kit de formation !",
-                    "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
+                    "list": "Sensibilisation gratuite en 2 heures."
                 },
                 "3": {
                     "name": "Azure IoT Central",
                     "description": "Vous avez un projet facile qui doit être déployé rapidement et à un coût de quelques centimes par appareil, avec presque pas de code et des solutions 'plug-and-play' (prêtes à l’emploi) ? Cette formation et cette solution sont pour vous : nous vous donnons toutes les clefs pour la configuration de cet outil.",
-                    "list": "Sensibilisation gratuite en 2 heures, ou formation individualisée en 1 journée : 1100€."
+                    "list": "Sensibilisation gratuite en 2 heures."
                 }
             }
         }
