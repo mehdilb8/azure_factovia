@@ -20,8 +20,8 @@
         },
         "contact": {
             "title": "Contactez-nous !",
-            "tel": "vthavo+webqueryinfo2528@factovia.fr",
-            "mail": ""
+            "tel": "contact@factovia.fr",
+            "rgpd": "Condition générale d'utilisation"
         }
     },
     "rgpd": {
@@ -163,14 +163,14 @@
         "title": "Factovia À propos",
         "description": "Notre combat à FactoVia est de donner une autre image de l'industrie.",
         "marraines": {
-            "title": "#DéveloppementDurable #Mixité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception",
+            "title": "#DéveloppementDurable #Mixité #Inclusion : notre projet d’aide au changement de l’industrie comporte deux marraines ingénieures d’exception ainsi qu'un parain reconnu mondialement dans le monde de l'IoT industriel",
             "description": {
                 "1": "Notre combat à FactoVia est de changer l’industrie et donc de « redorer son blason ».",
                 "2": "La forme actuelle de développement industriel peut avoir des impacts négatifs sur la planète. Or il existe des alternatives comme l'économie circulaire qui doivent être développées plus largement afin de décarboner les industries et préserver la planète.",
                 "3": "Le changement de l'image de l'industrie doit également passer par une transformation des mentalités. A court terme, nous promouvons la #Diversité et la #Mixité dans un secteur encore majoritairement masculin.",
                 "4": "Et à long terme, parce que les enfants sont les travailleurs de demain dans l'industrie, faisons en sorte que le sujet soit amusant et intéressant pour eux, dès à présent !"
             },
-            "support": "Ces femmes d’exception nous soutiennent !",
+            "support": "Ces personnes d’exception nous soutiennent !",
             "content": {
                 "1": {
                     "name": "Estelle Auberix",
@@ -185,6 +185,13 @@
                     "school": "J'ai 20 ans d'expériences dans la conception de procédés industriels. Je soutiens FactoVia qui oeuvre vers l'économie circulaire et le développement durable",
                     "job": "Manager active - Innovation-Développement dans l'industrie",
                     "tags": "Aérospatiale;Médical;Éolien;Innovation"
+                },
+                "3": {
+                    "name": "Thierry Daneau",
+                    "title": "Expert modial en Internet des Objets",
+                    "school": "J'ai mis en place les bonnes pratiques d'industrie du future dans les usines de Renault. Ces solutions ont été la base de nombreux projets industrie 4.0.",
+                    "job": "Expert Industrie 4.0",
+                    "tags": "Référence IoT Industriel;Intelligence Artificielle;Industrie"
                 }
             }
         },

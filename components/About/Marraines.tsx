@@ -29,7 +29,7 @@ export default function Marraines() {
                         <h2 className="title text-primaryWhite text-3xl text-center">{i18n.t("about.marraines.support")}</h2>
                     </div>
                 </section>
-                <div className="flex flex-wrap space-y-6 lg:space-y-0 z-10 relative">
+                <div className="flex flex-wrap justify-center space-y-6 lg:space-y-0 z-10 relative">
                     <div className="w-full lg:w-2/5">
                         <MarrainesHero
                             picture="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/estelleAuberix.jpg"
@@ -50,6 +50,18 @@ export default function Marraines() {
                             job={i18n.t("about.marraines.content.2.job")}
                             tags={i18n.t("about.marraines.content.2.tags").split(";")}
                         />
+                    </div>
+                    <div className="w-full lg:w-2/5">
+                        <div className="mt-0 lg:mt-8">
+                            <MarrainesHero
+                                picture="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/daneau.jpg"
+                                name={i18n.t("about.marraines.content.3.name")}
+                                title={i18n.t("about.marraines.content.3.title")}
+                                school={i18n.t("about.marraines.content.3.school")}
+                                job={i18n.t("about.marraines.content.3.job")}
+                                tags={i18n.t("about.marraines.content.3.tags").split(";")}
+                            />
+                        </div>
                     </div>
                 </div>
             </>
