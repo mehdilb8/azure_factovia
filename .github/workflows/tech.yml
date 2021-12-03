@@ -3,7 +3,7 @@ name: Factovia.tech
 on:
   push:
     branches:
-      - dev
+      - master
 
 jobs:
   build_and_deploy_job:

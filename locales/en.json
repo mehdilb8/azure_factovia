@@ -162,14 +162,14 @@
         "title": "Factovia About us",
         "description": "Our combat at FactoVia is to provide a reverse image of the industry",
         "marraines": {
-            "title": "#Diversity #Inclusion: our project to help reshaping the industry features two exceptional engineers as Godmother",
+            "title": "#Diversity #Inclusion: our project to help reshaping the industry features two exceptional engineers as Godmother and a worlwide IoT industrial expert.",
             "description": {
                 "1": "Our combat at FactoVia it to change the industry and therefore also the negative image it has got.",
                 "2": "The current industry could have negative impacts on the planet,but some alternatives exist such as circular economy that must be implemented at a broader scale, in order to decarbonite and preserve the planet.",
                 "3": "To do so, mentality must change and evolve. In a short term, new vision could be brought thanks to #mixity and #diversity in a sector that is generally composed of men.",
                 "4": "In a long term, because kids are tomorrow's adults, let's prepare them today with fun training materials !"
             },
-            "support": "These exceptional women support us!",
+            "support": "These exceptional people support us!",
             "content": {
                 "1": {
                     "name": "Estelle Auberix",
@@ -184,6 +184,13 @@
                     "school": "I am a senior Engineer specialized in high-tech innovations. And FactoVia aims to help changing the industry towards a more sustainable path",
                     "job": "Manager in action - Innovation-Development-Industrialisation in Industry",
                     "tags": "Aerospace;Medical;Wind Power;Innovation"
+                },
+                "3": {
+                    "name": "Thierry Daneau",
+                    "title": "Internet of Things Worldwide expert",
+                    "school": "I have implemented the best practices of industry of the future in Renault's plants. These solutions have been the basis of many industry 4.0 projects.",
+                    "job": "Expert Industrie 4.0",
+                    "tags": "Industrial IoT reference;Artificial Intelligence;Industry"
                 }
             }
         },
