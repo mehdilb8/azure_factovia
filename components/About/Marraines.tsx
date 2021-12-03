@@ -38,6 +38,7 @@ export default function Marraines() {
                             school={i18n.t("about.marraines.content.1.school")}
                             job={i18n.t("about.marraines.content.1.job")}
                             tags={i18n.t("about.marraines.content.1.tags").split(";")}
+                            profileUrl={"https://www.linkedin.com/in/estelleauberix/"}
                         />
                     </div>
                     <div className="w-1/5 hidden lg:block" />
@@ -49,6 +50,7 @@ export default function Marraines() {
                             school={i18n.t("about.marraines.content.2.school")}
                             job={i18n.t("about.marraines.content.2.job")}
                             tags={i18n.t("about.marraines.content.2.tags").split(";")}
+                            profileUrl="https://www.linkedin.com/in/maritxugoyhetche/"
                         />
                     </div>
                     <div className="w-full lg:w-2/5">
@@ -60,6 +62,7 @@ export default function Marraines() {
                                 school={i18n.t("about.marraines.content.3.school")}
                                 job={i18n.t("about.marraines.content.3.job")}
                                 tags={i18n.t("about.marraines.content.3.tags").split(";")}
+                                profileUrl="https://www.linkedin.com/in/thierry-daneau-3a5ba111/"
                             />
                         </div>
                     </div>
