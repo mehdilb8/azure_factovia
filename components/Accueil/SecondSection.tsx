@@ -35,7 +35,7 @@ export default function SecondSection() {
                     <div className="w-full lg:w-2/5">
                         <SecondSectionCardVideo
                             title={i18n.t('secondSection.cards.seeInAction.title')}
-                            youtubeUrl="https://www.youtube.com/watch?v=Uc5gQKQkjYg"
+                            youtubeUrl="https://www.youtube.com/watch?v=Qw8K2H9mmTk"
                             buttonText={i18n.t('buttons.contact')}
                             buttonLink={CONTACT_LINK}
                         />
