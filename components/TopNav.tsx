@@ -58,11 +58,11 @@ export default function TopNav(props: TopNavProps) {
                             <p className={linkClass}>{i18n.t("nav.home")}</p>
                         </a>
                     </Link>
-                    <Link href={"/" + i18n.activeLocale + "/hub"}>
+                    {/* <Link href={"/" + i18n.activeLocale + "/hub"}>
                         <a>
                             <p className={linkClass}>{i18n.t("nav.hub")}</p>
                         </a>
-                    </Link>
+                    </Link> */}
                     <Link href={"/" + i18n.activeLocale + "/blog"}>
                         <a>
                             <p className={linkClass}>{i18n.t("nav.blog")}</p>
