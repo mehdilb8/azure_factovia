@@ -11,3 +11,10 @@
 - [https://factovia.education](https://factovia.education)
 
 - [https://blog.factovia.fr](https://blog.factovia.fr)
+
+## Run the site in localhost
+- Clone the repository [https://github.com/FactoVia/web.git](https://github.com/FactoVia/web.git)
+- Install npm
+- Run *npm install next*
+- Run *npm run dev*
+- Open in browser http://localhost:3002
