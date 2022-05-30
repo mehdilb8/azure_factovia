@@ -15,6 +15,7 @@
 ## Run the site in localhost
 - Clone the repository [https://github.com/FactoVia/web.git](https://github.com/FactoVia/web.git)
 - Install npm
-- Run *npm install next*
+- Run *npm install next*   (but too many depricated => Need to run fixed version with npm install lock)
 - Run *npm run dev*
 - Open in browser http://localhost:3002
+
