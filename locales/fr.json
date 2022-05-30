@@ -8,8 +8,8 @@
     "home": "Accueil",
     "offering": "Offres",
     "hub": "Hub",
-    "blog": "Blog",
     "offers": "Offres",
+    "blog": "Education",
     "contact": "Contact",
     "about": "À propos"
   },
@@ -122,7 +122,7 @@
   },
   "blog": {
     "index": {
-      "title": "Blog Factovia",
+      "title": "Factovia Education",
       "description": "Blog de Factovia. Liste de différents articles sur l'industrie du future, Microsoft et IoT. Écrit par des experts reconnus."
     }
   },

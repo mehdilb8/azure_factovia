@@ -7,8 +7,8 @@
   "nav": {
     "home": "Home",
     "hub": "Hub",
-    "blog": "Blog",
     "offers": "Offers",
+    "blog": "Education",
     "contact": "Contact",
     "about": "About"
   },
@@ -121,7 +121,7 @@
   },
   "blog": {
     "index": {
-      "title": "Blog Factovia",
+      "title": "Factovia Education",
       "description": "Factovia's blog. List of various articles on the industry 4.0, Microsoft and IoT. Written by recognized experts."
     }
   },
