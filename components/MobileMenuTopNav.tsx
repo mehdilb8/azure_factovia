@@ -30,7 +30,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                     </div>
                 )}
             </Menu.Item>
-            <Menu.Item>
+            {/* <Menu.Item>
                 {({ active }) => (
                     <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                         <Link href={"/" + i18n.activeLocale + "/hub"}>
@@ -41,8 +41,8 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                     </div>
 
                 )}
-            </Menu.Item>
-            <Menu.Item>
+            </Menu.Item> */}
+            {/* <Menu.Item>
                 {({ active }) => (
                     <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
                         <Link href={"/" + i18n.activeLocale + "/blog"}>
@@ -52,7 +52,7 @@ export default function MobileMenuTopNav(props: MobileMenuTopNavProps) {
                         </Link>
                     </div>
                 )}
-            </Menu.Item>
+            </Menu.Item> */}
             <Menu.Item>
                 {({ active }) => (
                     <div className={`px-2 h-10 ${active ? 'bg-primaryWhite bg-opacity-30' : ''}`}>
