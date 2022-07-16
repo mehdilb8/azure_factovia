@@ -20,7 +20,7 @@ export default function index(props: HomeProps) {
                 description={i18n.t("home.description")}
                 path={props.lng}
                 // Image de fond de la MainSection
-                thumb="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/mainSectionBackground.jpg"
+                thumb="https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/mainSectionBackground.jpg"
                 title={i18n.t("home.title")}
             />
             <SEO
@@ -31,7 +31,7 @@ export default function index(props: HomeProps) {
         </Head>
         <MainSection />
         {
-            i18n.activeLocale !== 'fr'
+            i18n.activeLocale == 'disable'
                 ? <Trending blog={props.blog} />
                 : null
         }

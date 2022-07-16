@@ -7,10 +7,10 @@ export const PAGES_WITH_IMG_BACKGROUND = [
     "/about", "/[lang]/about",
     "/offers", "/[lang]/offers"
 ]
-export const LOGO_GREEN_URL = "https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/logoGreen.png"
-export const LOGO_URL = "https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/logo.png"
+export const LOGO_GREEN_URL = "https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/logoGreen.png"
+export const LOGO_URL = "https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/logo.png"
 export const DISCORD_INVIT = "https://discord.gg/hAQBF88pav"
-export const CONTACT_LINK = "https://www.linkedin.com/company/factovia/"
+export const CONTACT_LINK = "mailto:Contact@FactoVia.fr?subject=[Contact_WebSite] Reaching Vincent Thavonekham, CEO FactoVia"
 
 export const CREATION_DATE = new Date(1627464598382)
 

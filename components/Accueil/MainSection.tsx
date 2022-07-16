@@ -10,7 +10,7 @@ export default function MainSection() {
 
     return <>
         <div className="min-h-screen-80 bg-cover bg-center"
-            style={{ backgroundImage: "url('https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/mainSectionBackground.jpg')" }}>
+            style={{ backgroundImage: "url('https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/mainSectionBackground.jpg')" }}>
             <TopNav />
             <div className="py-6 lg:py-16">
                 <AccueilContainer>

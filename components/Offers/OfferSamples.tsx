@@ -10,21 +10,21 @@ export default function OffersSample() {
             <SuccessStory
                 name={i18n.t("offers.samples.offers.1.name")}
                 description={i18n.t("offers.samples.offers.1.description")}
-                picture="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/offerSample1.jpg"
+                picture="https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/offerSample1.jpg"
                 picturePosition="right"
                 list={i18n.t("offers.samples.offers.1.list").split(";")}
             />
             <SuccessStory
                 name={i18n.t("offers.samples.offers.2.name")}
                 description={i18n.t("offers.samples.offers.2.description")}
-                picture="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/offerSample2.jpg"
+                picture="https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/offerSample2.jpg"
                 picturePosition="left"
                 list={i18n.t("offers.samples.offers.2.list").split(";")}
             />
             <SuccessStory
                 name={i18n.t("offers.samples.offers.3.name")}
                 description={i18n.t("offers.samples.offers.3.description")}
-                picture="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/offerSample3.jpg"
+                picture="https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/offerSample3.jpg"
                 picturePosition="right"
                 list={i18n.t("offers.samples.offers.3.list").split(";")}
             />

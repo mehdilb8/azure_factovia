@@ -6,7 +6,7 @@ import TopNav from "../TopNav"
 export default function Marraines() {
     const i18n = useI18n()
     return <div className="bg-cover bg-center"
-        style={{ backgroundImage: "url('https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/about_bg.jpg')" }}
+        style={{ backgroundImage: "url('https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/about_bg.jpg')" }}
     >
         <TopNav />
         <AccueilContainer className="py-6 lg:py-16">
@@ -32,7 +32,7 @@ export default function Marraines() {
                 <div className="flex flex-wrap justify-center space-y-6 lg:space-y-0 z-10 relative">
                     <div className="w-full lg:w-2/5">
                         <MarrainesHero
-                            picture="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/estelleAuberix.jpg"
+                            picture="https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/estelleAuberix.jpg"
                             name={i18n.t("about.marraines.content.1.name")}
                             title={i18n.t("about.marraines.content.1.title")}
                             school={i18n.t("about.marraines.content.1.school")}
@@ -44,7 +44,7 @@ export default function Marraines() {
                     <div className="w-1/5 hidden lg:block" />
                     <div className="w-full lg:w-2/5">
                         <MarrainesHero
-                            picture="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/MaritxuGoyhetcheAvatar.png"
+                            picture="https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/MaritxuGoyhetcheAvatar.png"
                             name={i18n.t("about.marraines.content.2.name")}
                             title={i18n.t("about.marraines.content.2.title")}
                             school={i18n.t("about.marraines.content.2.school")}
@@ -56,7 +56,7 @@ export default function Marraines() {
                     <div className="w-full lg:w-2/5">
                         <div className="mt-0 lg:mt-8">
                             <MarrainesHero
-                                picture="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/daneau.jpg"
+                                picture="https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/daneau.jpg"
                                 name={i18n.t("about.marraines.content.3.name")}
                                 title={i18n.t("about.marraines.content.3.title")}
                                 school={i18n.t("about.marraines.content.3.school")}
@@ -70,7 +70,7 @@ export default function Marraines() {
             </>
         </AccueilContainer>
         <div className="">
-            <img src="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/maquette2.jpg" className="w-screen h-screen-70 object-cover object-bottom" style={{ zIndex: 0 }} />
+            <img src="https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/maquette2.jpg" className="w-screen h-screen-70 object-cover object-bottom" style={{ zIndex: 0 }} />
         </div>
 
     </div>

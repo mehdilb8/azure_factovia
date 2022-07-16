@@ -16,7 +16,7 @@ export default function About() {
             <MetaOpenGraph
                 description={i18n.t("about.description")}
                 path={i18n.activeLocale + "/about"}
-                thumb="https://blobfactoviacommonsrc.blob.core.windows.net/assets/factovia/web/about_bg.jpg"
+                thumb="https://stfactowebprdsrcfrce.blob.core.windows.net/factoviaweb-public-resources/about_bg.jpg"
                 title={i18n.t("about.title")}
             />
             <SEO

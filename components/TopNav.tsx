@@ -46,7 +46,7 @@ export default function TopNav(props: TopNavProps) {
                 <div className="font-display">
                     <Link href={"/" + i18n.activeLocale}>
                         <a>
-                            <h1 className={titleClass}>Factovia</h1>
+                            <h1 className={titleClass}>FactoVia</h1>
                         </a>
                     </Link>
                 </div>
@@ -63,11 +63,11 @@ export default function TopNav(props: TopNavProps) {
                             <p className={linkClass}>{i18n.t("nav.hub")}</p>
                         </a>
                     </Link> */}
-                    <Link href={"/" + i18n.activeLocale + "/blog"}>
+                    {/* <Link href={"/" + i18n.activeLocale + "/blog"}>
                         <a>
                             <p className={linkClass}>{i18n.t("nav.blog")}</p>
                         </a>
-                    </Link>
+                    </Link> */}
                     <Link href={"/" + i18n.activeLocale + "/offers"}>
                         <a>
                             <p className={linkClass}>{i18n.t("nav.offers")}</p>

@@ -16,7 +16,7 @@
     "botframework-webchat": "^4.14.1",
     "gray-matter": "^4.0.3",
     "lock": "^1.1.0",
-    "next": "^12.0.9",
+    "next": "^12.2.2",
     "next-seo": "^5.0.0",
     "next-sitemap": "^2.1.5",
     "react": "17.0.2",
