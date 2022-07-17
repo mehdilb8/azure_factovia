@@ -1,0 +1,5 @@
+Azure Bicep
+https://blog.johnnyreilly.com/2021/08/15/bicep-azure-static-web-apps-azure-devops
+
+better but more complex 
+https://www.aaron-powell.com/posts/2022-06-29-deploy-swa-with-bicep/

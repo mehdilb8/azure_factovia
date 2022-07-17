@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.8.9.13224",
+      "templateHash": "8411903527005763089"
+    }
+  },
+  "parameters": {
+    "skuName": {
+      "type": "string",
+      "defaultValue": "Free"
+    },
+    "skuTier": {
+      "type": "string",
+      "defaultValue": "Free"
+    },
+    "appName": {
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Web/staticSites",
+      "apiVersion": "2020-12-01",
+      "name": "[parameters('appName')]",
+      "location": "westeurope",
+      "sku": {
+        "name": "[parameters('skuName')]",
+        "tier": "[parameters('skuTier')]"
+      },
+      "properties": {}
+    }
+  ],
+  "outputs": {
+    "deployment_token": {
+      "type": "string",
+      "value": "[listSecrets(resourceId('Microsoft.Web/staticSites', parameters('appName')), '2020-12-01').properties.apiKey]"
+    }
+  }
+}

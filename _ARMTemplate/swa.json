@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.8.9.13224",
+      "templateHash": "2921223299323535516"
+    }
+  },
+  "parameters": {
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string",
+      "allowedValues": [
+        "centralus",
+        "eastus2",
+        "eastasia",
+        "westeurope",
+        "westus2"
+      ]
+    },
+    "sku": {
+      "type": "string",
+      "defaultValue": "Standard",
+      "allowedValues": [
+        "Free",
+        "Standard"
+      ]
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Web/staticSites",
+      "apiVersion": "2021-01-15",
+      "name": "swavthbicep",
+      "location": "[parameters('location')]",
+      "tags": null,
+      "properties": {
+        "branch": "string",
+        "buildProperties": {
+          "apiBuildCommand": "string",
+          "apiLocation": "string",
+          "appArtifactLocation": "string",
+          "appBuildCommand": "string",
+          "appLocation": "string",
+          "githubActionSecretNameOverride": "string",
+          "outputLocation": "string",
+          "skipGithubActionWorkflowGeneration": "bool"
+        },
+        "provider": "string",
+        "repositoryToken": "string",
+        "repositoryUrl": "string"
+      },
+      "sku": {
+        "name": "[parameters('sku')]",
+        "size": "[parameters('sku')]"
+      }
+    }
+  ]
+}
