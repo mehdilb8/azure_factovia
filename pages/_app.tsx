@@ -4,7 +4,7 @@ import I18n from '../lib/i18n'
 import RGPD from '../components/RGPD'
 // import Bot from '../components/Bot'
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps & { pageProps: PageProps }) {
   if (!pageProps.lngDict || !pageProps.lng) {
     console.warn("You should send dictionnary of lang and lang herself")
   }
@@ -17,4 +17,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
     </I18n>
   </>
+}
+interface PageProps {
+  lngDict?: { [key: string]: string };
+  lng?: string;
 }
